@@ -1,0 +1,108 @@
+{
+    "relationship": {
+        "relationshipname": "Austar Imported",
+        "relationshipindustryCategory": " Communication Services ",
+        "relationshipouterCustomerId": "RCANZ12",
+        "relationshipindustryCode": " 7121 Wired Telecommunications Carriers ",
+        "relationshipcountryCode": " Australia ",
+        "relationshipcreditRatingCode": " D1 ",
+        "relationshipbookingStateLocation": "New South Wales",
+        "relationshipcapitalClassCode": "Corporate",
+        "relationshipdivision": " Business and Private Banking ",
+        "relationshipownedBy": "Adam Scott",
+        "relationshipbusinessSegment": " Business Banking - NSW ",
+        "relationshipprimaryContact": "Frank Smith",
+        "relationshipbusinessUnit": " West ",
+        "relationshiprelationshipExposure": "$5,000,000",
+        "relationshipexposureCurrencyCode": " AUD ",
+        "relationshipdescription": "Created through import process"
+                },
+    
+    "client": {
+        "clientname": "Austar Client - 1 Imported",
+        "clientindustryCategory": " Communication Services ",
+        "clientouterCustomerId": "AC7",
+        "clientindustryCode": " 7121 Wired Telecommunications Carriers ",
+        "clientcountryCode": " Australia ",
+        "clientcreditRatingCode": " D1 ",
+        "clientbookingStateLocation": "New South Wales",
+        "clientcapitalClassCode": "Corporate",
+        "relationshipownedBy": "Adam Scott"
+        },
+	
+	"termloan": {
+		"parentEntityId": " Austar Client - 1 Imported ",
+		"creditRatingCode": "D3",
+		"industryCategory": "Transport and Storage",
+		"industryCode": "6110 Road Freight Transport",
+		"calcModelType": "Standard",
+		"capitalClassCode": "Corporate",
+		"productStatus": "Existing",
+
+		"variantName": "Term Loan",
+		"subVariant": "TL - Standard",
+		"name": "Austar Loan Imported",
+		"limit": "$5,000,000",
+		"currencyCode": "AUD",
+		"utilisationRate": "",
+		"lgd": "D",
+		"outerProductId": "ID7",
+		"term": "60",
+		"termInDays": "0",
+		"startDate": "Sep 14, 2025",
+		"maturityDate": "Sep 14, 2030",
+		"drawnAmount": "$0",
+
+		"interestRateType": "Variable",
+		"interestRateFrequency": "Monthly",
+		"refRate": "Variable Business Rate",
+		"marketPublishedRate": "5.18%",
+		"marginOverReferenceRate": "3.85%",
+		"derivedInterest": "9.03%",
+		"repaymentType": "Interest Only",
+		"repaymentFrequency": "Monthly",
+		"derivedCOF": "0.50%",
+		"marginRate": "8.53%",
+
+		"channelName": "Direct",
+		"promotion": "-",
+		"promotionAmount": "",
+	
+		"Establishment Fee": {
+			"row" : 1,
+			"title": "Establishment Fee",
+			"freqValue": "Upfront",
+			"stdValue" : "50 bps",
+			"proposedValue" : "50 bps",
+			"isWaived" : "N",
+			"isAmortised" : "Y"
+		},
+
+		"Liquidity Fee": {
+			"row" : 2,
+			"title": "Liquidity Fee",
+			"freqValue": "Monthly",
+			"stdValue" : "25 bps",
+			"proposedValue" : "25 bps",
+			"isWaived" : "N",
+			"isAmortised" : "N"
+		},
+
+		"Commitment Fee": {
+			"row" : 3,
+			"title": "Commitment Fee",
+			"freqValue": "Monthly",
+			"stdValue" : "100 bps",
+			"proposedValue" : "100 bps",
+			"isWaived" : "N",
+			"isAmortised" : "N"
+		}
+
+		
+
+		
+
+	
+
+	}
+}

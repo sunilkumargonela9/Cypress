@@ -1,0 +1,154 @@
+{
+    "fieldsData": {
+        "headings": {
+            "selectClient": "Select Client",
+            "relationshipdetails": "Relationship Details",
+            "dealDetails": "Deal Details",
+            "relationship": "Relationship",
+            "client": "Client"
+        },
+        "relationshipname": {
+            "fieldName": " Relationship Name ",
+            "defaultValue": "Alpha Consulting"
+        },
+        "relationshipindustryCategory": {
+            "fieldName": " Industry Category ",
+            "defaultValue": " Property and Business Services "
+        },
+        "relationshipouterCustomerId": {
+            "fieldName": " External Relationship Id ",
+            "defaultValue": "RCANZ11"
+        },
+        "relationshipindustryCode": {
+            "fieldName": " Industry Code ",
+            "defaultValue": " 7862 Contract Staff Services "
+        },
+        "relationshipcountryCode": {
+            "fieldName": " Country ",
+            "defaultValue": " Australia "
+        },
+        "relationshipcreditRatingCode": {
+            "fieldName": " Credit Rating ",
+            "defaultValue": " D2 "
+        },
+        "relationshipbookingStateLocation": {
+            "fieldName": " State/Location ",
+            "defaultValue": " New South Wales "
+        },
+        "relationshipcapitalClassCode": {
+            "fieldName": " Capital Classification ",
+            "defaultValue": " Corporate "
+        },
+        "relationshipdivision": {
+            "fieldName": " Division ",
+            "defaultValue": " Business and Private Banking "
+        },
+        "relationshipownedBy": {
+            "fieldName": " Relationship Owner ",
+            "defaultValue": "Adam Scott"
+        },
+        "relationshipbusinessSegment": {
+            "fieldName": " Business Segment ",
+            "defaultValue": " Business Banking - NSW "
+        },
+        "relationshipprimaryContact": {
+            "fieldName": " Primary Contact ",
+            "defaultValue": "Frank Smith"
+        },
+        "relationshipbusinessUnit": {
+            "fieldName": " Business Unit ",
+            "defaultValue": " West "
+        },
+        "relationshiprelationshipExposure": {
+            "fieldName": " Exposure ",
+            "defaultValue": "8,000,000"
+        },
+        "relationshipexposureCurrencyCode": {
+            "fieldName": " Currency ",
+            "defaultValue": " AUD "
+        },
+        "relationshipdescription": {
+            "fieldName": " Description ",
+            "defaultValue": "Created through import process"
+        },
+        "dealname": {
+            "fieldName": " Deal Name ",
+            "defaultValue": "Alpha Consulting  Imported Deal -",
+            "isRequired": "Y"
+        },
+        "dealownedBy": {
+            "fieldName": " Deal Owner ",
+            "defaultValue": "Adam Scott",
+            "isRequired": "Y"
+        },
+        "dealouterDealId": {
+            "fieldName": " External Deal ID ",
+            "defaultValue": "",
+            "isRequired": "N"
+        },
+        "dealdivision": {
+            "fieldName": " Division ",
+            "defaultValue": "Business and Private Banking",
+            "options": [
+                "Business and Private Banking",
+                "Institutional Banking",
+                "Retail Banking"
+            ],
+            "isRequired": "Y",
+            "lenght": 3
+        },
+        "dealcountryCode": {
+            "fieldName": " Booking Country ",
+            "defaultValue": "Australia",
+            "options": [
+                "Australia",
+                "Albania",
+                "United States",
+                "New Zealand"
+            ],
+            "isRequired": "Y",
+            "lenght": 249
+        },
+        "dealbusinessSegment": {
+            "fieldName": " Business Segment ",
+            "defaultValue": "Business Banking - NSW",
+            "options": [
+                "Business Banking - NSW",
+                "Agri Banking - NSW",
+                "Agri Banking - QLD",
+                "Agri Banking - SA"
+            ],
+            "isRequired": "Y",
+            "lenght": 43
+        },
+        "dealbusinessUnit": {
+            "fieldName": " Business Unit ",
+            "defaultValue": "West",
+            "options": [
+                "West",
+                "East",
+                "North"
+            ],
+            "isRequired": "N",
+            "lenght": 5
+        },
+        "dealcapitalClassCode": {
+            "fieldName": " Capital Classification ",
+            "defaultValue": "Corporate",
+            "options": [
+                "Corporate",
+                "Financial Institutions",
+                "Large Corporate"
+            ],
+            "isRequired": "Y",
+            "lenght": 12
+        },
+        "dealisSecure": {
+            "fieldName": " Secured "
+        },
+        "dealdealUid": {
+            "fieldName": " Deal Id ",
+            "defaultValue": ""
+        }
+    }
+}

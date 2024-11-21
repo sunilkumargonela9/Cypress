@@ -1,0 +1,846 @@
+{
+  "body": {
+    "isTable": false,
+    "page": 1,
+    "pageSize": 100,
+    "pagedList": {
+      "total": 0,
+      "items": [],
+      "pageSize": null
+    },
+    "filterViews": [
+      {
+        "filter": {
+          "field": "Action",
+          "equal": true,
+          "value": 1,
+          "fields": null,
+          "isHidden": null,
+          "isRequired": false,
+          "minLength": 0,
+          "isClientAccess": false,
+          "schemaChangesOnly": null,
+          "isParentClientAccess": null
+        },
+        "filterLabel": "Action Type",
+        "lookupCprop": "key",
+        "lookup": [
+          {
+            "id": 1,
+            "key": 1,
+            "code": "Import",
+            "name": "Import",
+            "props": {}
+          },
+          {
+            "id": 2,
+            "key": 2,
+            "code": "BatchCalc",
+            "name": "BatchCalc",
+            "props": {}
+          }
+        ]
+      },
+      {
+        "filter": {
+          "field": "Status",
+          "equal": true,
+          "value": 2,
+          "fields": null,
+          "isHidden": null,
+          "isRequired": false,
+          "minLength": 0,
+          "isClientAccess": false,
+          "schemaChangesOnly": null,
+          "isParentClientAccess": null
+        },
+        "filterLabel": "Status",
+        "lookupCprop": "key",
+        "lookup": [
+          {
+            "id": 1,
+            "key": 1,
+            "code": "Success",
+            "name": "Success",
+            "props": {}
+          },
+          {
+            "id": 2,
+            "key": 2,
+            "code": "Error",
+            "name": "Error",
+            "props": {}
+          },
+          {
+            "id": 3,
+            "key": 3,
+            "code": "Warning",
+            "name": "Warning",
+            "props": {}
+          },
+          {
+            "id": 4,
+            "key": 4,
+            "code": "Information",
+            "name": "Information",
+            "props": {}
+          }
+        ]
+      }
+    ],
+    "columns": [
+      {
+        "isNew": false,
+        "hasUpdate": false,
+        "label": "Import Id",
+        "path": "importId",
+        "connectVisibility": 0,
+        "isCore": true,
+        "isResult": false,
+        "name": "ImportId",
+        "cname": "importId",
+        "dataType": 0,
+        "isArray": false
+      },
+      {
+        "isNew": false,
+        "hasUpdate": false,
+        "label": "Entity Type",
+        "lookupType": 1,
+        "lookupName": "ImportEntityType",
+        "lookupProp": "Key",
+        "lookupCprop": "key",
+        "path": "type",
+        "connectVisibility": 0,
+        "isCore": true,
+        "isResult": false,
+        "name": "Type",
+        "cname": "type",
+        "dataType": 2,
+        "isArray": false
+      },
+      {
+        "isNew": false,
+        "hasUpdate": false,
+        "label": "Action Type",
+        "lookupType": 1,
+        "lookupName": "ImportActionType",
+        "lookupProp": "Key",
+        "lookupCprop": "key",
+        "path": "action",
+        "connectVisibility": 0,
+        "isCore": true,
+        "isResult": false,
+        "name": "Action",
+        "cname": "action",
+        "dataType": 2,
+        "isArray": false
+      },
+      {
+        "isNew": false,
+        "hasUpdate": false,
+        "label": "Status",
+        "lookupType": 1,
+        "lookupName": "ImportStatus",
+        "lookupProp": "Key",
+        "lookupCprop": "key",
+        "path": "status",
+        "connectVisibility": 0,
+        "isCore": true,
+        "isResult": false,
+        "name": "Status",
+        "cname": "status",
+        "dataType": 2,
+        "isArray": false
+      },
+      {
+        "isNew": false,
+        "hasUpdate": false,
+        "label": "Entity Id",
+        "path": "uniqueEntityId",
+        "connectVisibility": 0,
+        "isCore": true,
+        "isResult": false,
+        "name": "UniqueEntityId",
+        "cname": "uniqueEntityId",
+        "dataType": 0,
+        "isArray": false
+      },
+      {
+        "isNew": false,
+        "hasUpdate": false,
+        "label": "Row Number",
+        "path": "fileRowNumber",
+        "connectVisibility": 0,
+        "isCore": true,
+        "isResult": false,
+        "name": "FileRowNumber",
+        "cname": "fileRowNumber",
+        "dataType": 2,
+        "isArray": false
+      },
+      {
+        "isNew": false,
+        "hasUpdate": false,
+        "label": "Log Message",
+        "path": "logMessage",
+        "connectVisibility": 0,
+        "isCore": true,
+        "isResult": false,
+        "name": "LogMessage",
+        "cname": "logMessage",
+        "dataType": 0,
+        "isArray": false
+      },
+      {
+        "isNew": false,
+        "hasUpdate": false,
+        "label": "Import Date",
+        "path": "importDateUtc",
+        "connectVisibility": 0,
+        "isCore": true,
+        "isResult": false,
+        "name": "ImportDateUtc",
+        "cname": "importDateUtc",
+        "dataType": 6,
+        "isArray": false
+      }
+    ],
+    "sortableFields": [],
+    "lookupRefs": [
+      {
+        "name": "ImportEntityType",
+        "items": [
+          {
+            "id": 0,
+            "key": 0,
+            "code": "None",
+            "name": "ImportEntityType_None",
+            "props": {}
+          },
+          {
+            "id": 1,
+            "key": 1,
+            "code": "Customer",
+            "name": "Customer",
+            "props": {}
+          },
+          {
+            "id": 2,
+            "key": 2,
+            "code": "Counterparty",
+            "name": "Counterparty",
+            "props": {}
+          },
+          {
+            "id": 3,
+            "key": 3,
+            "code": "Deal",
+            "name": "Deal",
+            "props": {}
+          },
+          {
+            "id": 4,
+            "key": 4,
+            "code": "Scenario",
+            "name": "Scenario",
+            "props": {}
+          },
+          {
+            "id": 5,
+            "key": 5,
+            "code": "Product",
+            "name": "Product",
+            "props": {}
+          },
+          {
+            "id": 6,
+            "key": 6,
+            "code": "MarketData",
+            "name": "MarketData",
+            "props": {}
+          },
+          {
+            "id": 7,
+            "key": 7,
+            "code": "HistoricalResult",
+            "name": "HistoricalResult",
+            "props": {}
+          },
+          {
+            "id": 8,
+            "key": 8,
+            "code": "BatchCalculation",
+            "name": "BatchCalculation",
+            "props": {}
+          },
+          {
+            "id": 10,
+            "key": 10,
+            "code": "System",
+            "name": "System",
+            "props": {}
+          },
+          {
+            "id": 11,
+            "key": 11,
+            "code": "TransactionData",
+            "name": "ImportEntityType_TransactionData",
+            "props": {}
+          },
+          {
+            "id": 12,
+            "key": 12,
+            "code": "Fee",
+            "name": "ImportEntityType_Fee",
+            "props": {}
+          }
+        ]
+      },
+      {
+        "name": "ImportActionType",
+        "items": [
+          {
+            "id": 1,
+            "key": 1,
+            "code": "Import",
+            "name": "Import",
+            "props": {}
+          },
+          {
+            "id": 2,
+            "key": 2,
+            "code": "BatchCalc",
+            "name": "BatchCalc",
+            "props": {}
+          }
+        ]
+      },
+      {
+        "name": "ImportStatus",
+        "items": [
+          {
+            "id": 1,
+            "key": 1,
+            "code": "Success",
+            "name": "Success",
+            "props": {}
+          },
+          {
+            "id": 2,
+            "key": 2,
+            "code": "Error",
+            "name": "Error",
+            "props": {}
+          },
+          {
+            "id": 3,
+            "key": 3,
+            "code": "Warning",
+            "name": "Warning",
+            "props": {}
+          },
+          {
+            "id": 4,
+            "key": 4,
+            "code": "Information",
+            "name": "Information",
+            "props": {}
+          }
+        ]
+      },
+      {
+        "name": "ImportSet",
+        "items": [
+          {
+            "id": 5,
+            "key": 5,
+            "code": "A_LastFiveImports",
+            "name": "Last 5 Imports",
+            "props": {}
+          },
+          {
+            "id": 10,
+            "key": 10,
+            "code": "B_LastTenImports",
+            "name": "Last 10 Imports",
+            "props": {}
+          },
+          {
+            "id": 15,
+            "key": 15,
+            "code": "C_LastFifteenImports",
+            "name": "Last 15 Imports",
+            "props": {}
+          }
+        ]
+      }
+    ],
+    "valueMappers": null,
+    "linkField": null,
+    "childRowsField": null,
+    "disableField": null,
+    "useSort": false,
+    "sort": null,
+    "asc": null,
+    "hideAdd": false,
+    "hideActionTpl": null,
+    "rowClass": null,
+    "columnClass": {},
+    "actionColumnHeader": null,
+    "childRowsFieldCName": null,
+    "expandAllRows": null,
+    "noDataMessage": null,
+    "props": null,
+    "headerLinks": {}
+  },
+  "headers": {
+    "date": "Mon, 22 May 2023 03:38:06 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "strict-transport-security": "max-age=2592000",
+    "cf-cache-status": "DYNAMIC",
+    "server": "cloudflare",
+    "cf-ray": "7cb2063b9fefa95c-SYD",
+    "content-encoding": "gzip"
+  },
+  "status": 200,
+  "statusText": "OK",
+  "isOkStatusCode": true,
+  "requestHeaders": {
+    "Connection": "keep-alive",
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6IkpXVCJ9.eyJqdGkiOiIzZjliMmQxMi01N2VhLTQyYjYtOWNkZC04NzdmOWFjMzkwNDIiLCJzdWIiOiJhZG1pbiIsImQudWlkIjoiNUMxMzUwMDQtMjk3OS00MjlELUI2NkYtMUYyOTAwMTU3RDg5IiwiZC51ZGlzcCI6IlN1cHBvcnQgQWRtaW4iLCJkLnVyaWQiOiIwNDIzYjcwYS1mOTNmLTRkMjUtOTZjNi0zNDhkMjgyNzNiOGEiLCJkLnVsb2NhbGUiOiIiLCJkLnVyZGlzcCI6Ik1ha2VyQWRtaW4iLCJkLnVjdWx0dXJlIjoiIiwiZC51Y3VycmVuY3kiOiIiLCJkLnNzbyI6IkZhbHNlIiwiZC51bW9kZSI6ImZsYXNoIiwiZC50eiI6IkF1c3RyYWxpYS9TeWRuZXkiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOlsiMDQyM2I3MGEtZjkzZi00ZDI1LTk2YzYtMzQ4ZDI4MjczYjhhIiwiMDkxMzZlZTMtZjExNy00OTMwLWE0OWItMDAxNzJlMzBlMzk5IiwiZmIzM2RhZmItZGQwMC00NDZjLTkxYmYtODhlNTlkYjY3M2ZhIl0sImQucGVybSI6WyJhZG1pbi5iYXNlIiwiYXBwLmF3Zi5hcHByb3ZlIiwiYXBwLmVzZ0F3Zi5hcHByb3ZlIiwiYXBwLmRlYWwucmVwb3J0cyIsImFwcC5hZG1pbi5jYWxjIiwiYXBwLm1hbmFnZW1lbnQuY29uc29sZSIsImFwcC5tYW5hZ2VtZW50LmNoYW5nZWFwcHJvdmFsIiwiYXBwLm1hbmFnZW1lbnQuYXBwcm92YWx3b3JrZmxvdyIsImFwcC5tYW5hZ2VtZW50LnByaWNpbmciLCJhcHAubWFuYWdlbWVudC5jYWxjdWxhdGlvbiIsImFwcC5tYW5hZ2VtZW50LmRhdGFhbmFseXRpYyIsImFwcC5tYWtlcmFkbWluIiwiYXBwLm1hbmFnZW1lbnQuYWR2YW5jZWQiLCJhcHAucm9sZXVzZXJhZG1pbiIsImFkbWluLmJhc2UiLCJhcHAuYXdmLmFwcHJvdmUiLCJhcHAuZXNnQXdmLmFwcHJvdmUiLCJhcHAuZGVhbC5yZXBvcnRzIiwiYXBwLmFkbWluLmNhbGMiLCJhcHAubWFuYWdlbWVudC5jb25zb2xlIiwiYXBwLm1hbmFnZW1lbnQuY2hhbmdlYXBwcm92YWwiLCJhcHAubWFuYWdlbWVudC5hcHByb3ZhbHdvcmtmbG93IiwiYXBwLm1hbmFnZW1lbnQucHJpY2luZyIsImFwcC5tYW5hZ2VtZW50LmNhbGN1bGF0aW9uIiwiYXBwLm1hbmFnZW1lbnQuZGF0YWFuYWx5dGljIiwiYXBwLm1haW50ZW5hbmNlIiwiYXBwLnN5c3RlbWFkbWluIiwiYXBwLnN1cHBvcnRhZG1pbiIsImFwcC5tYW5hZ2VtZW50LmFkdmFuY2VkIiwiYXBwLnJvbGV1c2VyYWRtaW4iLCJhcHAuYmFzaWMiLCJhcHAuY3VzdG9tZXIuc2F2ZSIsImFwcC5kZWFsLnNhdmUiLCJhcHAuZW50aXR5LmNhbGMiLCJhcHAuYXdmLnN1Ym1pdCIsImFwcC5hd2YuYXNzaWdubWVudHMiLCJhcHAuYXdmLmF1ZGl0IiwiYXBwLmVzZ0F3Zi5zdWJtaXQiLCJhcHAuZXNnQXdmLmFzc2lnbm1lbnRzIiwiYXBwLmVzZ0F3Zi5hdWRpdCIsImFwcC5kZWFsLmRlbGV0ZSIsImFwcC5kZWFsLnByb21pc2Uuc2F2ZSIsImFwcC5jdXN0b21lci5kZWxldGUiLCJhcHAuY3VzdG9tZXIucmVsYXRpb25zaGlwaW5jb21lIiwiYXBwLmRlYWwucmVsYXRpb25zaGlwaW5jb21lIiwiYXBwLmRlYWwucmVwb3J0cyIsImFwcC5ybS5wb3J0Zm9saW8uZGFzaGJvYXJkIiwiYXBwLmVzZy5hY2Nlc3MiLCJhcHAuY3VzdG9tZXJzLm1nciIsImFwcC5kZWFscy5tZ3IiXSwiZXhwIjoxNjg0NzMwMjg1LCJpc3MiOiJodHRwczovL3d3dy5kcHhwcmljaW5nLmNvbSIsImF1ZCI6Imh0dHBzOi8vd3d3LmRweHByaWNpbmcuY29tIn0.RhGvqxeG07cm7Ce9JjBIkFBmcwo6wOegEvjcNSIm_NE",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/113.0.5672.93 Safari/537.36",
+    "accept": "*/*",
+    "cookie": "ARRAffinitySameSite=be3f15d90e801aef1017c32795ba27dd32008857e9306f07ff45e6fb024014a9; ARRAffinity=be3f15d90e801aef1017c32795ba27dd32008857e9306f07ff45e6fb024014a9",
+    "accept-encoding": "gzip, deflate",
+    "content-length": 420
+  },
+  "requestBody": "{\"filters\":[{\"field\":\"Action\",\"equal\":true,\"value\":1,\"fields\":null,\"isHidden\":null,\"isRequired\":false,\"minLength\":0,\"isClientAccess\":false,\"schemaChangesOnly\":null,\"isParentClientAccess\":null},{\"field\":\"Status\",\"equal\":true,\"value\":2,\"fields\":null,\"isHidden\":null,\"isRequired\":false,\"minLength\":0,\"isClientAccess\":false,\"schemaChangesOnly\":null,\"isParentClientAccess\":null}],\"start\":1,\"limit\":100,\"sort\":null,\"asc\":null}",
+  "duration": 602,
+  "allRequestResponses": [
+    {
+      "Request Body": "{\"filters\":[{\"field\":\"Action\",\"equal\":true,\"value\":1,\"fields\":null,\"isHidden\":null,\"isRequired\":false,\"minLength\":0,\"isClientAccess\":false,\"schemaChangesOnly\":null,\"isParentClientAccess\":null},{\"field\":\"Status\",\"equal\":true,\"value\":2,\"fields\":null,\"isHidden\":null,\"isRequired\":false,\"minLength\":0,\"isClientAccess\":false,\"schemaChangesOnly\":null,\"isParentClientAccess\":null}],\"start\":1,\"limit\":100,\"sort\":null,\"asc\":null}",
+      "Request Headers": {
+        "Connection": "keep-alive",
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6IkpXVCJ9.eyJqdGkiOiIzZjliMmQxMi01N2VhLTQyYjYtOWNkZC04NzdmOWFjMzkwNDIiLCJzdWIiOiJhZG1pbiIsImQudWlkIjoiNUMxMzUwMDQtMjk3OS00MjlELUI2NkYtMUYyOTAwMTU3RDg5IiwiZC51ZGlzcCI6IlN1cHBvcnQgQWRtaW4iLCJkLnVyaWQiOiIwNDIzYjcwYS1mOTNmLTRkMjUtOTZjNi0zNDhkMjgyNzNiOGEiLCJkLnVsb2NhbGUiOiIiLCJkLnVyZGlzcCI6Ik1ha2VyQWRtaW4iLCJkLnVjdWx0dXJlIjoiIiwiZC51Y3VycmVuY3kiOiIiLCJkLnNzbyI6IkZhbHNlIiwiZC51bW9kZSI6ImZsYXNoIiwiZC50eiI6IkF1c3RyYWxpYS9TeWRuZXkiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOlsiMDQyM2I3MGEtZjkzZi00ZDI1LTk2YzYtMzQ4ZDI4MjczYjhhIiwiMDkxMzZlZTMtZjExNy00OTMwLWE0OWItMDAxNzJlMzBlMzk5IiwiZmIzM2RhZmItZGQwMC00NDZjLTkxYmYtODhlNTlkYjY3M2ZhIl0sImQucGVybSI6WyJhZG1pbi5iYXNlIiwiYXBwLmF3Zi5hcHByb3ZlIiwiYXBwLmVzZ0F3Zi5hcHByb3ZlIiwiYXBwLmRlYWwucmVwb3J0cyIsImFwcC5hZG1pbi5jYWxjIiwiYXBwLm1hbmFnZW1lbnQuY29uc29sZSIsImFwcC5tYW5hZ2VtZW50LmNoYW5nZWFwcHJvdmFsIiwiYXBwLm1hbmFnZW1lbnQuYXBwcm92YWx3b3JrZmxvdyIsImFwcC5tYW5hZ2VtZW50LnByaWNpbmciLCJhcHAubWFuYWdlbWVudC5jYWxjdWxhdGlvbiIsImFwcC5tYW5hZ2VtZW50LmRhdGFhbmFseXRpYyIsImFwcC5tYWtlcmFkbWluIiwiYXBwLm1hbmFnZW1lbnQuYWR2YW5jZWQiLCJhcHAucm9sZXVzZXJhZG1pbiIsImFkbWluLmJhc2UiLCJhcHAuYXdmLmFwcHJvdmUiLCJhcHAuZXNnQXdmLmFwcHJvdmUiLCJhcHAuZGVhbC5yZXBvcnRzIiwiYXBwLmFkbWluLmNhbGMiLCJhcHAubWFuYWdlbWVudC5jb25zb2xlIiwiYXBwLm1hbmFnZW1lbnQuY2hhbmdlYXBwcm92YWwiLCJhcHAubWFuYWdlbWVudC5hcHByb3ZhbHdvcmtmbG93IiwiYXBwLm1hbmFnZW1lbnQucHJpY2luZyIsImFwcC5tYW5hZ2VtZW50LmNhbGN1bGF0aW9uIiwiYXBwLm1hbmFnZW1lbnQuZGF0YWFuYWx5dGljIiwiYXBwLm1haW50ZW5hbmNlIiwiYXBwLnN5c3RlbWFkbWluIiwiYXBwLnN1cHBvcnRhZG1pbiIsImFwcC5tYW5hZ2VtZW50LmFkdmFuY2VkIiwiYXBwLnJvbGV1c2VyYWRtaW4iLCJhcHAuYmFzaWMiLCJhcHAuY3VzdG9tZXIuc2F2ZSIsImFwcC5kZWFsLnNhdmUiLCJhcHAuZW50aXR5LmNhbGMiLCJhcHAuYXdmLnN1Ym1pdCIsImFwcC5hd2YuYXNzaWdubWVudHMiLCJhcHAuYXdmLmF1ZGl0IiwiYXBwLmVzZ0F3Zi5zdWJtaXQiLCJhcHAuZXNnQXdmLmFzc2lnbm1lbnRzIiwiYXBwLmVzZ0F3Zi5hdWRpdCIsImFwcC5kZWFsLmRlbGV0ZSIsImFwcC5kZWFsLnByb21pc2Uuc2F2ZSIsImFwcC5jdXN0b21lci5kZWxldGUiLCJhcHAuY3VzdG9tZXIucmVsYXRpb25zaGlwaW5jb21lIiwiYXBwLmRlYWwucmVsYXRpb25zaGlwaW5jb21lIiwiYXBwLmRlYWwucmVwb3J0cyIsImFwcC5ybS5wb3J0Zm9saW8uZGFzaGJvYXJkIiwiYXBwLmVzZy5hY2Nlc3MiLCJhcHAuY3VzdG9tZXJzLm1nciIsImFwcC5kZWFscy5tZ3IiXSwiZXhwIjoxNjg0NzMwMjg1LCJpc3MiOiJodHRwczovL3d3dy5kcHhwcmljaW5nLmNvbSIsImF1ZCI6Imh0dHBzOi8vd3d3LmRweHByaWNpbmcuY29tIn0.RhGvqxeG07cm7Ce9JjBIkFBmcwo6wOegEvjcNSIm_NE",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/113.0.5672.93 Safari/537.36",
+        "accept": "*/*",
+        "cookie": "ARRAffinitySameSite=be3f15d90e801aef1017c32795ba27dd32008857e9306f07ff45e6fb024014a9; ARRAffinity=be3f15d90e801aef1017c32795ba27dd32008857e9306f07ff45e6fb024014a9",
+        "accept-encoding": "gzip, deflate",
+        "content-length": 420
+      },
+      "Request URL": "https://globalqa.dpxpricing.com/api/admin/importLog/grid",
+      "Response Body": {
+        "isTable": false,
+        "page": 1,
+        "pageSize": 100,
+        "pagedList": {
+          "total": 0,
+          "items": [],
+          "pageSize": null
+        },
+        "filterViews": [
+          {
+            "filter": {
+              "field": "Action",
+              "equal": true,
+              "value": 1,
+              "fields": null,
+              "isHidden": null,
+              "isRequired": false,
+              "minLength": 0,
+              "isClientAccess": false,
+              "schemaChangesOnly": null,
+              "isParentClientAccess": null
+            },
+            "filterLabel": "Action Type",
+            "lookupCprop": "key",
+            "lookup": [
+              {
+                "id": 1,
+                "key": 1,
+                "code": "Import",
+                "name": "Import",
+                "props": {}
+              },
+              {
+                "id": 2,
+                "key": 2,
+                "code": "BatchCalc",
+                "name": "BatchCalc",
+                "props": {}
+              }
+            ]
+          },
+          {
+            "filter": {
+              "field": "Status",
+              "equal": true,
+              "value": 2,
+              "fields": null,
+              "isHidden": null,
+              "isRequired": false,
+              "minLength": 0,
+              "isClientAccess": false,
+              "schemaChangesOnly": null,
+              "isParentClientAccess": null
+            },
+            "filterLabel": "Status",
+            "lookupCprop": "key",
+            "lookup": [
+              {
+                "id": 1,
+                "key": 1,
+                "code": "Success",
+                "name": "Success",
+                "props": {}
+              },
+              {
+                "id": 2,
+                "key": 2,
+                "code": "Error",
+                "name": "Error",
+                "props": {}
+              },
+              {
+                "id": 3,
+                "key": 3,
+                "code": "Warning",
+                "name": "Warning",
+                "props": {}
+              },
+              {
+                "id": 4,
+                "key": 4,
+                "code": "Information",
+                "name": "Information",
+                "props": {}
+              }
+            ]
+          }
+        ],
+        "columns": [
+          {
+            "isNew": false,
+            "hasUpdate": false,
+            "label": "Import Id",
+            "path": "importId",
+            "connectVisibility": 0,
+            "isCore": true,
+            "isResult": false,
+            "name": "ImportId",
+            "cname": "importId",
+            "dataType": 0,
+            "isArray": false
+          },
+          {
+            "isNew": false,
+            "hasUpdate": false,
+            "label": "Entity Type",
+            "lookupType": 1,
+            "lookupName": "ImportEntityType",
+            "lookupProp": "Key",
+            "lookupCprop": "key",
+            "path": "type",
+            "connectVisibility": 0,
+            "isCore": true,
+            "isResult": false,
+            "name": "Type",
+            "cname": "type",
+            "dataType": 2,
+            "isArray": false
+          },
+          {
+            "isNew": false,
+            "hasUpdate": false,
+            "label": "Action Type",
+            "lookupType": 1,
+            "lookupName": "ImportActionType",
+            "lookupProp": "Key",
+            "lookupCprop": "key",
+            "path": "action",
+            "connectVisibility": 0,
+            "isCore": true,
+            "isResult": false,
+            "name": "Action",
+            "cname": "action",
+            "dataType": 2,
+            "isArray": false
+          },
+          {
+            "isNew": false,
+            "hasUpdate": false,
+            "label": "Status",
+            "lookupType": 1,
+            "lookupName": "ImportStatus",
+            "lookupProp": "Key",
+            "lookupCprop": "key",
+            "path": "status",
+            "connectVisibility": 0,
+            "isCore": true,
+            "isResult": false,
+            "name": "Status",
+            "cname": "status",
+            "dataType": 2,
+            "isArray": false
+          },
+          {
+            "isNew": false,
+            "hasUpdate": false,
+            "label": "Entity Id",
+            "path": "uniqueEntityId",
+            "connectVisibility": 0,
+            "isCore": true,
+            "isResult": false,
+            "name": "UniqueEntityId",
+            "cname": "uniqueEntityId",
+            "dataType": 0,
+            "isArray": false
+          },
+          {
+            "isNew": false,
+            "hasUpdate": false,
+            "label": "Row Number",
+            "path": "fileRowNumber",
+            "connectVisibility": 0,
+            "isCore": true,
+            "isResult": false,
+            "name": "FileRowNumber",
+            "cname": "fileRowNumber",
+            "dataType": 2,
+            "isArray": false
+          },
+          {
+            "isNew": false,
+            "hasUpdate": false,
+            "label": "Log Message",
+            "path": "logMessage",
+            "connectVisibility": 0,
+            "isCore": true,
+            "isResult": false,
+            "name": "LogMessage",
+            "cname": "logMessage",
+            "dataType": 0,
+            "isArray": false
+          },
+          {
+            "isNew": false,
+            "hasUpdate": false,
+            "label": "Import Date",
+            "path": "importDateUtc",
+            "connectVisibility": 0,
+            "isCore": true,
+            "isResult": false,
+            "name": "ImportDateUtc",
+            "cname": "importDateUtc",
+            "dataType": 6,
+            "isArray": false
+          }
+        ],
+        "sortableFields": [],
+        "lookupRefs": [
+          {
+            "name": "ImportEntityType",
+            "items": [
+              {
+                "id": 0,
+                "key": 0,
+                "code": "None",
+                "name": "ImportEntityType_None",
+                "props": {}
+              },
+              {
+                "id": 1,
+                "key": 1,
+                "code": "Customer",
+                "name": "Customer",
+                "props": {}
+              },
+              {
+                "id": 2,
+                "key": 2,
+                "code": "Counterparty",
+                "name": "Counterparty",
+                "props": {}
+              },
+              {
+                "id": 3,
+                "key": 3,
+                "code": "Deal",
+                "name": "Deal",
+                "props": {}
+              },
+              {
+                "id": 4,
+                "key": 4,
+                "code": "Scenario",
+                "name": "Scenario",
+                "props": {}
+              },
+              {
+                "id": 5,
+                "key": 5,
+                "code": "Product",
+                "name": "Product",
+                "props": {}
+              },
+              {
+                "id": 6,
+                "key": 6,
+                "code": "MarketData",
+                "name": "MarketData",
+                "props": {}
+              },
+              {
+                "id": 7,
+                "key": 7,
+                "code": "HistoricalResult",
+                "name": "HistoricalResult",
+                "props": {}
+              },
+              {
+                "id": 8,
+                "key": 8,
+                "code": "BatchCalculation",
+                "name": "BatchCalculation",
+                "props": {}
+              },
+              {
+                "id": 10,
+                "key": 10,
+                "code": "System",
+                "name": "System",
+                "props": {}
+              },
+              {
+                "id": 11,
+                "key": 11,
+                "code": "TransactionData",
+                "name": "ImportEntityType_TransactionData",
+                "props": {}
+              },
+              {
+                "id": 12,
+                "key": 12,
+                "code": "Fee",
+                "name": "ImportEntityType_Fee",
+                "props": {}
+              }
+            ]
+          },
+          {
+            "name": "ImportActionType",
+            "items": [
+              {
+                "id": 1,
+                "key": 1,
+                "code": "Import",
+                "name": "Import",
+                "props": {}
+              },
+              {
+                "id": 2,
+                "key": 2,
+                "code": "BatchCalc",
+                "name": "BatchCalc",
+                "props": {}
+              }
+            ]
+          },
+          {
+            "name": "ImportStatus",
+            "items": [
+              {
+                "id": 1,
+                "key": 1,
+                "code": "Success",
+                "name": "Success",
+                "props": {}
+              },
+              {
+                "id": 2,
+                "key": 2,
+                "code": "Error",
+                "name": "Error",
+                "props": {}
+              },
+              {
+                "id": 3,
+                "key": 3,
+                "code": "Warning",
+                "name": "Warning",
+                "props": {}
+              },
+              {
+                "id": 4,
+                "key": 4,
+                "code": "Information",
+                "name": "Information",
+                "props": {}
+              }
+            ]
+          },
+          {
+            "name": "ImportSet",
+            "items": [
+              {
+                "id": 5,
+                "key": 5,
+                "code": "A_LastFiveImports",
+                "name": "Last 5 Imports",
+                "props": {}
+              },
+              {
+                "id": 10,
+                "key": 10,
+                "code": "B_LastTenImports",
+                "name": "Last 10 Imports",
+                "props": {}
+              },
+              {
+                "id": 15,
+                "key": 15,
+                "code": "C_LastFifteenImports",
+                "name": "Last 15 Imports",
+                "props": {}
+              }
+            ]
+          }
+        ],
+        "valueMappers": null,
+        "linkField": null,
+        "childRowsField": null,
+        "disableField": null,
+        "useSort": false,
+        "sort": null,
+        "asc": null,
+        "hideAdd": false,
+        "hideActionTpl": null,
+        "rowClass": null,
+        "columnClass": {},
+        "actionColumnHeader": null,
+        "childRowsFieldCName": null,
+        "expandAllRows": null,
+        "noDataMessage": null,
+        "props": null,
+        "headerLinks": {}
+      },
+      "Response Headers": {
+        "date": "Mon, 22 May 2023 03:38:06 GMT",
+        "content-type": "application/json; charset=utf-8",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "strict-transport-security": "max-age=2592000",
+        "cf-cache-status": "DYNAMIC",
+        "server": "cloudflare",
+        "cf-ray": "7cb2063b9fefa95c-SYD",
+        "content-encoding": "gzip"
+      },
+      "Response Status": 200
+    }
+  ]
+}

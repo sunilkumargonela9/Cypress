@@ -1,0 +1,62 @@
+{
+	"baseUrl": "https://asb-qa.dpxpricing.com/",
+	"env": {
+		"username": "scott",
+		"password": "brilliance",
+		"fullName": "Adam Scott",
+		"homePage":"/customers/current",
+        "testEnv" : "asb",
+		"tempTest":"qa",
+
+		"search_relationship": "Test F",
+		"search_type": "Lending",
+		"Search_category": "Business Lending",
+		"search_client": "Client 32",
+		"search_deal": "asbAutomationTest_Deal",
+        "prdName": "CCAF",
+
+		"relationshipname": "Test Automation Relationship",
+		"relationshipouterCustomerId": "test",
+		"relationshipdivision": "1: NDEPT970466",
+		"relationshipbusinessSegment": "1: NDEPT970466-NDEPT970106",
+		"relationshipbusinessUnit": "1: NDEPT970466-NDEPT970106-NDEPT970106",
+		"relationshipbranch" : "1: NDEPT970466-NDEPT970106-NDEPT970106-706339",
+		"relationshiprelationshipExposure": "50m",
+		"relationshipdescription": "Description",
+		"relationshipcustomerGroupTurnover" : "80m",
+		
+		"addClientRel" : "Kirke Group",
+		"clientbusinessUnit": "0: NDEPT970466-NDEPT970369-NDEPT970381",
+		"clientbranch" : "0: NDEPT970466-NDEPT970369-NDEPT970381-703221",
+		"clientindustryCategory" : "5: E",
+		"clientindustryCode" : "10: e-4222",
+		"clientcreditRatingCode" : "3: A2",
+		"clientlgd" : "4: D",
+
+		"productcreditRatingCode": "C3",
+		"productlgd": "B",
+
+		"modifyLimit" : "3m",
+        "modifylvr":"5: lessthan30",
+        "modifylgd" : "7: G",
+        
+        "limit":"1m",
+        "lvr":"0: greaterequal70",
+        "lgdCode":"2: B",
+
+		"CCAF": [
+			{"fieldType": 1,"fieldName": "productlimit","fieldValue": "1m"},
+			{"fieldType": 0,"fieldName": "productlvr","fieldValue": "1: greaterequal70"},
+			{"fieldType": 0,"fieldName": "producttfpSelection","fieldValue": "2: standard"},
+			{"fieldType": 0,"fieldName": "productrefRate","fieldValue": "2: bbsy"},
+			{"fieldType": 0,"fieldName": "productresetFrequency","fieldValue": "2: 60days"},
+			{"fieldType": 1,"fieldName": "productmarginOverReferenceRate","fieldValue": "1"}
+		],
+		"Contingent Liability Product": [
+			{"fieldType": 1,"fieldName": "productlimit","fieldValue": "1m"},
+			{"fieldType": 0,"fieldName": "productlvr","fieldValue": "1: greaterequal70"},
+			{"fieldType": 0,"fieldName": "productproductName","fieldValue": "1: loan-cl-1"},
+			{"fieldType": 1,"fieldName": "productutilisationRate","fieldValue": "50"}
+		]
+	}
+}

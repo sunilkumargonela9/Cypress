@@ -1,0 +1,149 @@
+{
+	"baseUrl": "https://cba-qa.dpxpricing.com/",
+	"env": {
+		"username": "scott",
+		"password": "brilliance",
+		"fullName": "Adam Scott",
+		"homePage":"/customers/current",
+		"testEnv" : "cba",
+        "esgurl": "https://cba-esg-qa.dpxpricing.com/",
+
+		"relationshipname": "Automation Relationship",
+		"relationshipdivision": "2: NDEPT902731",
+		"relationshipbusinessSegment": "2: 1202",
+		"relationshipsegment": "1: NDEPT990297",
+		"relationshipsubSegment" :"1: NDEPT990967",
+
+		"search_relationship": "SUPREME CONSTRUCTIONS",
+		"search_deal": "cbaAutomation_Deal",
+		"search_client": "SUPREME INTERIOR",
+		"scenario_one": "Scenario 1",
+		"Search_category": "Global Markets",
+        "prdName": "Derivatives",
+        "clientlgd":"4: D",
+        "clientpdRatingCode":"12: B1",
+
+		"approverL1": "Sushma",
+		"approverL2": "Evan",
+
+        "testDealDraft":"Test AutoDeal",
+        "awfProduct": "Contingent Liability",
+        "wfaTestDeal" : "Test WFA Deal",
+        "npwReason" : "7: CDLostPricing",
+        
+        "productmarginOverReferenceRate": "-",
+		"productpdRatingCode": "B1",
+		"productlgd": "D",
+
+        "modifyLimit" : "3m",
+        "modifypdRating":"7: C1",
+        "modifylgd":"5: F",
+        
+        "limit":"1m",
+        "pdRating":"4: B1",
+        "lgdCode":"3: D",
+		
+		
+		"addClientRel": "Cloud 9",
+		"addClientCountry": "16: AUS",
+		"addClientRelCreditRating": "2: A3",
+		"addClientRelOwner": "Adam Scott",
+		"verifyClientCountry" : "16: AUS",
+		"clientindustryCategory" : "2: B",
+		"clientindustryCode" : "1: 1101",
+
+        "pendingDealColumns": [
+			" Deal Name ",
+			" Relationship Name ",
+			" Submitted On ",
+			" Pending ",
+			" Submitted By "
+		],
+		"actionHistoryColumns": [
+			"User",
+			"Action",
+			"Date",
+			"Comment"
+		],
+		    
+    "Contingent Liability": [
+        {"fieldType": 1,"fieldName": "productlimit","fieldValue": "1m"},
+        {"fieldType": 1,"fieldName": "productutilisationRate","fieldValue": "50%"},
+        {"fieldType": 0,"fieldName": "productproductOwner","fieldValue": "2: 4"},
+        {"fieldType": 0,"fieldName": "productecosystem","fieldValue": "1: 1"},
+        {"fieldType": 0,"fieldName": "productproductVariant","fieldValue": "1: cl-1"},
+        {"fieldType": 0,"fieldName": "productpdRatingCode","fieldValue": "4: B1"},
+        {"fieldType": 0,"fieldName": "productlgd","fieldValue": "3: D"},
+        {"fieldType": 0,"fieldName": "productpromotion","fieldValue": "2: SFGreen"}
+    ],
+    "Derivatives" : [
+        {"fieldType": 1,"fieldName": "productlimit","fieldValue": "1m"},
+        {"fieldType": 0,"fieldName": "productproductOwner","fieldValue": "2: 6"},
+        {"fieldType": 0,"fieldName": "productecosystem","fieldValue": "1: 1"},
+        {"fieldType": 0,"fieldName": "productproductVariant","fieldValue": "2: der-2"},
+        {"fieldType": 0,"fieldName": "productpdRatingCode","fieldValue": "4: B1"},
+        {"fieldType": 0,"fieldName": "productlgd","fieldValue": "3: D"},
+        {"fieldType": 0,"fieldName": "productpromotion","fieldValue": "2: SFGreen"}
+    ],
+    "Asset Finance" :[
+        {"fieldType": 1,"fieldName": "productlimit","fieldValue": "1m"},
+        {"fieldType": 0,"fieldName": "productproductOwner","fieldValue": "2: 9"},
+        {"fieldType": 0,"fieldName": "productecosystem","fieldValue": "1: 1"},
+        {"fieldType": 0,"fieldName": "productproductVariant","fieldValue": "2: asset-2"},
+        {"fieldType": 0,"fieldName": "productpdRatingCode","fieldValue": "4: B1"},
+        {"fieldType": 0,"fieldName": "productlgd","fieldValue": "3: D"},
+        {"fieldType": 0,"fieldName": "productpromotion","fieldValue": "2: SFGreen"},
+        {"fieldType": 0,"fieldName": "productrefRate","fieldValue": "6: hibor"},
+        {"fieldType": 0,"fieldName": "productresetFrequency","fieldValue": "2: 60days"}
+    ],
+    "Better Business Loan" : [
+        {"fieldType": 1,"fieldName": "productlimit","fieldValue": "1m"},
+        {"fieldType": 1,"fieldName": "productutilisationRate","fieldValue": "50%"},
+        {"fieldType": 0,"fieldName": "productecosystem","fieldValue": "1: 1"},
+        {"fieldType": 0,"fieldName": "productpdRatingCode","fieldValue": "4: B1"},
+        {"fieldType": 0,"fieldName": "productlgd","fieldValue": "3: D"},
+        {"fieldType": 0,"fieldName": "productpromotion","fieldValue": "2: SFGreen"},
+        {"fieldType": 0,"fieldName": "productrefRate","fieldValue": "1: rer-mkt"}
+    ],
+    "Cash Advance Facility" : [
+        {"fieldType": 1,"fieldName": "productlimit","fieldValue": "1m"},
+        {"fieldType": 1,"fieldName": "productutilisationRate","fieldValue": "50%"},
+        {"fieldType": 0,"fieldName": "productproductOwner","fieldValue": "2: 4"},
+        {"fieldType": 0,"fieldName": "productecosystem","fieldValue": "1: 1"},
+        {"fieldType": 0,"fieldName": "productpdRatingCode","fieldValue": "4: B1"},
+        {"fieldType": 0,"fieldName": "productlgd","fieldValue": "3: D"},
+        {"fieldType": 0,"fieldName": "productpromotion","fieldValue": "2: SFGreen"},
+        {"fieldType": 0,"fieldName": "productrefRate","fieldValue":"1: bbsw"},
+        {"fieldType": 0,"fieldName": "productresetFrequency","fieldValue": "2: 60days"}
+    ],
+    "Market Rate Facility" : [
+        {"fieldType": 1,"fieldName": "productlimit","fieldValue": "1m"},
+        {"fieldType": 1,"fieldName": "productutilisationRate","fieldValue": "50%"},
+        {"fieldType": 0,"fieldName": "productecosystem","fieldValue": "1: 1"},
+        {"fieldType": 0,"fieldName": "productpdRatingCode","fieldValue": "4: B1"},
+        {"fieldType": 0,"fieldName": "productlgd","fieldValue": "3: D"},
+        {"fieldType": 0,"fieldName": "productpromotion","fieldValue": "2: SFGreen"}
+    ],
+    "Overdraft Facility" : [
+        {"fieldType": 1,"fieldName": "productlimit","fieldValue": "1m"},
+        {"fieldType": 1,"fieldName": "productutilisationRate","fieldValue": "50%"},
+        {"fieldType": 0,"fieldName": "productproductOwner","fieldValue": "2: 4"},
+        {"fieldType": 0,"fieldName": "productecosystem","fieldValue": "1: 1"},
+        {"fieldType": 0,"fieldName": "productproductVariant","fieldValue": "1: od-1"},
+        {"fieldType": 0,"fieldName": "productpdRatingCode","fieldValue": "4: B1"},
+        {"fieldType": 0,"fieldName": "productlgd","fieldValue": "3: D"},
+        {"fieldType": 0,"fieldName": "productpromotion","fieldValue": "2: SFGreen"},
+        {"fieldType": 0,"fieldName": "productrefRate","fieldValue":"2: corpover-mkt"}
+    ],
+    "Trade Finance Facility" : [
+        {"fieldType": 1,"fieldName": "productlimit","fieldValue": "1m"},
+        {"fieldType": 1,"fieldName": "productutilisationRate","fieldValue": "50%"},
+        {"fieldType": 0,"fieldName": "productecosystem","fieldValue": "1: 1"},
+        {"fieldType": 0,"fieldName": "productpdRatingCode","fieldValue": "4: B1"},
+        {"fieldType": 0,"fieldName": "productlgd","fieldValue": "3: D"},
+        {"fieldType": 0,"fieldName": "productpromotion","fieldValue": "2: SFGreen"},
+        {"fieldType": 0,"fieldName": "productrefRate","fieldValue":"2: bbsy"},
+        {"fieldType": 0,"fieldName": "productresetFrequency","fieldValue": "2: 60days"}
+    ]
+	}
+}

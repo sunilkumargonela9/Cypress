@@ -1,0 +1,72 @@
+{
+  "body": {
+    "id": "b2ce1390-6068-4ebf-823c-ac81e748ea70",
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6IkpXVCJ9.eyJqdGkiOiIzZjliMmQxMi01N2VhLTQyYjYtOWNkZC04NzdmOWFjMzkwNDIiLCJzdWIiOiJzY290dCIsImQudWlkIjoiODA0OGFlNWUtYTU0Yi00NjBlLWI0ZTgtMGNjMzA5N2IxNGY5IiwiZC51ZGlzcCI6IkFkYW0gU2NvdHQiLCJkLnVyaWQiOiI4NDdiZDcwZC1lNDA5LTQyZDktODJmNC0yNjQ5ZDA3MzAyMzYiLCJkLnVsb2NhbGUiOiJlbiIsImQudXJkaXNwIjoiUk0iLCJkLnVjdWx0dXJlIjoiZW4tVVMiLCJkLnVjdXJyZW5jeSI6IkFVRCIsImQuc3NvIjoiRmFsc2UiLCJkLnVtb2RlIjoiZmxhc2giLCJkLnR6IjoiQXVzdHJhbGlhL1N5ZG5leSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ijg0N2JkNzBkLWU0MDktNDJkOS04MmY0LTI2NDlkMDczMDIzNiIsImQuYmMiOlsiQVVTIiwiQ09OIiwiRElSIiwiRklOIiwiTU9SIl0sImQucGVybSI6WyJhcHAuYmFzaWMiLCJhcHAuY3VzdG9tZXIuc2F2ZSIsImFwcC5kZWFsLnNhdmUiLCJhcHAuZW50aXR5LmNhbGMiLCJhcHAuYXdmLnN1Ym1pdCIsImFwcC5hd2YuYXNzaWdubWVudHMiLCJhcHAuYXdmLmF1ZGl0IiwiYXBwLmVzZ0F3Zi5zdWJtaXQiLCJhcHAuZXNnQXdmLmFzc2lnbm1lbnRzIiwiYXBwLmVzZ0F3Zi5hdWRpdCIsImFwcC5kZWFsLmRlbGV0ZSIsImFwcC5kZWFsLnByb21pc2Uuc2F2ZSIsImFwcC5jdXN0b21lci5kZWxldGUiLCJhcHAuY3VzdG9tZXIucmVsYXRpb25zaGlwaW5jb21lIiwiYXBwLmRlYWwucmVsYXRpb25zaGlwaW5jb21lIiwiYXBwLmRlYWwucmVwb3J0cyIsImFwcC5ybS5wb3J0Zm9saW8uZGFzaGJvYXJkIiwiYXBwLmVzZy5hY2Nlc3MiXSwiZXhwIjoxNjgxMTAwNTU1LCJpc3MiOiJodHRwczovL3d3dy5kcHhwcmljaW5nLmNvbSIsImF1ZCI6Imh0dHBzOi8vd3d3LmRweHByaWNpbmcuY29tIn0.bXOFQ9QCKnf6ewv601CfsY5QYkHt5Ntec5MwgCc-m2k",
+    "refreshToken": "kq6fIuQ97sZbhMc8sQXnVR9MDzAZmvcA6+v7lELIrmg=",
+    "mustResetPassword": false
+  },
+  "headers": {
+    "date": "Mon, 10 Apr 2023 03:22:35 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "set-cookie": [
+      "ARRAffinity=ea7f6dc92ebe109b8f9e14e048757e49674aff83db6ba815d66576965d4a2ff7;Path=/;HttpOnly;Secure;Domain=globalqa.dpxpricing.com",
+      "ARRAffinitySameSite=ea7f6dc92ebe109b8f9e14e048757e49674aff83db6ba815d66576965d4a2ff7;Path=/;HttpOnly;SameSite=None;Secure;Domain=globalqa.dpxpricing.com"
+    ],
+    "strict-transport-security": "max-age=2592000",
+    "cf-cache-status": "DYNAMIC",
+    "server": "cloudflare",
+    "cf-ray": "7b57ddc2fe69a80b-SYD",
+    "content-encoding": "gzip"
+  },
+  "status": 200,
+  "statusText": "OK",
+  "isOkStatusCode": true,
+  "requestHeaders": {
+    "Connection": "keep-alive",
+    "Content-Type": "application/json",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/111.0.5563.148 Safari/537.36",
+    "accept": "*/*",
+    "accept-encoding": "gzip, deflate",
+    "content-length": 44
+  },
+  "requestBody": "{\"userName\":\"scott\",\"password\":\"brilliance\"}",
+  "duration": 82,
+  "allRequestResponses": [
+    {
+      "Request Body": "{\"userName\":\"scott\",\"password\":\"brilliance\"}",
+      "Request Headers": {
+        "Connection": "keep-alive",
+        "Content-Type": "application/json",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/111.0.5563.148 Safari/537.36",
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate",
+        "content-length": 44
+      },
+      "Request URL": "https://globalqa.dpxpricing.com/auth/token",
+      "Response Body": {
+        "id": "b2ce1390-6068-4ebf-823c-ac81e748ea70",
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6IkpXVCJ9.eyJqdGkiOiIzZjliMmQxMi01N2VhLTQyYjYtOWNkZC04NzdmOWFjMzkwNDIiLCJzdWIiOiJzY290dCIsImQudWlkIjoiODA0OGFlNWUtYTU0Yi00NjBlLWI0ZTgtMGNjMzA5N2IxNGY5IiwiZC51ZGlzcCI6IkFkYW0gU2NvdHQiLCJkLnVyaWQiOiI4NDdiZDcwZC1lNDA5LTQyZDktODJmNC0yNjQ5ZDA3MzAyMzYiLCJkLnVsb2NhbGUiOiJlbiIsImQudXJkaXNwIjoiUk0iLCJkLnVjdWx0dXJlIjoiZW4tVVMiLCJkLnVjdXJyZW5jeSI6IkFVRCIsImQuc3NvIjoiRmFsc2UiLCJkLnVtb2RlIjoiZmxhc2giLCJkLnR6IjoiQXVzdHJhbGlhL1N5ZG5leSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ijg0N2JkNzBkLWU0MDktNDJkOS04MmY0LTI2NDlkMDczMDIzNiIsImQuYmMiOlsiQVVTIiwiQ09OIiwiRElSIiwiRklOIiwiTU9SIl0sImQucGVybSI6WyJhcHAuYmFzaWMiLCJhcHAuY3VzdG9tZXIuc2F2ZSIsImFwcC5kZWFsLnNhdmUiLCJhcHAuZW50aXR5LmNhbGMiLCJhcHAuYXdmLnN1Ym1pdCIsImFwcC5hd2YuYXNzaWdubWVudHMiLCJhcHAuYXdmLmF1ZGl0IiwiYXBwLmVzZ0F3Zi5zdWJtaXQiLCJhcHAuZXNnQXdmLmFzc2lnbm1lbnRzIiwiYXBwLmVzZ0F3Zi5hdWRpdCIsImFwcC5kZWFsLmRlbGV0ZSIsImFwcC5kZWFsLnByb21pc2Uuc2F2ZSIsImFwcC5jdXN0b21lci5kZWxldGUiLCJhcHAuY3VzdG9tZXIucmVsYXRpb25zaGlwaW5jb21lIiwiYXBwLmRlYWwucmVsYXRpb25zaGlwaW5jb21lIiwiYXBwLmRlYWwucmVwb3J0cyIsImFwcC5ybS5wb3J0Zm9saW8uZGFzaGJvYXJkIiwiYXBwLmVzZy5hY2Nlc3MiXSwiZXhwIjoxNjgxMTAwNTU1LCJpc3MiOiJodHRwczovL3d3dy5kcHhwcmljaW5nLmNvbSIsImF1ZCI6Imh0dHBzOi8vd3d3LmRweHByaWNpbmcuY29tIn0.bXOFQ9QCKnf6ewv601CfsY5QYkHt5Ntec5MwgCc-m2k",
+        "refreshToken": "kq6fIuQ97sZbhMc8sQXnVR9MDzAZmvcA6+v7lELIrmg=",
+        "mustResetPassword": false
+      },
+      "Response Headers": {
+        "date": "Mon, 10 Apr 2023 03:22:35 GMT",
+        "content-type": "application/json; charset=utf-8",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "set-cookie": [
+          "ARRAffinity=ea7f6dc92ebe109b8f9e14e048757e49674aff83db6ba815d66576965d4a2ff7;Path=/;HttpOnly;Secure;Domain=globalqa.dpxpricing.com",
+          "ARRAffinitySameSite=ea7f6dc92ebe109b8f9e14e048757e49674aff83db6ba815d66576965d4a2ff7;Path=/;HttpOnly;SameSite=None;Secure;Domain=globalqa.dpxpricing.com"
+        ],
+        "strict-transport-security": "max-age=2592000",
+        "cf-cache-status": "DYNAMIC",
+        "server": "cloudflare",
+        "cf-ray": "7b57ddc2fe69a80b-SYD",
+        "content-encoding": "gzip"
+      },
+      "Response Status": 200
+    }
+  ]
+}

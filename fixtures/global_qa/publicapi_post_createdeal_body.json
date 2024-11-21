@@ -1,0 +1,62 @@
+{
+  "dealCode": 1683246233,
+  "name": "Public API Test Deal1683246233",
+  "bookingLocationCode": "AUS",
+  "customerName": "Alpha Consulting  Imported",
+  "customerCode": "RCANZ11",
+  "scenarios": [
+    {
+      "name": "Scenario 1",
+      "isPrimary": true,
+      "products": [
+        {
+          "name": "Term Loan",
+          "variantCode": "loan-tl",
+          "riCategoryCode": "loan",
+          "term": 36,
+          "limit": 2500000,
+          "utilisationRate": 0.05,
+          "interestRateType": 2,
+          "interestRateRepaymentFrequency": 2,
+          "marginOverReferenceRate": 0.02,
+          "referenceRate": "loan-fixed-R5",
+          "requestedRate": 0.0592,
+          "repaymentType": 1,
+          "repaymentFrequency": 1,
+          "broker": true,
+          "channelName": "AUS",
+          "bookingLocationCode": "AUS",
+          "calcModelType": 1,
+          "interestRateFrequency": 1,
+          "refRate": "rer",
+          "lgd": "D",
+          "brokerage": 0.004,
+          "trail": 0.003,
+          "feeLines": [
+            {
+              "Code": "EstabFeeCredit",
+              "proposed": 0.005,
+              "frequency": 1,
+              "isWaived": true,
+              "isAmortised": true
+            },
+            {
+              "Code": "LiquidityFee",
+              "proposed": 0.0025,
+              "frequency": 2,
+              "isWaived": false,
+              "isAmortised": true
+            },
+            {
+              "Code": "CommitmentFeeCredit",
+              "proposed": 0.01,
+              "frequency": 2,
+              "isWaived": false,
+              "isAmortised": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

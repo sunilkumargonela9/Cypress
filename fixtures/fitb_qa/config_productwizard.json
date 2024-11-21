@@ -1,0 +1,253 @@
+{
+	"products": {
+		"credit": {
+			"name": "Credit",
+			"categories": {
+				"commercialLending": {
+					"name": "Commercial Lending",
+					"row1": {
+						"name": "Commercial Card",
+						"description": "Commercial Card"
+					},
+					"row2": {
+						"name": "Construction",
+						"description": "Construction"
+					},
+					"row3": {
+						"name": "Construction to Permanent",
+						"description": "Construction to Permanent"
+					},
+					"row4": {
+						"name": "Non Revolving Facility",
+						"description": "Non Revolving Facility"
+					},
+					"row5": {
+						"name": "Revolving Line of Credit",
+						"description": "Revolving Line of Credit"
+					},
+					"row6": {
+						"name": "Term Loan",
+						"description": "Term Loan Credit Product"
+					}
+				},
+				"equipmentFinance": {
+					"name": "Equipment Finance",
+					"row1": {
+						"name": "Operating Lease FMV",
+						"description": "Operating Lease FMV"
+					},
+					"row2": {
+						"name": "Operating Lease Split TRAC",
+						"description": "Operating Lease Split TRAC"
+					},
+					"row3": {
+						"name": "True Lease First Amendment Leases",
+						"description": "True Lease First Amendment Leases"
+					},
+					"row4": {
+						"name": "True Lease FMV",
+						"description": "True Lease FMV"
+					},
+					"row5": {
+						"name": "True Lease Split TRAC",
+						"description": "True Lease Split TRAC"
+					},
+					"row6": {
+						"name": "True Lease TRAC",
+						"description": "True Lease TRAC"
+					},
+					"row7": {
+						"name": "True Lease Unspecified",
+						"description": "True Lease Unspecified"
+					}
+				},
+				"tradeSoultions": {
+					"name": "Trade Solutions",
+					"row1": {
+						"name": "Commercial LC Export",
+						"description": "Commercial LC Export"
+					},
+					"row2": {
+						"name": "Commercial LC Import",
+						"description": "Commercial LC Import"
+					},
+					"row3": {
+						"name": "Insured AR Finance",
+						"description": "Insured AR Finance"
+					},
+					"row4": {
+						"name": "LC Sublimit",
+						"description": "Letter of Credit - Sublimit"
+					},
+					"row5": {
+						"name": "Standby LC - Financial",
+						"description": "Standby LC - Financial"
+					},
+					"row6": {
+						"name": "Standby LC - Performance",
+						"description": "Standby LC - Performance"
+					},
+					"row7": {
+						"name": "Supply Chain Finance",
+						"description": "Supply Chain Finance"
+					}
+				},
+				"financialRiskManagement": {
+					"name": "Financial Risk Management",
+					"row1": {
+						"name": "FX Trading",
+						"description": "FX Trading"
+					},
+					"row2": {
+						"name": "Interest Rate Derivatives",
+						"description": "Interest Rate Derivatives"
+					}
+				}
+			}
+		},
+		"deposit": {
+			"name": "Deposit",
+			"categories": {
+				"certificateofdeposit": {
+					"name": "Certificates of Deposit",
+					"row1": {
+						"name": "Certificates of Deposit",
+						"description": "Certificates of Deposit"
+					}
+				},
+				"deposit": {
+					"name": "Deposit",
+					"row1": {
+						"name": "Analyzed",
+						"description": "Analyzed"
+					},
+					"row2": {
+						"name": "Custom DDA",
+						"description": "Custom DDA"
+					},
+					"row3": {
+						"name": "Hybrid DDA",
+						"description": "Hybrid DDA"
+					},
+					"row4": {
+						"name": "Interest Bearing Transaction",
+						"description": "Interest Bearing Transaction"
+					},
+					"row5": {
+						"name": "IOLTA",
+						"description": "IOLTA"
+					},
+					"row6": {
+						"name": "Packaged",
+						"description": "Packaged"
+					}
+				},
+				"savings": {
+					"name": "Savings",
+					"row1": {
+						"name": "Commercial Savings",
+						"description": "Commercial Savings"
+					},
+					"row2": {
+						"name": "Custom Savings",
+						"description": "Custom Savings"
+					},
+					"row3": {
+						"name": "Pub Funds Savings",
+						"description": "Pub Funds Savings"
+					}
+				}
+			}
+		},
+		"service": {
+			"name": "Service",
+			"categories": {
+				"treasuryManagement": {
+					"name": "Treasury Management",
+					"row1": {
+						"name": "Account Based Services",
+						"description": "Account Based Services"
+					},
+					"row2": {
+						"name": "Balance Management Services",
+						"description": "Balance Management Services"
+					},
+					"row3": {
+						"name": "Payables",
+						"description": "Payables"
+					},
+					"row4": {
+						"name": "Receivables",
+						"description": "Receivables"
+					},
+					"row5": {
+						"name": "Treasury Management Referrals",
+						"description": "Treasury Management Referrals"
+					}
+				},
+				"other": {
+					"name": "Other",
+					"row1": {
+						"name": "401k",
+						"description": "401k"
+					},
+					"row2": {
+						"name": "CAC (ClearArc)",
+						"description": "CAC (ClearArc)"
+					},
+					"row3": {
+						"name": "IA Custody",
+						"description": "IA Custody"
+					},
+					"row4": {
+						"name": "IA Investment Management",
+						"description": "IA Investment Management"
+					},
+					"row5": {
+						"name": "IRAs",
+						"description": "IRAs"
+					},
+					"row6": {
+						"name": "Other",
+						"description": "Other"
+					}
+				},
+				"capitalMarkets": {
+					"name": "Capital Markets",
+					"row1": {
+						"name": "Commodities",
+						"description": "Commodities"
+					},
+					"row2": {
+						"name": "Equity Underwriting",
+						"description": "Equity Underwriting"
+					},
+					"row3": {
+						"name": "High Grade Bonds",
+						"description": "High Grade Bonds"
+					},
+					"row4": {
+						"name": "High Yield Bonds",
+						"description": "High Yield Bonds"
+					},
+					"row5": {
+						"name": "Institutional Brokerage",
+						"description": "Institutional Brokerage"
+					},
+					"row6": {
+						"name": "Mergers and Acquisitions",
+						"description": "Mergers and Acquisitions"
+					},
+					"row7": {
+						"name": "Private Placement",
+						"description": "Private Placement"
+					},
+					"row8": {
+						"name": "Strategic Capital Advisory",
+						"description": "Strategic Capital Advisory"
+					}
+				}
+			}
+		}
+	}
+}

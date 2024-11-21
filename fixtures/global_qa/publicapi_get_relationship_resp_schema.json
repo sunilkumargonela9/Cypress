@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "customerCode": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "capitalClassCode": {
+      "type": "string"
+    },
+    "creditRatingCode": {
+      "type": "string"
+    },
+    "countryCode": {
+      "type": "string"
+    },
+    "industryCode": {
+      "type": "string"
+    },
+    "industryCategory": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "parentCustomerCode": {
+      "type": "string"
+    },
+    "dateCreated": {
+      "type": "string"
+    },
+    "createdBy": {
+      "type": "string"
+    },
+    "updatedBy": {
+      "type": "string"
+    },
+    "lastUpdatedUtc": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "customerCode",
+    "name",
+    "capitalClassCode",
+    "creditRatingCode",
+    "countryCode",
+    "industryCode",
+    "industryCategory",
+    "description",
+    "parentCustomerCode",
+    "dateCreated",
+    "createdBy",
+    "updatedBy",
+    "lastUpdatedUtc"
+  ]
+}

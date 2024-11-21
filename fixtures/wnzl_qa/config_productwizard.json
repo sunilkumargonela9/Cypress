@@ -1,0 +1,16 @@
+{
+	"products": {
+		"service": {
+			"name": "Service",
+			"categories": {
+				"transactionBanking": {
+					"name": "Transaction Banking",
+					"row": {
+						"name": "Merchant Facility",
+						"description": "Merchant"
+						}
+					}
+				}
+			}
+		}
+	}

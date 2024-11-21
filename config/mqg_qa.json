@@ -1,0 +1,40 @@
+{
+	"baseUrl": "https://mqg-qa.dpxpricing.com/",
+	"env": {
+		"username": "scott",
+		"password": "brilliance",
+		"fullName": "scott AUD",
+		"homePage":"/customers/current",
+		"testEnv" : "mqgqa",
+
+		"relationshipname": "Test MQG Automation Relationship",
+		"addClientRel": "Test MQG Automation Relationship",
+		"relationshipclientAnnualTurnover": "1: 12",
+		"relationshipbookingStateLocation": "1: NSW",
+		"relationshipotherBfsIncome": "300000",
+		"relationshipbusinessSegment": "1: 3",
+		"relationshipbusinessUnit": "8: 8",
+		"relationshipindustryCategory": "4: cons",
+		"relationshipindustryCode": "1: cons-4111",
+		"relationshipdivision": "3: BS",
+		"relationshiptotalDepositBalances": "100000",
+		"search_relationship": "Cafe Sydney",
+		"search_client": "Cafe Sydney Client - 1",
+		"prdName": "Bank Guarantee",
+		"prdName1": "CommOne",
+		"prdName2": "Fully Drawn Advance",
+		"prdName3": "HomeONE",
+		"prdName4": "MPE - Versatile",
+		"prdName5": "Overdraft",
+		"prdName6": "Revolving Line of Credit",
+		"prdName7": "Strata Improvement Loan",
+		
+		"productlimit": "1000000",
+		"productlvr": "4: Upto40",
+		"productmixedSecurityOption": "1: No",
+
+		"clientclientAnnualTurnover": "1: 12",
+		"clientbusinessUnit": "8: 8"
+		
+	}
+}

@@ -1,0 +1,394 @@
+{
+	"fieldsData": {
+		"headings":
+		{
+			"General":"General",
+			"Deposit Attributes":"Deposit Attributes"
+		},
+		"GeneralInputFields":[""],
+		"GeneralDropDownFields":["productparentEntityId","productloB","productbankNumber","productproductStatus","productregion"],
+		"ProdAttrInputFields":["productdepositAnticipatedBalance","productdepositClientRate","productfdicChargeToCustomer"],
+		"ProdAttrDropDownFields":[],
+		"productparentEntityId": {
+			"fieldName": " Client ",
+			"defaultValue": "Lakeview Stays Client - 1",
+			"options":["Lakeview Stays Client - 1"],
+			"isRequired": "Y",
+			"lenght": 1,
+			"isDisabled":"N"
+		},
+		"productlgdRate": {
+			"fieldName": " LGD Rating ",
+			"defaultValue": "",
+			"isRequired": "Y",
+			"isDisabled":"N"
+		},
+		"productfdicChargeToCustomer": {
+			"fieldName": " Deposit Administration Fee ",
+			"defaultValue": "",
+			"isRequired": "N",
+			"isDisabled":"N"
+		},
+		"productdepositSubSubCategory": {
+			"fieldName": " Deposit Sub Category ",
+			"defaultValue": " - Select - ",
+			"options":["Commercial Analyzed","Pub Funds Analyzed"],
+			"isRequired": "N",
+			"lenght": 3,
+			"isDisabled":"N"
+		},
+		"productdepositAnticipatedBalance": {
+			"fieldName": " Weighted Average Balance ",
+			"defaultValue": "",
+			"isRequired": "Y",
+			"isDisabled":"N"
+		},
+		"productcDOriginalTerm": {
+			"fieldName": " Original CD Term (Months) ",
+			"defaultValue": "",
+			"isRequired": "N",
+			"isDisabled":"N"
+		},
+		"productdepositClientRate": {
+			"fieldName": " Current Rate (%) ",
+			"defaultValue": "",
+			"isRequired": "N",
+			"isDisabled":"N"
+		},
+		"productmoodysRating": {
+			"fieldName": " Moodys Rating  ",
+			"defaultValue": " Caa1 ",
+			"options":["A1","A2","A3","Aa1","Aa2","Aa3","Aaa","B1","B2","B3","Ba1","Ba2","Ba3","Baa1","Baa2","Baa3","Ca-C","Caa","Caa1","Caa2","Caa3","N/A","Ca"],
+			"isRequired": "N",
+			"lenght": 24,
+			"isDisabled":"Y"
+		},
+		"productfinancialCaptionCD": {
+			"fieldName": " Financial Caption Category  ",
+			"defaultValue": " - Select - ",
+			"options":["CD OVER 100","CONSUMER CD","TOTAL SAVINGS MMDA"],
+			"isRequired": "N",
+			"lenght": 3,
+			"isDisabled":"N"
+		},
+		"productearningsCreditAnnual": {
+			"fieldName": " Earnings Credit (Annual%) ",
+			"defaultValue": "",
+			"isRequired": "N",
+			"isDisabled":"N"
+		},
+		"productbankNumber": {
+			"fieldName": " Bank Number ",
+			"defaultValue": " - Select - ",
+			"options":["0","1","3"],
+			"isRequired": "N",
+			"lenght": 75,
+			"isDisabled":"N"
+		},
+		"productassetType": {
+			"fieldName": " Asset Type ",
+			"defaultValue": " - Select - ",
+			"options":["Computer-Office","General Manufacturing","Construction","Material Handling Oth","Printing","Food Processing","Telecommunications Equip","Automobiles","Corporate Aircraft","Marine","Locomotives","Medical","Textile","Miscellaneous","Forklifts","Furniture, Fixtures, Eqp","FFE Other","General Manufacturing Oth","Machine Tools/Fabrication","Add Plastic Processing Eqp","Tooling,Dies,Mold,Jigs","Agriculture","Agriculture Other","Lawn Maintenance","Golf Carts","Landscape Other","Construction Other","Mining","Mining Other","Racking/Shelving/Conveyor","Printing Other","Food Processing Other","Computer-Office Other","Trucks/Tractors","Trailers","Buses","Intermodal","Vehicles Other","Commercial Aircraft","Cargo Aircraft","Regional Jets","Regional Turboprops","Helicopters","Aircraft Other","Engines & Turbines","Engines & Turbine Other","Marine Other","Railcars","Rail Other","Medical Other","Textile Other","Laundry","Machinery & Equip-Other","Alternative Energy","Alternative Energy-Solar","Gaming","Soft Costs","Recycling","All Assets/Conduit Debt","Alternative Energy-Carbon"],
+			"isRequired": "N",
+			"lenght": 61,
+			"isDisabled":"N"
+		},
+		"productloB": {
+			"fieldName": " Business Segment ",
+			"defaultValue": " - Select - ",
+			"options":["Equipment Finance","Commercial Real Estate","Dealer Finance","Large Corporate","Middle Market","Other","Private Banking","Retail","Other Speciality Lending","Business Banking","Healthcare","International","Mid Corp","Public Funds","Energy","ESOP","Other National Sales","Retail Vertical","Secured Lending","Sponsor Coverage","Diversified Industries - East","Diversified Industries - West","TMT","Ent/Lodging/Leisure","FIG","Other Corporate Banking","Legacy SFG","Term B Portfolio","NRM"],
+			"isRequired": "N",
+			"lenght": 30,
+			"isDisabled":"N"
+		},
+		"productregion": {
+			"fieldName": " Region ",
+			"defaultValue": " - Select - ",
+			"options":["Cincinnati","Chicago","Northwestern Ohio"],
+			"isRequired": "N",
+			"lenght": 22,
+			"isDisabled":"N"
+		},
+		"productindustryEntity": {
+			"fieldName": " Moody's Industry Grouping ",
+			"defaultValue": " Other ",
+			"options":["Professional, Scientific, & Technical Services","All Other Services","Airlines & Air Freight","Aggregates, Chemicals, & Metal/Steel Commodities","Food Beverages & Tobacco","Retail Stores - all types","Entertainment, Recreation, & Accommodations","Printing & Publishing (Including Newspapers)","Homebuilding (all types) and related Furnishings","All Energy Utilities & Equipment Services","Oil & Gas Refining, Marketing, Oilfield Production","Banking/Finance, Insurance, & Investment Companies","Biotech, Medical Supplies & Services","Pharmaceuticals Manufacturing","Auto, Truck & Auto Parts Manufacturing","Equipment/Machinery Manufacturing","Materials Manufacturing"],
+			"isRequired": "N",
+			"lenght": 22,
+			"isDisabled":"N"
+		},
+		"productleveragedLendingAsset": {
+			"fieldName": " Leveraged Lending Asset ",
+			"defaultValue": " Not Leveraged ",
+			"options":[" - Select - "," Broad Monitoring "," Heightened Monitoring "," Indirect Monitoring "," Not Leveraged "],
+			"isRequired": "N",
+			"lenght": 5,
+			"isDisabled":"N"
+		},
+		"productcriticizedAssetLoan": {
+			"fieldName": " Criticized Asset Loan ",
+			"defaultValue": " N/A ",
+			"options":[" - Select - "," DF - Doubtful "," L - Loss "," SM - Special Mention "," SS - Sub-Standard ", " N/A "],
+			"isRequired": "N",
+			"lenght": 6,
+			"isDisabled":"N"
+		},
+		"productproductStatus": {
+			"fieldName": " Product Status ",
+			"defaultValue": " New ",
+			"options":["New","Refinanced","Existing","Finalised","NPW"],
+			"isRequired": "N",
+			"lenght": 6,
+			"isDisabled":"Y"
+		},
+		"productspRating": {
+			"fieldName": " S&P Rating  ",
+			"defaultValue": " CC ",
+			"options":["A","A+","A-","AA","AA+","AA-","AAA","B","B+","B-","BB","BB+","BB-","BBB","BBB+","BBB-","C","CC-C","CC","CCC","N/A","CCC+","CCC-","D"],
+			"isRequired": "N",
+			"lenght": 25,
+			"isDisabled":"Y"
+		},
+		"productpdRating": {
+			"fieldName": " PD Rating ",
+			"defaultValue": " 2 ",
+			"options":["1","2","3","4","5","6","7","8","9","10","11","12","13"],
+			"isRequired": "N",
+			"lenght": 14,
+			"isDisabled":"N"
+		},
+		"productsyndication": {
+			"fieldName": " Syndication ",
+			"defaultValue": " - Select - ",
+			"options":["Yes","No","N/A"],
+			"isRequired": "N",
+			"lenght": 4,
+			"isDisabled":"N"
+		},
+		"productbankGroupType": {
+			"fieldName": " Bank Group Type ",
+			"defaultValue": " - Select - ",
+			"options":[" - Select - "," Syndication "," Bi-lateral "," Club "],
+			"isRequired": "N",
+			"lenght": 4,
+			"isDisabled":"N"
+		},
+		"productname": {
+			"fieldName": " Account Name ",
+			"defaultValue": "Operating Lease FMV",
+			"isRequired": "Y",			
+			"isDisabled":"N"
+		},
+		"productnetInvestmentBalance": {
+			"fieldName": " Net Investment Balance ",
+			"defaultValue": "",
+			"isRequired": "N",			
+			"isDisabled":"N"
+		},
+		"productoriginalBalance": {
+			"fieldName": " Original Balance ",
+			"defaultValue": "",
+			"isRequired": "N",			
+			"isDisabled":"N"
+		},
+		"productsecurityDepositBalance": {
+			"fieldName": " Security Deposit Balance ",
+			"defaultValue": "",
+			"isRequired": "N",			
+			"isDisabled":"N"
+		},
+		"productlimit": {
+			"fieldName": " Original Balance ",
+			"defaultValue": "",
+			"isRequired": "Y",			
+			"isDisabled":"N"
+		},
+		"productcurrencyCode": {
+			"fieldName": " Currency ",
+			"defaultValue": " USD ",
+			"options": ["CAD","EUR","GBP","JPY","USD"],
+			"isRequired": "Y",
+			"lenght": 5,			
+			"isDisabled":"N"  
+		},
+		"productutilisationRate": {
+			"fieldName": " Expected Usage (%) ",
+			"defaultValue": "",
+			"isRequired": "N",			
+			"isDisabled":"Y" 
+		},
+		"productterm": {
+			"fieldName": " Term (Months) ",
+			"defaultValue": "12",
+			"isRequired": "Y",			
+			"isDisabled":"N" 
+		},
+		"productmarketPublishedRate": {
+			"fieldName": " ",
+			"defaultValue": "0.00%",
+			"isRequired": "N",			
+			"isDisabled":"Y" 
+		},
+		"productmarginOverReferenceRate": {
+			"fieldName": " Margin Over Reference Rate ",
+			"defaultValue": "0.00%",
+			"isRequired": "Y",			
+			"isDisabled":"N"
+		},
+		"productpreTaxYield": {
+			"fieldName": " Pre Tax Yield ",
+			"defaultValue": "",
+			"isRequired": "N",			
+			"isDisabled":"N"
+		},
+
+
+
+
+
+
+
+
+
+
+
+		"productspreadOverIndex": {
+			"fieldName": " Spread Over Index (%) ",
+			"defaultValue": "",
+			"isRequired": "N",			
+			"isDisabled":"N"
+		},
+		"productindexFloor": {
+			"fieldName": " Index Floor (%) ",
+			"defaultValue": "",
+			"isRequired": "N",			
+			"isDisabled":"N"
+		},
+		"productpricingGridLowerBound": {
+			"fieldName": " Pricing Grid Lower Bound ",
+			"defaultValue": "",
+			"isRequired": "N",			
+			"isDisabled":"N"
+		},
+		"productpricingGridUpperBound": {
+			"fieldName": " Pricing Grid Upper Bound ",
+			"defaultValue": "",
+			"isRequired": "N",			
+			"isDisabled":"N"
+		},
+		"productderivedInterest": {
+			"fieldName": " Interest Rate ",
+			"defaultValue": "0.00%",
+			"isRequired": "N",			
+			"isDisabled":"Y"
+		},
+		"productamortizationTerm": {
+			"fieldName": " Amortization Term (Months) ",
+			"defaultValue": "",
+			"isRequired": "Y",			
+			"isDisabled":"N"
+		},
+		"productresidualValue": {
+			"fieldName": " Residual Value ",
+			"defaultValue": "0.00%",
+			"isRequired": "Y",			
+			"isDisabled":"N"
+		},
+		"productderivedCOF": {
+			"fieldName": " Total Cost of Funds ",
+			"defaultValue": "0.00%",
+			"isRequired": "N",			
+			"isDisabled":"Y"
+		},
+		"productmarginRate": {
+			"fieldName": " Spread over Costs of Funds ",
+			"defaultValue": "0.00%",
+			"isRequired": "N",			
+			"isDisabled":"Y"
+		},
+		"productinterestRateType": {
+			"fieldName": " Interest Rate Type ",
+			"defaultValue": " Fixed ",
+			"options": [" Fixed ",  " Variable "],
+			"lenght": 3,
+			"isRequired": "N",			
+			"isDisabled":"Y"
+		},
+		"productrefRate": {
+			"fieldName": " Index ",
+			"defaultValue": " SOFR ",
+			"options": [" LIBOR ",  " Prime ", " SOFR ", " SONIA "," BSBY "],
+			"lenght": 5,
+			"isRequired": "Y",			
+			"isDisabled":"N"
+		},
+		"productresetFrequency": {
+			"fieldName": " Interest Rate Reset Frequency ",
+			"defaultValue": " - Select - ",
+			"options": ["  Daily/FF/Prime  ",  " Weekly ", " Biweekly ", " 1 Month ", " 2 Month ", " 3 Month ", " 4 Month ", " 5 Month ", " 6 Month ", " 7 Month ", " 8 Month ", " 9 Month ", 
+					" 10 Month ", " 11 Month ", " 12 Month "," 2 yrs "," 3 yrs "," 4 yrs "," 5 yrs "," 6 yrs "," 7 yrs "," 8 yrs "," 9 yrs "," 10 yrs "],
+			"lenght": 25,
+			"isRequired": "Y",			
+			"isDisabled":"N"
+		},
+		"productinterestRateFrequency": {
+			"fieldName": " Interest Rate Frequency ",
+			"defaultValue": " Monthly ",
+			"options": [" Monthly ",  " Quarterly ", " Semi Annual ", " Annual "],
+			"lenght": 4,
+			"isRequired": "Y",			
+			"isDisabled":"N"
+		},
+		"productrepaymentType": {
+			"fieldName": " Amortization Type ",
+			"defaultValue": " Custom ",
+			"options": [" Principal & Interest ",  " Interest Only ", " Balloon "," Custom "," Fixed Principal "],
+			"lenght": 6,
+			"isRequired": "N",			
+			"isDisabled":"Y"
+		},
+		"productrepaymentFrequency": {
+			"fieldName": " Interest Payment Frequency ",
+			"defaultValue": " Monthly ",
+			"options": [" Monthly ",  " Quarterly ", " Semi Annual ", " Annual "],
+			"lenght": 4,
+			"isRequired": "Y",			
+			"isDisabled":"N"
+		},
+		"tableheadings":{
+			"Fee Name" : "Fee Name",
+			"Frequency" : "Frequency" ,
+			"Proposed" : "Proposed",
+			"Waive" : "Waive"
+			},
+		
+		"feeNames": {
+			"Other - One Time": {
+				"row" : "1",
+				"title": "Other - One Time",
+				"freqDefaultValue": "Upfront",
+				"freqOptions": ["Upfront"],
+				"proposedDefaultValue" : "0 bps",
+				"isWaived" : "N"
+			},
+			"Commitment Fee": {
+				"row" : "2",
+				"title": "Commitment Fee",
+				"freqDefaultValue": "Upfront",
+				"freqOptions": ["Monthly", "Quarterly", "Semi Annual", "Annual"],
+				"proposedDefaultValue" : "0 bps",
+				"isWaived" : "N"
+			},
+			"Early Termination Fees": {
+				"row" : "3",
+				"title": "Early Termination Fees",
+				"freqDefaultValue": "Final",
+				"freqOptions": ["Monthly", "Quarterly", "Semi Annual", "Annual"],
+				"proposedDefaultValue" : "0 bps",
+				"isWaived" : "N"
+			}
+
+		}
+	}
+
+}

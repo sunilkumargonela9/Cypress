@@ -1,0 +1,65 @@
+{
+    "productlimit": "1m",
+    "productutilisationRate": "50%",
+    "productrefRate": "1: bbsw",
+    "productresetFrequency": "2: 60days",
+    "productlgd":"1: B",
+    "productmarginOverReferenceRate": "-",
+    "productpdRatingCode" : "Y",
+    "productproductOwner": "1: 2",
+    "productcreditRatingCode": "D1",
+    "productecosystem":"",
+    "productpromotion":"",
+    
+    "Contingent Liability": [],
+    "Derivatives" : [],
+    "Asset Finance" :[
+        {"id": 0,"fieldName": "productinterestRateType","fieldValue": ""},
+        {"id": 1,"fieldName": "productrepaymentType","fieldValue": ""},
+        {"id": 2,"fieldName": "productresidualValueAmount","fieldValue": ""},
+        {"id": 3,"fieldName": "productrefRate","fieldValue": ""},
+        {"id": 4,"fieldName": "productresetFrequency","fieldValue": ""},
+        {"id": 5,"fieldName": "producttpAdjustment","fieldValue": ""},
+        {"id": 6,"fieldName": "productmarginOverReferenceRate","fieldValue": ""}
+    ],
+    "Better Business Loan" : [
+        {"id": 0,"fieldName": "productinterestRateType","fieldValue": ""},
+        {"id": 1,"fieldName": "productrepaymentType","fieldValue": ""},
+        {"id": 2,"fieldName": "productresidualValueAmount","fieldValue": ""},
+        {"id": 3,"fieldName": "productrefRate","fieldValue": ""},
+        {"id": 4,"fieldName": "productresetFrequency","fieldValue": ""},
+        {"id": 6,"fieldName": "productmarginOverReferenceRate","fieldValue": ""},
+        {"id": 5,"fieldName": "productbrokerage","fieldValue": ""},
+        {"id": 5,"fieldName": "producttrail","fieldValue": ""}
+    ],
+    "Cash Advance Facility" : [
+        {"id": 0,"fieldName": "productinterestRateType","fieldValue": ""},
+        {"id": 1,"fieldName": "productrepaymentType","fieldValue": ""},
+        {"id": 2,"fieldName": "productresidualValueAmount","fieldValue": ""},
+        {"id": 3,"fieldName": "productrefRate","fieldValue": ""},
+        {"id": 4,"fieldName": "productresetFrequency","fieldValue": ""},
+        {"id": 5,"fieldName": "producttpAdjustment","fieldValue": ""},
+        {"id": 6,"fieldName": "productmarginOverReferenceRate","fieldValue": ""}
+    ],
+    "Market Rate Facility" : [
+        {"id": 0,"fieldName": "productinterestRateType","fieldValue": ""},
+        {"id": 1,"fieldName": "productrepaymentType","fieldValue": ""},
+        {"id": 2,"fieldName": "productresidualValueAmount","fieldValue": ""},
+        {"id": 3,"fieldName": "productrefRate","fieldValue": ""},
+        {"id": 4,"fieldName": "productresetFrequency","fieldValue": ""},
+        {"id": 6,"fieldName": "productmarginOverReferenceRate","fieldValue": ""},
+        {"id": 5,"fieldName": "productbrokerage","fieldValue": ""},
+        {"id": 5,"fieldName": "producttrail","fieldValue": ""}
+    ],
+    "Overdraft Facility" : [
+        {"id": 3,"fieldName": "productrefRate","fieldValue": ""},
+        {"id": 6,"fieldName": "productmarginOverReferenceRate","fieldValue": ""}
+    ],
+    "Trade Finance Facility" : [
+        {"id": 3,"fieldName": "productrefRate","fieldValue": ""},
+        {"id": 4,"fieldName": "productresetFrequency","fieldValue": ""},
+        {"id": 6,"fieldName": "productmarginOverReferenceRate","fieldValue": ""}
+    ]
+
+}
+

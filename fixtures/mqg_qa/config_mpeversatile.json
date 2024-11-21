@@ -1,0 +1,312 @@
+{
+	"fieldsData": {
+		"headings":
+		{
+			"General":"General",
+			"Product Attributes":"Product Attributes",
+			"Rates":"Rates",
+			"Fees & Costs":"Fees & Costs"
+		},
+		
+
+		"productvariantName": {
+			"fieldName": " Product Variant ",
+			"defaultValue": "MPE - Versatile",
+			"isRequired": "N",			
+			"isDisabled":"Y"
+		},
+
+		"productname": {
+			"fieldName": " Product Name ",
+			"defaultValue": "MPE - Versatile",
+			"isRequired": "Y",			
+			"isDisabled":"N"
+		},
+
+		"productouterProductId": {
+			"fieldName": " Facility ID ",
+			"defaultValue": "",
+			"isRequired": "N",			
+			"isDisabled":"Y"
+		},
+
+		"productproductStatus": {
+			"fieldName": " Facility Status ",
+			"defaultValue": " New ",
+			"options":["Refinanced","Finalised","NPW"],
+			"isRequired": "N",
+			"lenght": 8,
+			"isDisabled":"Y"
+		},
+
+		"productbusinessSegment": {
+			"fieldName": " Business Segment ",
+			"defaultValue": "",
+			"options":["Accounting","Legal","Veterinary"],
+			"isRequired": "Y",
+			"lenght": 35,
+			"isDisabled":"N"
+		},
+
+		"productindicativeLimit": {
+			"fieldName": " Indicative Limit ",
+			"defaultValue": "",
+			"isRequired": "N",			
+			"isDisabled":"N"
+		},
+
+		"productoverrideIndicativeLimit": {
+			"fieldName": " Override? ",
+			"defaultValue": " - Select - ",
+			"options":["Yes", "No"],
+			"isRequired": "N",
+			"lenght": 3,
+			"isDisabled":"N"
+		},
+
+
+
+		"productlimit": {
+			"fieldName": " Limit ",
+			"defaultValue": "$0",
+			"isRequired": "Y",			
+			"isDisabled":"N" 
+
+		},
+		"productdrawnAmount": {
+			"fieldName": " Drawn Balance ",
+			"defaultValue": "",
+			"isRequired": "Y",			
+			"isDisabled":"N" 
+		},
+
+		"productcurrencyCode": {
+			"fieldName": " Currency ",
+			"defaultValue": " AUD ",
+			"options": ["AUD"],
+			"isRequired": "N",
+			"lenght": 2,
+			"isDisabled":"Y"
+		},
+
+		"productcreditRatingCode": {
+			"fieldName": " Rating ",
+			"defaultValue": " Unrated ",
+			"options": ["MQ1","MQ10","MQ99"],
+			"isRequired": "Y",
+			"lenght": 18,
+			"isDisabled":"N"
+			
+		},
+
+		"producttreatmentType": {
+			"fieldName": " Treatment Type ",
+			"defaultValue": " Retail - Mortgages ",
+			"options": ["Retail - SME","Retail - Mortgages","IPRE"],
+			"isRequired": "Y",
+			"lenght": 5,
+			"isDisabled":"N"
+		},
+
+		"productloanPurpose": {
+			"fieldName": " Loan Purpose ",
+			"defaultValue": "",
+			"options": [" OOPI ", "Investment "," Investment 5+ "],
+			"isRequired": "Y",
+			"lenght": 4,
+			"isDisabled":"N"
+		},
+
+		"productmixedSecurityOption": {
+			"fieldName": " Mixed Security ",
+			"defaultValue": " - Select - ",
+			"options": [" Yes ", " No "],
+			"isRequired": "Y",
+			"lenght": 3,
+			"isDisabled":"N"
+		},
+
+		"productsecurityType": {
+			"fieldName": " Security Type ",
+			"defaultValue": "Residential Property",
+			"options": [" Residential Property "],
+			"isRequired": "Y",
+			"lenght": 1,
+			"isDisabled":"N"
+		},
+
+		"productlvr": {
+			"fieldName": " LVR Band / Gearing ",
+			"defaultValue": "",
+			"options": [" 21%-30% "," 51%-60% "," 91%-100% "],
+			"isRequired": "Y",
+			"lenght": 11,
+			"isDisabled":"N"
+		},
+
+		"productlgdPercent": {
+			"fieldName": " EC LGD ",
+			"defaultValue": "100.00%",
+			"isRequired": "N",
+			"isDisabled":"Y"
+		},
+
+		"productlGDOverride": {
+			"fieldName": " Override LGD ",
+			"defaultValue": " - Select - ",
+			"options": [" Yes "," No "],
+			"isRequired": "N",
+			"lenght": 3,
+			"isDisabled":"N"
+		},
+
+
+
+
+		"productterm": {
+			"fieldName": " Term (Months) ",
+			"defaultValue": "12",
+			"isRequired": "Y",			
+			"isDisabled":"N" 
+		},
+
+		"productstartDate": {
+			"fieldName": " Effective Date ",
+			"defaultValue": "",
+			"isRequired": "N",			
+			"isDisabled":"Y" 
+		},
+		"productmaturityDate": {
+			"fieldName": " Maturity Date ",
+			"defaultValue": "",
+			"isRequired": "N",			
+			"isDisabled":"Y"
+		},
+
+		"productrepaymentType": {
+			"fieldName": " Repayment Type ",
+			"defaultValue": " Amortised ",
+			"options": [" Amortised "," Bullet "],
+			"isRequired": "Y",
+			"lenght": 2,
+			"isDisabled":"N"
+		},
+
+		"productinterestRateType": {
+			"fieldName": " Rate Type ",
+			"defaultValue": "Variable",
+			"options": [" Fixed "," Variable "],
+			"isRequired": "Y",
+			"lenght": 2,
+			"isDisabled":"N"
+		},
+
+		"productrefRate": {
+			"fieldName": " Reference Rate ",
+			"defaultValue": " - Select - ",
+			"options": [" B - Property Versatile IO "," Smart Business Loan - Interest Only ", " Rate Special "],
+			"isRequired": "Y",
+			"lenght": 7,
+			"isDisabled":"N"
+		},
+
+		"productderivedCOF": {
+			"fieldName": " Total Cost of Funds ",
+			"defaultValue": "4.75%",
+			"isRequired": "N",			
+			"isDisabled":"Y"
+		},
+
+		"productmarginOverReferenceRate": {
+		"fieldName": " Margin Over/Under Reference Rate ",
+		"defaultValue": "0.00%",
+		"isRequired": "N",			
+		"isDisabled":"N"
+		},
+
+		"productmarginRate": {
+			"fieldName": " Net Interest Margin ",
+			"defaultValue": "-4.75%",
+			"isRequired": "N",			
+			"isDisabled":"Y"
+		},
+
+		"productderivedInterest": {
+			"fieldName": " Client Rate ",
+			"defaultValue": "0.00%",
+			"isRequired": "N",			
+			"isDisabled":"N"
+		},
+
+		"productpBRate": {
+			"fieldName": " PB Rate ",
+			"defaultValue": "0.00%",
+			"isRequired": "N",			
+			"isDisabled":"Y"
+		},
+
+
+
+		"tableheadings":{
+			"Fee Name" : "Fee Name",
+			"Frequency" : "Frequency",
+			"Standard" : "Standard",
+			"Proposed" : "Proposed",
+			"Waive" : "Waive"
+			},
+		
+		"feeNames": {
+			"Commitment Fee": {
+				"row" : 1,
+				"title": "Commitment Fee",
+				"freqDefaultValue": "Upfront",
+				"freqOptions": ["Upfront"],
+				"stdDefaultValue" : "$0",
+				"proposedDefaultValue" : "$0",
+				"isWaived" : "N"
+			},
+
+			"Renegotiation Fees": {
+				"row" : 2,
+				"title": "Renegotiation Fees",
+				"freqDefaultValue": "Upfront",
+				"freqOptions": ["Upfront"],
+				"stdDefaultValue" : "$1,000",
+				"proposedDefaultValue" : "$1,000",
+				"isWaived" : "N"
+			},
+
+			"Document & Settlement Fees": {
+				"row" : 3,
+				"title": "Document & Settlement Fees",
+				"freqDefaultValue": "Upfront",
+				"freqOptions": ["Upfront"],
+				"stdDefaultValue" : "$1,750",
+				"proposedDefaultValue" : "$1,750",
+				"isWaived" : "N"
+			},
+
+			"Facility Fees": {
+				"row" : 4,
+				"title": "Facility Fees",
+				"freqDefaultValue": "Monthly",
+				"freqOptions": ["Monthly", "Quarterly", "Semi Annual", "Annual"],
+				"stdDefaultValue" : "$30",
+				"proposedDefaultValue" : "$30",
+				"isWaived" : "N"
+			},
+
+			"Establishment Fee": {
+				"row" : 5,
+				"title": "Establishment Fee",
+				"freqDefaultValue": "Upfront",
+				"freqOptions": ["Upfront"],
+				"stdDefaultValue" : "$1,000",
+				"proposedDefaultValue" : "$1,000",
+				"isWaived" : "N"
+			}
+
+		}
+
+	}
+}

@@ -1,0 +1,27 @@
+{
+  "dealCode": 1681096872,
+  "name": "DealCheck_TermDeposit1681096872",
+  "bookingLocationCode": "AUS",
+  "customerName": "Auto Nation Imported",
+  "customerCode": "RCANZ16",
+  "scenarios": [
+    {
+      "name": "Scenario 1",
+      "isPrimary": true,
+      "products": [
+        {
+          "name": "Corporate Finance (Non-Lending)",
+          "variantCode": "corp-fin",
+          "riCategoryCode": "corp-fin",
+          "term": 36,
+          "startDate": "2024-04-07",
+          "averageBalance": 1000000,
+          "currencyCode": "AUD",
+          "roe": 0.0982,
+          "creditRWA": 500000,
+          "marginAmount": 15000
+        }
+      ]
+    }
+  ]
+}

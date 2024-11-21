@@ -1,0 +1,16 @@
+{
+  "id": "d0ae88e7-4b9b-4667-9085-08d85dc8b294",
+  "customerCode": "RCANZ11",
+  "name": "Alpha Consulting  Imported",
+  "capitalClassCode": "Corp",
+  "creditRatingCode": "D2",
+  "countryCode": "AUS",
+  "industryCode": "pbs-7862",
+  "industryCategory": "pbs",
+  "description": "Created through import process",
+  "parentCustomerCode": "RCANZ11",
+  "dateCreated": "2020-09-21T05:44:05.017588Z",
+  "createdBy": "scott",
+  "updatedBy": "scott",
+  "lastUpdatedUtc": "2023-03-15T01:10:14.1923435Z"
+}

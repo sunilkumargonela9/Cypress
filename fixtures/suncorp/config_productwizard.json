@@ -1,0 +1,44 @@
+{
+	"products": {
+		"credit": {
+			"name": "Credit",
+			"categories": {
+				"commercialLending": {
+					"name": "Commercial Lending",
+					"row1": {
+						"name": "Bank Guarantee",
+						"description": "Bank Guarantee"
+					},
+					"row2": {
+						"name": "Business Line of Credit",
+						"description": "Line of credit Product "
+					},
+					"row3": {
+						"name": "Equipment Finance",
+						"description": "Equipment Finance"
+					},
+					"row4": {
+						"name": "Overdraft",
+						"description": "Overdraft Product"
+					},
+					"row5": {
+						"name": "Term Loan",
+						"description": "Term Loan Credit Product"
+					}
+				}
+			}
+		},
+		"deposit": {
+			"name": "Deposit",
+			"categories": {
+				"deposit": {
+					"name": "Deposit",
+					"row1": {
+						"name": "Term Deposit",
+						"description": "Term Deposit"
+					}
+				}
+			}
+		}
+	}
+}

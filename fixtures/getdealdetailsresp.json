@@ -1,0 +1,70 @@
+{
+  "uid": "a7f36b5d-f2a6-48f5-dcd1-08db24ef67df",
+  "scenarios": [
+    {
+      "uid": "d774f4dc-31c2-4e83-3524-08db24ef6827",
+      "name": "Scenario 1",
+      "isPrimary": true,
+      "products": [
+        {
+          "uid": "16e04174-edfa-43b2-6c49-08db24ef6846",
+          "productCode": null,
+          "name": "Term Loan",
+          "isCrossSell": null,
+          "isFutureCrossSell": null,
+          "variantCode": "loan-tl",
+          "variantName": "Term Loan",
+          "feeLines": [
+            {
+              "uid": null,
+              "code": "EstabFeeCredit",
+              "name": "Establishment Fee",
+              "standard": 0.005,
+              "proposed": 0.005,
+              "frequency": 1,
+              "isWaived": false,
+              "isAmortised": true,
+              "isOngoing": false,
+              "metaClassId": null,
+              "id": null
+            },
+            {
+              "uid": null,
+              "code": "LineFeeCredit",
+              "name": "Line Fee",
+              "standard": 0.05,
+              "proposed": 0.05,
+              "frequency": 2,
+              "isWaived": false,
+              "isAmortised": false,
+              "isOngoing": true,
+              "metaClassId": null,
+              "id": null
+            }
+          ],
+          "parentEntityId": null,
+          "parentEntityName": null,
+          "parentEntityType": null,
+          "metaClassId": "Dpx.Products.Lending",
+          "id": "16e04174-edfa-43b2-6c49-08db24ef6846"
+        }
+      ],
+      "metaClassId": "Dpx.Pricing.Scenario",
+      "id": "d774f4dc-31c2-4e83-3524-08db24ef6827"
+    }
+  ],
+  "statusCode": "draft",
+  "statusName": null,
+  "createdDate": "2023-03-15T01:53:23.1075599Z",
+  "createdBy": "admin",
+  "updatedDate": "2023-03-15T01:53:23.0972874Z",
+  "updatedBy": "admin",
+  "approvalActionInfo": null,
+  "dealCode": "1678845201",
+  "name": "Public API Test Deal1678845201",
+  "customerName": "Alpha Consulting  Imported",
+  "customerCode": "RCANZ11",
+  "userCode": null,
+  "metaClassId": "Dpx.Pricing.Deal",
+  "id": "a7f36b5d-f2a6-48f5-dcd1-08db24ef67df"
+}

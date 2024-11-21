@@ -1,0 +1,269 @@
+{
+	"fieldsData": {
+		"headings":
+		{
+			"General":"General",
+			"Product Attributes":"Product Attributes",
+			"Rates":"Rates",
+			"Fees & Costs":"Fees & Costs"
+		},
+		
+
+		"productvariantName": {
+			"fieldName": " Product Variant ",
+			"defaultValue": "Bank Guarantee",
+			"isRequired": "N",			
+			"isDisabled":"Y"
+		},
+
+
+		"productname": {
+			"fieldName": " Product Name ",
+			"defaultValue": "Bank Guarantee",
+			"isRequired": "N",			
+			"isDisabled":"Y"
+		},
+
+
+		"productproductStatus": {
+			"fieldName": " Facility Status ",
+			"defaultValue": " New ",
+			"options":["Refinanced","Repricing","Existing"],
+			"isRequired": "N",
+			"lenght": 8,
+			"isDisabled":"Y"
+		},
+
+		"productouterProductId": {
+			"fieldName": " Facility ID ",
+			"defaultValue": "",
+			"isRequired": "N",			
+			"isDisabled":"Y"
+		},
+
+		"productbusinessSegment": {
+			"fieldName": " Business Segment ",
+			"defaultValue": " -- Personal Loans - NSW -- ",
+			"options":["Accounting","Legal","Veterinary"],
+			"isRequired": "Y",
+			"lenght": 35,
+			"isDisabled":"N"
+
+		},
+
+		"productindicativeLimit": {
+			"fieldName": " Indicative Limit ",
+			"defaultValue": "",
+			"isRequired": "N",			
+			"isDisabled":"N"
+		},
+
+		"productoverrideIndicativeLimit": {
+			"fieldName": " Override? ",
+			"defaultValue": " - Select - ",
+			"options":["Yes","No"],
+			"isRequired": "N",
+			"lenght": 3,
+			"isDisabled":"N"
+
+		},
+
+
+		"productlimit": {
+			"fieldName": " Limit ",
+			"defaultValue": "$0",
+			"isRequired": "Y",			
+			"isDisabled":"N" 
+
+		},
+		"productdrawnAmount": {
+			"fieldName": " Drawn Balance ",
+			"defaultValue": "",
+			"isRequired": "N",			
+			"isDisabled":"Y" 
+		},
+
+		"productcurrencyCode": {
+			"fieldName": " Currency ",
+			"defaultValue": " AUD ",
+			"options": ["AUD"],
+			"isRequired": "N",
+			"lenght": 2,
+			"isDisabled":"Y"
+		},
+
+		"producttreatmentType": {
+			"fieldName": " Treatment Type ",
+			"defaultValue": " - Select - ",
+			"options": ["Retail - SME","Retail - Mortgages","IPRE"],
+			"isRequired": "Y",
+			"lenght": 6,
+			"isDisabled":"N"
+		},
+
+		"productcreditRatingCode": {
+			"fieldName": " Rating ",
+			"defaultValue": " MQ12 ",
+			"options": ["MQ1","MQ10","MQ99"],
+			"isRequired": "N",
+			"lenght": 19,
+			"isDisabled":"Y"
+			
+		},
+
+		"productloanPurpose": {
+			"fieldName": " Loan Purpose ",
+			"defaultValue": "",
+			"options": [" OOPI ", "Investment "," Investment 5+ "],
+			"isRequired": "N",
+			"lenght": 5,
+			"isDisabled":"Y"
+			
+		},
+
+		"productsecurityType": {
+			"fieldName": " Security Type ",
+			"defaultValue": "Residential Property",
+			"options": [" EBIT-MR Tourism "," Unsecured "," Industrial Secondary "],
+			"isRequired": "N",
+			"lenght": 25,
+			"isDisabled":"N"
+		},
+
+		"productlvr": {
+			"fieldName": " LVR Band / Gearing ",
+			"defaultValue": "",
+			"options": [" 21%-30% "," 51%-60% "," 91%-100% "],
+			"isRequired": "Y",
+			"lenght": 11,
+			"isDisabled":"N"
+		},
+
+		"productmixedSecurityOption": {
+			"fieldName": " Mixed Security ",
+			"defaultValue": " - Select - ",
+			"options": [" Yes "," No "],
+			"isRequired": "Y",
+			"lenght": 3,
+			"isDisabled":"N"
+		},
+
+		"productfILending": {
+			"fieldName": " Lending to FI ",
+			"defaultValue": " No ",
+			"options": [" Yes "," No "],
+			"isRequired": "N",
+			"lenght": 3,
+			"isDisabled":"N"
+		},
+
+		"productlgdPercent": {
+			"fieldName": " EC LGD ",
+			"defaultValue": "100.00%",
+			"isRequired": "N",
+			"isDisabled":"Y"
+		},
+
+		"productlGDOverride": {
+			"fieldName": " Override LGD ",
+			"defaultValue": " - Select - ",
+			"options": [" Yes "," No "],
+			"isRequired": "N",
+			"lenght": 3,
+			"isDisabled":"N"
+		},
+
+
+
+		"productterm": {
+			"fieldName": " Term (Months) ",
+			"defaultValue": "12",
+			"isRequired": "Y",			
+			"isDisabled":"N" 
+		},
+
+		"productstartDate": {
+			"fieldName": " Effective Date ",
+			"defaultValue": "",
+			"isRequired": "N",			
+			"isDisabled":"Y" 
+		},
+		"productmaturityDate": {
+			"fieldName": " Maturity Date ",
+			"defaultValue": "",
+			"isRequired": "N",			
+			"isDisabled":"Y"
+		},
+
+		"productrepaymentType": {
+			"fieldName": " Repayment Type ",
+			"defaultValue": " Bullet ",
+			"options": [" Amortised "," Bullet "],
+			"isRequired": "N",
+			"lenght": 3,
+			"isDisabled":"Y"
+		},
+
+		"productinterestRateFrequency": {
+			"fieldName": " Interest Rate Frequency ",
+			"defaultValue": "Monthly",
+			"options": [" Quarterly "," Semi Annual ", " Annual "],
+			"isRequired": "N",
+			"lenght": 5,
+			"isDisabled":"Y"
+		},
+
+
+		"tableheadings":{
+			"Fee Name" : "Fee Name",
+			"Frequency" : "Frequency",
+			"Standard" : "Standard",
+			"Proposed" : "Proposed",
+			"Waive" : "Waive"
+			},
+
+		"feeNames": {
+			"Commitment Fee": {
+				"row" : 1,
+				"title": "Commitment Fee",
+				"freqDefaultValue": "Upfront",
+				"freqOptions": ["Upfront"],
+				"stdDefaultValue" : "$0",
+				"proposedDefaultValue" : "$0",
+				"isWaived" : "N"
+			},
+
+			"Renegotiation Fees": {
+				"row" : 2,
+				"title": "Renegotiation Fees",
+				"freqDefaultValue": "Upfront",
+				"freqOptions": ["Upfront"],
+				"stdDefaultValue" : "$1,000",
+				"proposedDefaultValue" : "$1,000",
+				"isWaived" : "N"
+			},
+
+			"Document & Settlement Fees": {
+				"row" : 3,
+				"title": "Document & Settlement Fees",
+				"freqDefaultValue": "Upfront",
+				"freqOptions": ["Upfront"],
+				"stdDefaultValue" : "$1,750",
+				"proposedDefaultValue" : "$1,750",
+				"isWaived" : "N"
+			},
+
+			"Line Fee": {
+				"row" : 4,
+				"title": "Line Fee",
+				"freqDefaultValue": "Upfront",
+				"freqOptions": ["Upfront"],
+				"stdDefaultValue" : "2.00%",
+				"proposedDefaultValue" : "2.00%",
+				"isWaived" : "N"
+			}
+
+		}
+
+	}
+}

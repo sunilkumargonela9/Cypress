@@ -1,0 +1,65 @@
+{
+  "dealCode": 1674779257,
+  "name": "Public API Test Deal1674779257",
+  "bookingLocationCode": "AUS",
+  "customerName": "MEDIOBANCA",
+  "customerCode": "R53955111",
+  "scenarios": [
+    {
+      "name": "Scenario 1",
+      "isPrimary": true,
+      "products": [
+        {
+          "name": "Term Loan",
+          "variantCode": "loan-tl",
+          "riCategoryCode": "loan",
+          "term": 36,
+          "limit": 2500000,
+          "utilisationRate": 0.05,
+          "interestRateType": 2,
+          "interestRateRepaymentFrequency": 2,
+          "marginOverReferenceRate": 0.02,
+          "referenceRate": "loan-fixed-R5",
+          "requestedRate": 0.0592,
+          "repaymentType": 1,
+          "repaymentFrequency": 1,
+          "broker": true,
+          "channelName": "AUS",
+          "bookingLocationCode": "AUS",
+          "calcModelType": 1,
+          "interestRateFrequency": 1,
+          "refRate": "rer",
+          "lgd": "D",
+          "pdRatingCode": "B1",
+          "prudentialCategory": "adv",
+          "feeLines": [
+            {
+              "Code": "EstabFeeCredit",
+              "name": "Establishment Fee",
+              "standard": 0.005,
+              "proposed": 0.005,
+              "frequency": 1,
+              "canWaive": true,
+              "isWaived": false,
+              "isAmortised": true,
+              "CanOverrideAmortise": true,
+              "isOngoing": false
+            },
+            {
+              "Code": "LineFeeCredit",
+              "name": "Line Fee",
+              "standard": 0.05,
+              "proposed": 0.05,
+              "frequency": 2,
+              "canWaive": true,
+              "isWaived": false,
+              "isAmortised": false,
+              "CanOverrideAmortise": false,
+              "isOngoing": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "table": {
+    "isWidget": false,
+    "title": "Client",
+    "colHeaders": [],
+    "labels": {},
+    "isVertical": false,
+    "cols": [
+      {
+        "name": "Relationship Name",
+        "field": null,
+        "classes": "left",
+        "templates": null,
+        "hasAttach": null,
+        "isRichText": false
+      },
+      {
+        "name": "External Relationship Id",
+        "field": null,
+        "classes": "left",
+        "templates": null,
+        "hasAttach": null,
+        "isRichText": false
+      },
+      {
+        "name": "Last updated ",
+        "field": null,
+        "classes": "left",
+        "templates": null,
+        "hasAttach": null,
+        "isRichText": false
+      }
+    ],
+    "rows": [
+      {
+        "cells": [
+          {
+            "classes": "left",
+            "text": "Lakeview Stays Client - 2 Imported",
+            "link": "../flash/counterparty/9c0dd033-9c6f-45e1-ca8a-08db39604d96/details",
+            "numberFormat": 2,
+            "type": 0
+          },
+          {
+            "classes": "left",
+            "text": "AC41",
+            "numberFormat": 2,
+            "type": 0
+          },
+          {
+            "classes": "left",
+            "text": "04/10/2023 01:11:06",
+            "numberFormat": 2,
+            "type": 4
+          }
+        ],
+        "complexCells": [],
+        "childRows": [],
+        "isExpanded": false
+      }
+    ],
+    "allowExpandAllRows": false,
+    "isCompact": false,
+    "isPaged": true,
+    "allowPageSizeSelection": true,
+    "totalRows": 1,
+    "pageSize": 15,
+    "page": 1,
+    "endPoint": "api/globalsearch/page/result?entityType=Counterparty&query=Lakeview Stays Client - 2 Imported"
+  },
+  "entityTypes": [
+    {
+      "id": 0,
+      "code": "Customer",
+      "name": "Relationship",
+      "props": {}
+    },
+    {
+      "id": 0,
+      "code": "Counterparty",
+      "name": "Client",
+      "props": {}
+    },
+    {
+      "id": 0,
+      "code": "Deal",
+      "name": "Deal",
+      "props": {}
+    },
+    {
+      "id": 0,
+      "code": "Product",
+      "name": "Product",
+      "props": {}
+    }
+  ],
+  "items": [
+    {
+      "entityType": "Counterparty",
+      "id": "9c0dd033-9c6f-45e1-ca8a-08db39604d96",
+      "richName": {
+        "id": 0,
+        "key": 4,
+        "code": "9c0dd033-9c6f-45e1-ca8a-08db39604d96",
+        "name": "Lakeview Stays Client - 2 Imported",
+        "props": {
+          "linkUrl": "../flash/counterparty/9c0dd033-9c6f-45e1-ca8a-08db39604d96/details"
+        }
+      },
+      "name": "Lakeview Stays Client - 2 Imported",
+      "modifiedOn": "2023-04-10T01:11:06.8554977Z"
+    }
+  ],
+  "searchFieldDict": {
+    "product": [],
+    "counterparty": [],
+    "deal": [],
+    "customer": []
+  },
+  "total": 1
+}

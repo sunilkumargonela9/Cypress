@@ -1,0 +1,63 @@
+{
+    "fieldsData": {
+        "dealname": {
+            "fieldName": " Deal Name ",
+            "defaultValue": "",
+            "isDisabled": "N",
+            "isRequired": "Y"
+        },
+        "dealouterDealId": {
+            "fieldName": " External Deal ID ",
+            "defaultValue": "",
+            "isDisabled": "N",
+            "isRequired": "N"
+        },
+        "dealdealUid": {
+            "fieldName": " Deal Id ",
+            "defaultValue": "",
+            "isDisabled": "Y",
+            "isRequired": "N"
+        },
+        "dealownedBy": {
+            "fieldName": " Deal Owner ",
+            "defaultValue": "Adam Scott",
+            "isRequired": "Y",
+            "isDisabled": "N"
+        },
+        "dealsegment": {
+            "fieldName": " Pricing Model ",
+            "defaultValue": " - Select - ",
+            "isDisabled": "N",
+            "isRequired": "Y",
+            "options": [
+                " - Select - ",
+                "Agribusiness",
+                "Commercial",
+                "PI",
+                "Development Finance"
+            ],
+            "lenght": 5
+        },
+        "dealisSecure": {
+            "fieldName":" Is Confidential ",
+            "isRequired":"Y"
+        },
+        "dealcapitalClassCode": {
+            "fieldName": " Client Category ",
+            "defaultValue": " - Select - ",
+            "isDisabled": "N",
+            "isRequired": "Y",
+            "options": [
+                " - Select - ",
+                "Sub $1m",
+                "$1-3m Broker",
+                "$1-3m Direct",
+                "$3-5m",
+                "$5-10m",
+                "$10-20m",
+                "$20m +"
+            ],
+            "lenght": 8
+        }
+    }
+}

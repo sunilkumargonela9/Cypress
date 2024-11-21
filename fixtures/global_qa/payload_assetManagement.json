@@ -1,0 +1,27 @@
+{
+  "dealCode": 1681096848,
+  "name": "DealCheck_AssetManagement1681096848",
+  "bookingLocationCode": "AUS",
+  "customerName": "Auto Nation Imported",
+  "customerCode": "RCANZ16",
+  "scenarios": [
+    {
+      "name": "Scenario 1",
+      "isPrimary": true,
+      "products": [
+        {
+          "name": "Asset Management",
+          "variantCode": "asset-mgmt",
+          "riCategoryCode": "asset-mgmt",
+          "term": 36,
+          "startDate": "2024-04-07",
+          "averageBalance": 1000000,
+          "currencyCode": "AUD",
+          "roe": 0.0871,
+          "creditRWA": 500000,
+          "marginAmount": 15000
+        }
+      ]
+    }
+  ]
+}

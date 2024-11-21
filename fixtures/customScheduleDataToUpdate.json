@@ -1,0 +1,11 @@
+{
+    "Limit": "850000",
+    "UtilizationRate": "75%",
+    "CreditRating": "D2",
+    "LGD": "E",
+    "MarginOverRefRate": 0.02,
+    "CapitalModel": "AIRB",
+    "AnnualTurnOver": "-",
+    "LiquidityFee": "10 bps",
+    "CommitmentFee": "15 bps"
+}

@@ -1,0 +1,970 @@
+{
+  "body": {
+    "table": {
+      "isWidget": false,
+      "title": "Products",
+      "colHeaders": [],
+      "labels": {},
+      "isVertical": false,
+      "cols": [
+        {
+          "name": "Product Name",
+          "field": null,
+          "classes": "left",
+          "templates": null,
+          "hasAttach": null,
+          "isRichText": false
+        },
+        {
+          "name": "Outer Product Id",
+          "field": null,
+          "classes": "left",
+          "templates": null,
+          "hasAttach": null,
+          "isRichText": false
+        },
+        {
+          "name": "Product Variant",
+          "field": null,
+          "classes": "left",
+          "templates": null,
+          "hasAttach": null,
+          "isRichText": false
+        },
+        {
+          "name": "Product Id",
+          "field": null,
+          "classes": "left",
+          "templates": null,
+          "hasAttach": null,
+          "isRichText": false
+        },
+        {
+          "name": "Last updated ",
+          "field": null,
+          "classes": "left",
+          "templates": null,
+          "hasAttach": null,
+          "isRichText": false
+        }
+      ],
+      "rows": [
+        {
+          "cells": [
+            {
+              "classes": "left",
+              "text": "Term Loan",
+              "link": "../flash/deal/510efbea-02e0-4c9f-851e-08db0d45fe60",
+              "numberFormat": 2,
+              "type": 0,
+              "queryParams": {
+                "s": 0,
+                "p": 0
+              }
+            },
+            {
+              "classes": "left",
+              "text": "",
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": "Term Loan",
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": 5000002498,
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": "02/14/2023 03:30:13",
+              "numberFormat": 2,
+              "type": 4
+            }
+          ],
+          "complexCells": [],
+          "childRows": [],
+          "isExpanded": false
+        },
+        {
+          "cells": [
+            {
+              "classes": "left",
+              "text": "Term Loan",
+              "link": "../flash/deal/700b522a-1ce9-46e6-851d-08db0d45fe60",
+              "numberFormat": 2,
+              "type": 0,
+              "queryParams": {
+                "s": 0,
+                "p": 0
+              }
+            },
+            {
+              "classes": "left",
+              "text": "",
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": "Term Loan",
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": 5000002497,
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": "02/14/2023 03:27:52",
+              "numberFormat": 2,
+              "type": 4
+            }
+          ],
+          "complexCells": [],
+          "childRows": [],
+          "isExpanded": false
+        },
+        {
+          "cells": [
+            {
+              "classes": "left",
+              "text": "Term Loan",
+              "link": "../flash/deal/d0d6ae27-03a6-466b-dede-08db0d481374",
+              "numberFormat": 2,
+              "type": 0,
+              "queryParams": {
+                "s": 0,
+                "p": 0
+              }
+            },
+            {
+              "classes": "left",
+              "text": "",
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": "Term Loan",
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": 5000002496,
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": "02/14/2023 03:24:00",
+              "numberFormat": 2,
+              "type": 4
+            }
+          ],
+          "complexCells": [],
+          "childRows": [],
+          "isExpanded": false
+        },
+        {
+          "cells": [
+            {
+              "classes": "left",
+              "text": "Term Loan",
+              "link": "../flash/deal/c623dd54-46d8-4225-851c-08db0d45fe60",
+              "numberFormat": 2,
+              "type": 0,
+              "queryParams": {
+                "s": 0,
+                "p": 0
+              }
+            },
+            {
+              "classes": "left",
+              "text": "",
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": "Term Loan",
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": 5000002495,
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": "02/14/2023 03:21:36",
+              "numberFormat": 2,
+              "type": 4
+            }
+          ],
+          "complexCells": [],
+          "childRows": [],
+          "isExpanded": false
+        },
+        {
+          "cells": [
+            {
+              "classes": "left",
+              "text": "Term Loan",
+              "link": "../flash/deal/7effc9e7-8a85-47bf-851b-08db0d45fe60",
+              "numberFormat": 2,
+              "type": 0,
+              "queryParams": {
+                "s": 0,
+                "p": 0
+              }
+            },
+            {
+              "classes": "left",
+              "text": "",
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": "Term Loan",
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": 5000002494,
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": "02/14/2023 03:19:12",
+              "numberFormat": 2,
+              "type": 4
+            }
+          ],
+          "complexCells": [],
+          "childRows": [],
+          "isExpanded": false
+        },
+        {
+          "cells": [
+            {
+              "classes": "left",
+              "text": "Term Loan",
+              "link": "../flash/deal/fdd72d9e-0bc3-4c81-dedd-08db0d481374",
+              "numberFormat": 2,
+              "type": 0,
+              "queryParams": {
+                "s": 0,
+                "p": 0
+              }
+            },
+            {
+              "classes": "left",
+              "text": "",
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": "Term Loan",
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": 5000002493,
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": "02/14/2023 03:15:17",
+              "numberFormat": 2,
+              "type": 4
+            }
+          ],
+          "complexCells": [],
+          "childRows": [],
+          "isExpanded": false
+        },
+        {
+          "cells": [
+            {
+              "classes": "left",
+              "text": "Term Loan",
+              "link": "../flash/deal/ccc95d55-f14c-4938-851a-08db0d45fe60",
+              "numberFormat": 2,
+              "type": 0,
+              "queryParams": {
+                "s": 0,
+                "p": 0
+              }
+            },
+            {
+              "classes": "left",
+              "text": "",
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": "Term Loan",
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": 5000002492,
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": "02/14/2023 03:13:01",
+              "numberFormat": 2,
+              "type": 4
+            }
+          ],
+          "complexCells": [],
+          "childRows": [],
+          "isExpanded": false
+        },
+        {
+          "cells": [
+            {
+              "classes": "left",
+              "text": "Term Loan",
+              "link": "../flash/deal/84d0b657-a3e4-4fda-dedc-08db0d481374",
+              "numberFormat": 2,
+              "type": 0,
+              "queryParams": {
+                "s": 0,
+                "p": 0
+              }
+            },
+            {
+              "classes": "left",
+              "text": "",
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": "Term Loan",
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": 5000002491,
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": "02/14/2023 02:51:34",
+              "numberFormat": 2,
+              "type": 4
+            }
+          ],
+          "complexCells": [],
+          "childRows": [],
+          "isExpanded": false
+        },
+        {
+          "cells": [
+            {
+              "classes": "left",
+              "text": "Term Loan",
+              "link": "../flash/deal/9e8b263d-de2d-4626-8519-08db0d45fe60",
+              "numberFormat": 2,
+              "type": 0,
+              "queryParams": {
+                "s": 0,
+                "p": 0
+              }
+            },
+            {
+              "classes": "left",
+              "text": "",
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": "Term Loan",
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": 5000002490,
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": "02/14/2023 02:45:05",
+              "numberFormat": 2,
+              "type": 4
+            }
+          ],
+          "complexCells": [],
+          "childRows": [],
+          "isExpanded": false
+        },
+        {
+          "cells": [
+            {
+              "classes": "left",
+              "text": "Term Loan",
+              "link": "../flash/deal/70293d25-fc72-4385-8518-08db0d45fe60",
+              "numberFormat": 2,
+              "type": 0,
+              "queryParams": {
+                "s": 0,
+                "p": 0
+              }
+            },
+            {
+              "classes": "left",
+              "text": "",
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": "Term Loan",
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": 5000002489,
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": "02/14/2023 02:42:50",
+              "numberFormat": 2,
+              "type": 4
+            }
+          ],
+          "complexCells": [],
+          "childRows": [],
+          "isExpanded": false
+        },
+        {
+          "cells": [
+            {
+              "classes": "left",
+              "text": "Term Loan",
+              "link": "../flash/deal/f9b6713d-e3f3-474a-dedb-08db0d481374",
+              "numberFormat": 2,
+              "type": 0,
+              "queryParams": {
+                "s": 0,
+                "p": 0
+              }
+            },
+            {
+              "classes": "left",
+              "text": "",
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": "Term Loan",
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": 5000002488,
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": "02/14/2023 02:40:02",
+              "numberFormat": 2,
+              "type": 4
+            }
+          ],
+          "complexCells": [],
+          "childRows": [],
+          "isExpanded": false
+        },
+        {
+          "cells": [
+            {
+              "classes": "left",
+              "text": "Term Loan",
+              "link": "../flash/deal/e213f4c9-6d74-451d-8517-08db0d45fe60",
+              "numberFormat": 2,
+              "type": 0,
+              "queryParams": {
+                "s": 0,
+                "p": 0
+              }
+            },
+            {
+              "classes": "left",
+              "text": "",
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": "Term Loan",
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": 5000002487,
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": "02/14/2023 02:20:28",
+              "numberFormat": 2,
+              "type": 4
+            }
+          ],
+          "complexCells": [],
+          "childRows": [],
+          "isExpanded": false
+        },
+        {
+          "cells": [
+            {
+              "classes": "left",
+              "text": "Term Loan",
+              "link": "../flash/deal/b7cec006-7e17-4c31-deda-08db0d481374",
+              "numberFormat": 2,
+              "type": 0,
+              "queryParams": {
+                "s": 0,
+                "p": 0
+              }
+            },
+            {
+              "classes": "left",
+              "text": "",
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": "Term Loan",
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": 5000002486,
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": "02/14/2023 02:05:41",
+              "numberFormat": 2,
+              "type": 4
+            }
+          ],
+          "complexCells": [],
+          "childRows": [],
+          "isExpanded": false
+        },
+        {
+          "cells": [
+            {
+              "classes": "left",
+              "text": "Term Loan",
+              "link": "../flash/deal/3e6df4f9-ebce-4cca-ded9-08db0d481374",
+              "numberFormat": 2,
+              "type": 0,
+              "queryParams": {
+                "s": 0,
+                "p": 0
+              }
+            },
+            {
+              "classes": "left",
+              "text": "",
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": "Term Loan",
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": 5000002485,
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": "02/14/2023 01:52:16",
+              "numberFormat": 2,
+              "type": 4
+            }
+          ],
+          "complexCells": [],
+          "childRows": [],
+          "isExpanded": false
+        },
+        {
+          "cells": [
+            {
+              "classes": "left",
+              "text": "Term Loan",
+              "link": "../flash/deal/1e727412-6ea5-4d95-ded8-08db0d481374",
+              "numberFormat": 2,
+              "type": 0,
+              "queryParams": {
+                "s": 0,
+                "p": 0
+              }
+            },
+            {
+              "classes": "left",
+              "text": "",
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": "Term Loan",
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": 5000002484,
+              "numberFormat": 2,
+              "type": 0
+            },
+            {
+              "classes": "left",
+              "text": "02/14/2023 01:41:27",
+              "numberFormat": 2,
+              "type": 4
+            }
+          ],
+          "complexCells": [],
+          "childRows": [],
+          "isExpanded": false
+        }
+      ],
+      "allowExpandAllRows": false,
+      "isCompact": false,
+      "isPaged": true,
+      "allowPageSizeSelection": true,
+      "totalRows": 1094,
+      "pageSize": 15,
+      "page": 1,
+      "endPoint": "api/globalsearch/page/result?entityType=Product&query=Term Loan"
+    },
+    "entityTypes": [
+      {
+        "id": 0,
+        "code": "Customer",
+        "name": "Relationship",
+        "props": {}
+      },
+      {
+        "id": 0,
+        "code": "Counterparty",
+        "name": "Client",
+        "props": {}
+      },
+      {
+        "id": 0,
+        "code": "Deal",
+        "name": "Deal",
+        "props": {}
+      },
+      {
+        "id": 0,
+        "code": "Product",
+        "name": "Product",
+        "props": {}
+      }
+    ],
+    "items": [
+      {
+        "entityType": "Product",
+        "id": "a8e29f4d-b9b0-4e83-1c33-08db0d45feb7",
+        "richName": {
+          "id": 0,
+          "key": 1,
+          "code": "a8e29f4d-b9b0-4e83-1c33-08db0d45feb7",
+          "name": "Term Loan",
+          "props": {
+            "linkUrl": "../flash/deal/510efbea-02e0-4c9f-851e-08db0d45fe60",
+            "queryParams": {
+              "s": 0,
+              "p": 0
+            }
+          }
+        },
+        "name": "Term Loan",
+        "modifiedOn": "2023-02-14T03:30:13.6297395Z"
+      },
+      {
+        "entityType": "Product",
+        "id": "ae21756c-032d-4c7d-1c32-08db0d45feb7",
+        "richName": {
+          "id": 0,
+          "key": 1,
+          "code": "ae21756c-032d-4c7d-1c32-08db0d45feb7",
+          "name": "Term Loan",
+          "props": {
+            "linkUrl": "../flash/deal/700b522a-1ce9-46e6-851d-08db0d45fe60",
+            "queryParams": {
+              "s": 0,
+              "p": 0
+            }
+          }
+        },
+        "name": "Term Loan",
+        "modifiedOn": "2023-02-14T03:27:52.6440646Z"
+      },
+      {
+        "entityType": "Product",
+        "id": "93b67aa0-0694-440f-27e3-08db0d4813d1",
+        "richName": {
+          "id": 0,
+          "key": 1,
+          "code": "93b67aa0-0694-440f-27e3-08db0d4813d1",
+          "name": "Term Loan",
+          "props": {
+            "linkUrl": "../flash/deal/d0d6ae27-03a6-466b-dede-08db0d481374",
+            "queryParams": {
+              "s": 0,
+              "p": 0
+            }
+          }
+        },
+        "name": "Term Loan",
+        "modifiedOn": "2023-02-14T03:24:00.4060086Z"
+      },
+      {
+        "entityType": "Product",
+        "id": "a5428cc0-6b39-42b1-1c31-08db0d45feb7",
+        "richName": {
+          "id": 0,
+          "key": 1,
+          "code": "a5428cc0-6b39-42b1-1c31-08db0d45feb7",
+          "name": "Term Loan",
+          "props": {
+            "linkUrl": "../flash/deal/c623dd54-46d8-4225-851c-08db0d45fe60",
+            "queryParams": {
+              "s": 0,
+              "p": 0
+            }
+          }
+        },
+        "name": "Term Loan",
+        "modifiedOn": "2023-02-14T03:21:36.4697533Z"
+      },
+      {
+        "entityType": "Product",
+        "id": "b61d129e-d345-4b0a-1c30-08db0d45feb7",
+        "richName": {
+          "id": 0,
+          "key": 1,
+          "code": "b61d129e-d345-4b0a-1c30-08db0d45feb7",
+          "name": "Term Loan",
+          "props": {
+            "linkUrl": "../flash/deal/7effc9e7-8a85-47bf-851b-08db0d45fe60",
+            "queryParams": {
+              "s": 0,
+              "p": 0
+            }
+          }
+        },
+        "name": "Term Loan",
+        "modifiedOn": "2023-02-14T03:19:12.3703867Z"
+      },
+      {
+        "entityType": "Product",
+        "id": "5633e7a9-6e5f-4961-27e2-08db0d4813d1",
+        "richName": {
+          "id": 0,
+          "key": 1,
+          "code": "5633e7a9-6e5f-4961-27e2-08db0d4813d1",
+          "name": "Term Loan",
+          "props": {
+            "linkUrl": "../flash/deal/fdd72d9e-0bc3-4c81-dedd-08db0d481374",
+            "queryParams": {
+              "s": 0,
+              "p": 0
+            }
+          }
+        },
+        "name": "Term Loan",
+        "modifiedOn": "2023-02-14T03:15:17.5327289Z"
+      },
+      {
+        "entityType": "Product",
+        "id": "eca5d5d2-a9c5-4d07-1c2f-08db0d45feb7",
+        "richName": {
+          "id": 0,
+          "key": 1,
+          "code": "eca5d5d2-a9c5-4d07-1c2f-08db0d45feb7",
+          "name": "Term Loan",
+          "props": {
+            "linkUrl": "../flash/deal/ccc95d55-f14c-4938-851a-08db0d45fe60",
+            "queryParams": {
+              "s": 0,
+              "p": 0
+            }
+          }
+        },
+        "name": "Term Loan",
+        "modifiedOn": "2023-02-14T03:13:01.726809Z"
+      },
+      {
+        "entityType": "Product",
+        "id": "6974a7f7-b189-4cb2-27e1-08db0d4813d1",
+        "richName": {
+          "id": 0,
+          "key": 1,
+          "code": "6974a7f7-b189-4cb2-27e1-08db0d4813d1",
+          "name": "Term Loan",
+          "props": {
+            "linkUrl": "../flash/deal/84d0b657-a3e4-4fda-dedc-08db0d481374",
+            "queryParams": {
+              "s": 0,
+              "p": 0
+            }
+          }
+        },
+        "name": "Term Loan",
+        "modifiedOn": "2023-02-14T02:51:34.5844317Z"
+      },
+      {
+        "entityType": "Product",
+        "id": "1d010a43-8217-4bab-1c2e-08db0d45feb7",
+        "richName": {
+          "id": 0,
+          "key": 1,
+          "code": "1d010a43-8217-4bab-1c2e-08db0d45feb7",
+          "name": "Term Loan",
+          "props": {
+            "linkUrl": "../flash/deal/9e8b263d-de2d-4626-8519-08db0d45fe60",
+            "queryParams": {
+              "s": 0,
+              "p": 0
+            }
+          }
+        },
+        "name": "Term Loan",
+        "modifiedOn": "2023-02-14T02:45:05.0595225Z"
+      },
+      {
+        "entityType": "Product",
+        "id": "42870709-aad2-4597-1c2d-08db0d45feb7",
+        "richName": {
+          "id": 0,
+          "key": 1,
+          "code": "42870709-aad2-4597-1c2d-08db0d45feb7",
+          "name": "Term Loan",
+          "props": {
+            "linkUrl": "../flash/deal/70293d25-fc72-4385-8518-08db0d45fe60",
+            "queryParams": {
+              "s": 0,
+              "p": 0
+            }
+          }
+        },
+        "name": "Term Loan",
+        "modifiedOn": "2023-02-14T02:42:50.4837797Z"
+      }
+    ],
+    "searchFieldDict": {
+      "product": [],
+      "counterparty": [],
+      "deal": [],
+      "customer": []
+    },
+    "total": 1094
+  },
+  "headers": {
+    "date": "Tue, 14 Feb 2023 04:51:43 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "strict-transport-security": "max-age=2592000",
+    "cf-cache-status": "DYNAMIC",
+    "server": "cloudflare",
+    "cf-ray": "799330b4be255539-SYD",
+    "content-encoding": "gzip"
+  },
+  "status": 200,
+  "statusText": "OK",
+  "isOkStatusCode": true,
+  "requestHeaders": {
+    "Connection": "keep-alive",
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6IkpXVCJ9.eyJqdGkiOiIzZjliMmQxMi01N2VhLTQyYjYtOWNkZC04NzdmOWFjMzkwNDIiLCJzdWIiOiJzY290dCIsImQudWlkIjoiODA0OGFlNWUtYTU0Yi00NjBlLWI0ZTgtMGNjMzA5N2IxNGY5IiwiZC51ZGlzcCI6IkFkYW0gU2NvdHQiLCJkLnVyaWQiOiI2OTI2MzViYy05YzE4LTQyOWQtODUwYi1hMjczOTZlNmRkZDUiLCJkLnVsb2NhbGUiOiJlbiIsImQudXJkaXNwIjoiUk0iLCJkLnVjdWx0dXJlIjoiZW4tVVMiLCJkLnVjdXJyZW5jeSI6IkFVRCIsImQuc3NvIjoiRmFsc2UiLCJkLnVtb2RlIjoiZmxhc2giLCJkLnR6IjoiQXVzdHJhbGlhL1N5ZG5leSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IjY5MjYzNWJjLTljMTgtNDI5ZC04NTBiLWEyNzM5NmU2ZGRkNSIsImQuYmMiOlsiQVVTIiwiQ09OIiwiRElSIiwiRklOIiwiTU9SIl0sImQucGVybSI6WyJhcHAuYmFzaWMiLCJhcHAuY3VzdG9tZXIuc2F2ZSIsImFwcC5kZWFsLnNhdmUiLCJhcHAuZW50aXR5LmNhbGMiLCJhcHAuYXdmLnN1Ym1pdCIsImFwcC5hd2YuYXNzaWdubWVudHMiLCJhcHAuYXdmLmF1ZGl0IiwiYXBwLmVzZ0F3Zi5zdWJtaXQiLCJhcHAuZXNnQXdmLmFzc2lnbm1lbnRzIiwiYXBwLmVzZ0F3Zi5hdWRpdCIsImFwcC5kZWFsLmRlbGV0ZSIsImFwcC5kZWFsLnByb21pc2Uuc2F2ZSIsImFwcC5jdXN0b21lci5kZWxldGUiLCJhcHAuY3VzdG9tZXIucmVsYXRpb25zaGlwaW5jb21lIiwiYXBwLmRlYWwucmVsYXRpb25zaGlwaW5jb21lIiwiYXBwLmRlYWwucmVwb3J0cyIsImFwcC5ybS5wb3J0Zm9saW8uZGFzaGJvYXJkIiwiYXBwLmVzZy5hY2Nlc3MiXSwiZXhwIjoxNjc2MzUzOTAxLCJpc3MiOiJodHRwczovL3d3dy5kcHhwcmljaW5nLmNvbSIsImF1ZCI6Imh0dHBzOi8vd3d3LmRweHByaWNpbmcuY29tIn0.TNxTA-VmCyLt0sEKLqRSWyexQFDdnwYmqZV8aVtarKw",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36",
+    "accept": "*/*",
+    "cookie": "ARRAffinitySameSite=be3f15d90e801aef1017c32795ba27dd32008857e9306f07ff45e6fb024014a9; ARRAffinity=be3f15d90e801aef1017c32795ba27dd32008857e9306f07ff45e6fb024014a9",
+    "accept-encoding": "gzip, deflate"
+  },
+  "duration": 143,
+  "allRequestResponses": [
+    {
+      "Request Body": null,
+      "Request Headers": {
+        "Connection": "keep-alive",
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6IkpXVCJ9.eyJqdGkiOiIzZjliMmQxMi01N2VhLTQyYjYtOWNkZC04NzdmOWFjMzkwNDIiLCJzdWIiOiJzY290dCIsImQudWlkIjoiODA0OGFlNWUtYTU0Yi00NjBlLWI0ZTgtMGNjMzA5N2IxNGY5IiwiZC51ZGlzcCI6IkFkYW0gU2NvdHQiLCJkLnVyaWQiOiI2OTI2MzViYy05YzE4LTQyOWQtODUwYi1hMjczOTZlNmRkZDUiLCJkLnVsb2NhbGUiOiJlbiIsImQudXJkaXNwIjoiUk0iLCJkLnVjdWx0dXJlIjoiZW4tVVMiLCJkLnVjdXJyZW5jeSI6IkFVRCIsImQuc3NvIjoiRmFsc2UiLCJkLnVtb2RlIjoiZmxhc2giLCJkLnR6IjoiQXVzdHJhbGlhL1N5ZG5leSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IjY5MjYzNWJjLTljMTgtNDI5ZC04NTBiLWEyNzM5NmU2ZGRkNSIsImQuYmMiOlsiQVVTIiwiQ09OIiwiRElSIiwiRklOIiwiTU9SIl0sImQucGVybSI6WyJhcHAuYmFzaWMiLCJhcHAuY3VzdG9tZXIuc2F2ZSIsImFwcC5kZWFsLnNhdmUiLCJhcHAuZW50aXR5LmNhbGMiLCJhcHAuYXdmLnN1Ym1pdCIsImFwcC5hd2YuYXNzaWdubWVudHMiLCJhcHAuYXdmLmF1ZGl0IiwiYXBwLmVzZ0F3Zi5zdWJtaXQiLCJhcHAuZXNnQXdmLmFzc2lnbm1lbnRzIiwiYXBwLmVzZ0F3Zi5hdWRpdCIsImFwcC5kZWFsLmRlbGV0ZSIsImFwcC5kZWFsLnByb21pc2Uuc2F2ZSIsImFwcC5jdXN0b21lci5kZWxldGUiLCJhcHAuY3VzdG9tZXIucmVsYXRpb25zaGlwaW5jb21lIiwiYXBwLmRlYWwucmVsYXRpb25zaGlwaW5jb21lIiwiYXBwLmRlYWwucmVwb3J0cyIsImFwcC5ybS5wb3J0Zm9saW8uZGFzaGJvYXJkIiwiYXBwLmVzZy5hY2Nlc3MiXSwiZXhwIjoxNjc2MzUzOTAxLCJpc3MiOiJodHRwczovL3d3dy5kcHhwcmljaW5nLmNvbSIsImF1ZCI6Imh0dHBzOi8vd3d3LmRweHByaWNpbmcuY29tIn0.TNxTA-VmCyLt0sEKLqRSWyexQFDdnwYmqZV8aVtarKw",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36",
+        "accept": "*/*",
+        "cookie": "ARRAffinitySameSite=be3f15d90e801aef1017c32795ba27dd32008857e9306f07ff45e6fb024014a9; ARRAffinity=be3f15d90e801aef1017c32795ba27dd32008857e9306f07ff45e6fb024014a9",
+        "accept-encoding": "gzip, deflate"
+      },
+      "Request URL": "https://globalqa.dpxpricing.com/api/globalsearch?query=Term%20Loan&entityType=Product",
+      "Response Body": "{\"table\":{\"isWidget\":false,\"title\":\"Products\",\"colHeaders\":[],\"labels\":{},\"isVertical\":false,\"cols\":[{\"name\":\"Product Name\",\"field\":null,\"classes\":\"left\",\"templates\":null,\"hasAttach\":null,\"isRichText\":false},{\"name\":\"Outer Product Id\",\"field\":null,\"classes\":\"left\",\"templates\":null,\"hasAttach\":null,\"isRichText\":false},{\"name\":\"Product Variant\",\"field\":null,\"classes\":\"left\",\"templates\":null,\"hasAttach\":null,\"isRichText\":false},{\"name\":\"Product Id\",\"field\":null,\"classes\":\"left\",\"templates\":null,\"hasAttach\":null,\"isRichText\":false},{\"name\":\"Last updated \",\"field\":null,\"classes\":\"left\",\"templates\":null,\"hasAttach\":null,\"isRichText\":false}],\"rows\":[{\"cells\":[{\"classes\":\"left\",\"text\":\"Term Loan\",\"link\":\"../flash/deal/510efbea-02e0-4c9f-851e-08db0d45fe60\",\"numberFormat\":2,\"type\":0,\"queryParams\":{\"s\":0,\"p\":0}},{\"classes\":\"left\",\"text\":\"\",\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":\"Term Loan\",\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":5000002498.0,\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":\"02/14/2023 03:30:13\",\"numberFormat\":2,\"type\":4}],\"complexCells\":[],\"childRows\":[],\"isExpanded\":false},{\"cells\":[{\"classes\":\"left\",\"text\":\"Term Loan\",\"link\":\"../flash/deal/700b522a-1ce9-46e6-851d-08db0d45fe60\",\"numberFormat\":2,\"type\":0,\"queryParams\":{\"s\":0,\"p\":0}},{\"classes\":\"left\",\"text\":\"\",\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":\"Term Loan\",\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":5000002497.0,\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":\"02/14/2023 03:27:52\",\"numberFormat\":2,\"type\":4}],\"complexCells\":[],\"childRows\":[],\"isExpanded\":false},{\"cells\":[{\"classes\":\"left\",\"text\":\"Term Loan\",\"link\":\"../flash/deal/d0d6ae27-03a6-466b-dede-08db0d481374\",\"numberFormat\":2,\"type\":0,\"queryParams\":{\"s\":0,\"p\":0}},{\"classes\":\"left\",\"text\":\"\",\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":\"Term Loan\",\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":5000002496.0,\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":\"02/14/2023 03:24:00\",\"numberFormat\":2,\"type\":4}],\"complexCells\":[],\"childRows\":[],\"isExpanded\":false},{\"cells\":[{\"classes\":\"left\",\"text\":\"Term Loan\",\"link\":\"../flash/deal/c623dd54-46d8-4225-851c-08db0d45fe60\",\"numberFormat\":2,\"type\":0,\"queryParams\":{\"s\":0,\"p\":0}},{\"classes\":\"left\",\"text\":\"\",\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":\"Term Loan\",\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":5000002495.0,\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":\"02/14/2023 03:21:36\",\"numberFormat\":2,\"type\":4}],\"complexCells\":[],\"childRows\":[],\"isExpanded\":false},{\"cells\":[{\"classes\":\"left\",\"text\":\"Term Loan\",\"link\":\"../flash/deal/7effc9e7-8a85-47bf-851b-08db0d45fe60\",\"numberFormat\":2,\"type\":0,\"queryParams\":{\"s\":0,\"p\":0}},{\"classes\":\"left\",\"text\":\"\",\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":\"Term Loan\",\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":5000002494.0,\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":\"02/14/2023 03:19:12\",\"numberFormat\":2,\"type\":4}],\"complexCells\":[],\"childRows\":[],\"isExpanded\":false},{\"cells\":[{\"classes\":\"left\",\"text\":\"Term Loan\",\"link\":\"../flash/deal/fdd72d9e-0bc3-4c81-dedd-08db0d481374\",\"numberFormat\":2,\"type\":0,\"queryParams\":{\"s\":0,\"p\":0}},{\"classes\":\"left\",\"text\":\"\",\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":\"Term Loan\",\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":5000002493.0,\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":\"02/14/2023 03:15:17\",\"numberFormat\":2,\"type\":4}],\"complexCells\":[],\"childRows\":[],\"isExpanded\":false},{\"cells\":[{\"classes\":\"left\",\"text\":\"Term Loan\",\"link\":\"../flash/deal/ccc95d55-f14c-4938-851a-08db0d45fe60\",\"numberFormat\":2,\"type\":0,\"queryParams\":{\"s\":0,\"p\":0}},{\"classes\":\"left\",\"text\":\"\",\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":\"Term Loan\",\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":5000002492.0,\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":\"02/14/2023 03:13:01\",\"numberFormat\":2,\"type\":4}],\"complexCells\":[],\"childRows\":[],\"isExpanded\":false},{\"cells\":[{\"classes\":\"left\",\"text\":\"Term Loan\",\"link\":\"../flash/deal/84d0b657-a3e4-4fda-dedc-08db0d481374\",\"numberFormat\":2,\"type\":0,\"queryParams\":{\"s\":0,\"p\":0}},{\"classes\":\"left\",\"text\":\"\",\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":\"Term Loan\",\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":5000002491.0,\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":\"02/14/2023 02:51:34\",\"numberFormat\":2,\"type\":4}],\"complexCells\":[],\"childRows\":[],\"isExpanded\":false},{\"cells\":[{\"classes\":\"left\",\"text\":\"Term Loan\",\"link\":\"../flash/deal/9e8b263d-de2d-4626-8519-08db0d45fe60\",\"numberFormat\":2,\"type\":0,\"queryParams\":{\"s\":0,\"p\":0}},{\"classes\":\"left\",\"text\":\"\",\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":\"Term Loan\",\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":5000002490.0,\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":\"02/14/2023 02:45:05\",\"numberFormat\":2,\"type\":4}],\"complexCells\":[],\"childRows\":[],\"isExpanded\":false},{\"cells\":[{\"classes\":\"left\",\"text\":\"Term Loan\",\"link\":\"../flash/deal/70293d25-fc72-4385-8518-08db0d45fe60\",\"numberFormat\":2,\"type\":0,\"queryParams\":{\"s\":0,\"p\":0}},{\"classes\":\"left\",\"text\":\"\",\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":\"Term Loan\",\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":5000002489.0,\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":\"02/14/2023 02:42:50\",\"numberFormat\":2,\"type\":4}],\"complexCells\":[],\"childRows\":[],\"isExpanded\":false},{\"cells\":[{\"classes\":\"left\",\"text\":\"Term Loan\",\"link\":\"../flash/deal/f9b6713d-e3f3-474a-dedb-08db0d481374\",\"numberFormat\":2,\"type\":0,\"queryParams\":{\"s\":0,\"p\":0}},{\"classes\":\"left\",\"text\":\"\",\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":\"Term Loan\",\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":5000002488.0,\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":\"02/14/2023 02:40:02\",\"numberFormat\":2,\"type\":4}],\"complexCells\":[],\"childRows\":[],\"isExpanded\":false},{\"cells\":[{\"classes\":\"left\",\"text\":\"Term Loan\",\"link\":\"../flash/deal/e213f4c9-6d74-451d-8517-08db0d45fe60\",\"numberFormat\":2,\"type\":0,\"queryParams\":{\"s\":0,\"p\":0}},{\"classes\":\"left\",\"text\":\"\",\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":\"Term Loan\",\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":5000002487.0,\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":\"02/14/2023 02:20:28\",\"numberFormat\":2,\"type\":4}],\"complexCells\":[],\"childRows\":[],\"isExpanded\":false},{\"cells\":[{\"classes\":\"left\",\"text\":\"Term Loan\",\"link\":\"../flash/deal/b7cec006-7e17-4c31-deda-08db0d481374\",\"numberFormat\":2,\"type\":0,\"queryParams\":{\"s\":0,\"p\":0}},{\"classes\":\"left\",\"text\":\"\",\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":\"Term Loan\",\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":5000002486.0,\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":\"02/14/2023 02:05:41\",\"numberFormat\":2,\"type\":4}],\"complexCells\":[],\"childRows\":[],\"isExpanded\":false},{\"cells\":[{\"classes\":\"left\",\"text\":\"Term Loan\",\"link\":\"../flash/deal/3e6df4f9-ebce-4cca-ded9-08db0d481374\",\"numberFormat\":2,\"type\":0,\"queryParams\":{\"s\":0,\"p\":0}},{\"classes\":\"left\",\"text\":\"\",\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":\"Term Loan\",\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":5000002485.0,\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":\"02/14/2023 01:52:16\",\"numberFormat\":2,\"type\":4}],\"complexCells\":[],\"childRows\":[],\"isExpanded\":false},{\"cells\":[{\"classes\":\"left\",\"text\":\"Term Loan\",\"link\":\"../flash/deal/1e727412-6ea5-4d95-ded8-08db0d481374\",\"numberFormat\":2,\"type\":0,\"queryParams\":{\"s\":0,\"p\":0}},{\"classes\":\"left\",\"text\":\"\",\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":\"Term Loan\",\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":5000002484.0,\"numberFormat\":2,\"type\":0},{\"classes\":\"left\",\"text\":\"02/14/2023 01:41:27\",\"numberFormat\":2,\"type\":4}],\"complexCells\":[],\"childRows\":[],\"isExpanded\":false}],\"allowExpandAllRows\":false,\"isCompact\":false,\"isPaged\":true,\"allowPageSizeSelection\":true,\"totalRows\":1094,\"pageSize\":15,\"page\":1,\"endPoint\":\"api/globalsearch/page/result?entityType=Product&query=Term Loan\"},\"entityTypes\":[{\"id\":0,\"code\":\"Customer\",\"name\":\"Relationship\",\"props\":{}},{\"id\":0,\"code\":\"Counterparty\",\"name\":\"Client\",\"props\":{}},{\"id\":0,\"code\":\"Deal\",\"name\":\"Deal\",\"props\":{}},{\"id\":0,\"code\":\"Product\",\"name\":\"Product\",\"props\":{}}],\"items\":[{\"entityType\":\"Product\",\"id\":\"a8e29f4d-b9b0-4e83-1c33-08db0d45feb7\",\"richName\":{\"id\":0,\"key\":1,\"code\":\"a8e29f4d-b9b0-4e83-1c33-08db0d45feb7\",\"name\":\"Term Loan\",\"props\":{\"linkUrl\":\"../flash/deal/510efbea-02e0-4c9f-851e-08db0d45fe60\",\"queryParams\":{\"s\":0,\"p\":0}}},\"name\":\"Term Loan\",\"modifiedOn\":\"2023-02-14T03:30:13.6297395Z\"},{\"entityType\":\"Product\",\"id\":\"ae21756c-032d-4c7d-1c32-08db0d45feb7\",\"richName\":{\"id\":0,\"key\":1,\"code\":\"ae21756c-032d-4c7d-1c32-08db0d45feb7\",\"name\":\"Term Loan\",\"props\":{\"linkUrl\":\"../flash/deal/700b522a-1ce9-46e6-851d-08db0d45fe60\",\"queryParams\":{\"s\":0,\"p\":0}}},\"name\":\"Term Loan\",\"modifiedOn\":\"2023-02-14T03:27:52.6440646Z\"},{\"entityType\":\"Product\",\"id\":\"93b67aa0-0694-440f-27e3-08db0d4813d1\",\"richName\":{\"id\":0,\"key\":1,\"code\":\"93b67aa0-0694-440f-27e3-08db0d4813d1\",\"name\":\"Term Loan\",\"props\":{\"linkUrl\":\"../flash/deal/d0d6ae27-03a6-466b-dede-08db0d481374\",\"queryParams\":{\"s\":0,\"p\":0}}},\"name\":\"Term Loan\",\"modifiedOn\":\"2023-02-14T03:24:00.4060086Z\"},{\"entityType\":\"Product\",\"id\":\"a5428cc0-6b39-42b1-1c31-08db0d45feb7\",\"richName\":{\"id\":0,\"key\":1,\"code\":\"a5428cc0-6b39-42b1-1c31-08db0d45feb7\",\"name\":\"Term Loan\",\"props\":{\"linkUrl\":\"../flash/deal/c623dd54-46d8-4225-851c-08db0d45fe60\",\"queryParams\":{\"s\":0,\"p\":0}}},\"name\":\"Term Loan\",\"modifiedOn\":\"2023-02-14T03:21:36.4697533Z\"},{\"entityType\":\"Product\",\"id\":\"b61d129e-d345-4b0a-1c30-08db0d45feb7\",\"richName\":{\"id\":0,\"key\":1,\"code\":\"b61d129e-d345-4b0a-1c30-08db0d45feb7\",\"name\":\"Term Loan\",\"props\":{\"linkUrl\":\"../flash/deal/7effc9e7-8a85-47bf-851b-08db0d45fe60\",\"queryParams\":{\"s\":0,\"p\":0}}},\"name\":\"Term Loan\",\"modifiedOn\":\"2023-02-14T03:19:12.3703867Z\"},{\"entityType\":\"Product\",\"id\":\"5633e7a9-6e5f-4961-27e2-08db0d4813d1\",\"richName\":{\"id\":0,\"key\":1,\"code\":\"5633e7a9-6e5f-4961-27e2-08db0d4813d1\",\"name\":\"Term Loan\",\"props\":{\"linkUrl\":\"../flash/deal/fdd72d9e-0bc3-4c81-dedd-08db0d481374\",\"queryParams\":{\"s\":0,\"p\":0}}},\"name\":\"Term Loan\",\"modifiedOn\":\"2023-02-14T03:15:17.5327289Z\"},{\"entityType\":\"Product\",\"id\":\"eca5d5d2-a9c5-4d07-1c2f-08db0d45feb7\",\"richName\":{\"id\":0,\"key\":1,\"code\":\"eca5d5d2-a9c5-4d07-1c2f-08db0d45feb7\",\"name\":\"Term Loan\",\"props\":{\"linkUrl\":\"../flash/deal/ccc95d55-f14c-4938-851a-08db0d45fe60\",\"queryParams\":{\"s\":0,\"p\":0}}},\"name\":\"Term Loan\",\"modifiedOn\":\"2023-02-14T03:13:01.726809Z\"},{\"entityType\":\"Product\",\"id\":\"6974a7f7-b189-4cb2-27e1-08db0d4813d1\",\"richName\":{\"id\":0,\"key\":1,\"code\":\"6974a7f7-b189-4cb2-27e1-08db0d4813d1\",\"name\":\"Term Loan\",\"props\":{\"linkUrl\":\"../flash/deal/84d0b657-a3e4-4fda-dedc-08db0d481374\",\"queryParams\":{\"s\":0,\"p\":0}}},\"name\":\"Term Loan\",\"modifiedOn\":\"2023-02-14T02:51:34.5844317Z\"},{\"entityType\":\"Product\",\"id\":\"1d010a43-8217-4bab-1c2e-08db0d45feb7\",\"richName\":{\"id\":0,\"key\":1,\"code\":\"1d010a43-8217-4bab-1c2e-08db0d45feb7\",\"name\":\"Term Loan\",\"props\":{\"linkUrl\":\"../flash/deal/9e8b263d-de2d-4626-8519-08db0d45fe60\",\"queryParams\":{\"s\":0,\"p\":0}}},\"name\":\"Term Loan\",\"modifiedOn\":\"2023-02-14T02:45:05.0595225Z\"},{\"entityType\":\"Product\",\"id\":\"42870709-aad2-4597-1c2d-08db0d45feb7\",\"richName\":{\"id\":0,\"key\":1,\"code\":\"42870709-aad2-4597-1c2d-08db0d45feb7\",\"name\":\"Term Loan\",\"props\":{\"linkUrl\":\"../flash/deal/70293d25-fc72-4385-8518-08db0d45fe60\",\"queryParams\":{\"s\":0,\"p\":0}}},\"name\":\"Term Loan\",\"modifiedOn\":\"2023-02-14T02:42:50.4837797Z\"}],\"searchFieldDict\":{\"product\":[],\"counterparty\":[],\"deal\":[],\"customer\":[]},\"total\":1094}",
+      "Response Headers": {
+        "date": "Tue, 14 Feb 2023 04:51:43 GMT",
+        "content-type": "application/json; charset=utf-8",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "strict-transport-security": "max-age=2592000",
+        "cf-cache-status": "DYNAMIC",
+        "server": "cloudflare",
+        "cf-ray": "799330b4be255539-SYD",
+        "content-encoding": "gzip"
+      },
+      "Response Status": 200
+    }
+  ]
+}

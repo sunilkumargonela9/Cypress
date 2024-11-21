@@ -1,0 +1,19 @@
+{
+    "baseUrl": "https://sun-dev.dpxpricing.com",
+    "env": { 
+        "apiKey": "20920490-7743-4ad1-a287-a90dc0048093",
+        "username": "scott",
+        "adminUsername": "admin",
+        "password": "brilliance",
+        "testEnv": "suncorp",
+        "relationshipname": "Suncorp Automation Relationship", 
+        "clientcreditRatingCode": "1", 
+        "clientlgd": "A", 
+        "productsecurityType":"1: Residential_Metro",
+        "productlgd":"1: A",
+        "productlimit": "1000000", 
+        "productutilisationRate": "85",
+        "productrefRate": "1: bbsy",
+        "productresetFrequency": "1: 30days"
+    }
+}

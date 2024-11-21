@@ -1,0 +1,65 @@
+{
+    "baseUrl":"https://dev.dpxpricing.com",
+    "env": {
+		"username": "scott",
+		"password": "brilliance",
+		"fullName": "Adam Scott",
+		"homePage":"/customers/current",
+		"testEnv" : "globalqa",
+		"relationshipname": "Test Automation Relationship",
+		"relationshipindustryCategory": "3: coms",
+		"relationshipouterCustomerId": "test",
+		"relationshipindustryCode": "1: coms-7111",
+		"relationshipcreditRatingCode": "2: A2",
+		"relationshipbookingStateLocation": "2: AUS-NSW",
+		"relationshipcapitalClassCode": "1: Bank",
+		"relationshipdivision": "2: IB",
+		"relationshipbusinessSegment": "16: IB-BS16",
+		"relationshipprimaryContact": "test",
+		"relationshipbusinessUnit": "3: IB-BS16-BL3",
+		"relationshiprelationshipExposure": 10000,
+		"relationshipdescription": "Description",
+		"search_relationship": "Lakeview Stays",
+		"search_deal": "Lakeview Stays Deal - 1",
+		"search_client": "Lakeview Stays Client - 1",
+		"scenario_one": "Scenario 1",
+        "prdName": "Term Loan",
+		"crossSellPrdName": "Transaction Banking",
+		"productName": " Transaction Banking ",
+		"prdcategoryName": "Service",
+
+		"approverL1": "devin",
+		"approverL2": "Thomas",
+        
+		"awfTestDataDraft":"Lendlease Deal - 1",
+		"selfApproveDeal": "Lakeview Stays Deal - 1",
+		"emailapprovaldeal": "Altitude Cafe Facility Deal",
+
+		"productlimit": "1m",
+		"productutilisationRate": "50%",
+		"productrefRate": "1: rer",
+        "productlgd":"1: B",
+        "productmarginOverReferenceRate": "-",
+		"productindustryCategory": "Accommodation, Cafes and Restaurants",
+		"productindustryCode": "5710 Accommodation",
+		"productcreditRatingCode": "D1",
+
+        "modifycrediRatingCode":"8: C1",
+        "creditRatingCode":"12: D1",
+        "modifyrefRate": "1: vbr",
+        "refRate":"0: rer",
+        "modifylgd":"3: D", 
+
+		"addClientRel": "Cafe Sydney",
+		"addClientCountry": "Australia",
+		"addClientRelCreditRating": "2: A3",
+		"addClientRelOwner": "Adam Scott",
+
+		"pendingDealColumns": [" Deal Name ", " Deal Id ", " Relationship Name ", " Submitted On "," Pending ", " Submitted By "],
+		"actionHistoryColumns": ["User", "Action", "Date", "Comment"],
+		"perfTestDealId":"80e8d70d-739d-40e0-ffce-08d976881612"
+
+	}
+}
+
+ 

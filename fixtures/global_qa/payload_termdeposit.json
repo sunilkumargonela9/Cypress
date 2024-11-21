@@ -1,0 +1,25 @@
+{
+  "dealCode": 1681096913,
+  "name": "DealCheck_TermDeposit1681096913",
+  "bookingLocationCode": "AUS",
+  "customerName": "Auto Nation Imported",
+  "customerCode": "RCANZ16",
+  "scenarios": [
+    {
+      "name": "Scenario 1",
+      "isPrimary": true,
+      "products": [
+        {
+          "name": "Term Deposit",
+          "variantCode": "deposit-term",
+          "riCategoryCode": "deposit",
+          "term": 36,
+          "startDate": "2024-04-07",
+          "depositAnticipatedBalance": 10000000,
+          "marginRate": 0.8,
+          "currencyCode": "AUD"
+        }
+      ]
+    }
+  ]
+}

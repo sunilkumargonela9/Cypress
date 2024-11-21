@@ -1,0 +1,106 @@
+{
+	"products": {
+		"credit": {
+			"name": "Credit",
+			"categories": {
+				"commercialLending": {
+					"name": "Commercial Lending",
+					"row1": {
+						"name": "Commercial Line of Credit",
+						"description": "Line of credit Product "
+					},
+					"row2": {
+						"name": "Market Rate Loan",
+						"description": "Market Rate Loan Product"
+					},
+					"row3": {
+						"name": "Multi Loan Facility",
+						"description": "Multi Loan Facility"
+					},
+					"row4": {
+						"name": "Overdraft",
+						"description": "Overdraft Product"
+					},
+					"row5": {
+						"name": "Term Loan",
+						"description": "Term Loan Credit Product"
+					}
+				},
+				"assetFinance": {
+					"name": "Asset Finance",
+					"row1": {
+						"name": "Asset Finance",
+						"description": "Asset Finance"
+					}
+				},
+				"tradeSoultions": {
+					"name": "Trade Solutions",
+					"row1": {
+						"name": "Trade Solutions",
+						"description": "Trade Solutions"
+					}
+				}
+			}
+		},
+		"deposit": {
+			"name": "Deposit",
+			"categories": {
+				"deposit": {
+					"name": "Deposit",
+					"row1": {
+						"name": "At Call Account",
+						"description": "At Call Account"
+					},
+					"row2": {
+						"name": "At Call Facility",
+						"description": "At Call Facility"
+					},
+					"row3": {
+						"name": "Term Deposit",
+						"description": "Term Deposit"
+					}
+				}
+			}
+		},
+		"service": {
+			"name": "Service",
+			"categories": {
+				"wealthManagement": {
+					"name": "Wealth Management",
+					"row1": {
+						"name": "Wealth Management",
+						"description": "Wealth Management"
+					}
+				},
+				"transactionBanking": {
+					"name": "Transaction Banking",
+					"row1": {
+						"name": "Transaction Banking",
+						"description": "Transaction Banking"
+					}
+				},
+				"financialMarkets": {
+					"name": "Financial Markets",
+					"row1": {
+						"name": "Financial Markets",
+						"description": "Financial Markets"
+					}
+				},
+				"corporateFinance": {
+					"name": "Corporate Finance (Non-Lending)",
+					"row1": {
+						"name": "Corporate Finance (Non-Lending)",
+						"description": "Corporate Finance (Non-Lending)"
+					}
+				},
+				"assetManagement": {
+					"name": "Asset Management",
+					"row1": {
+						"name": "Asset Management",
+						"description": "Asset Management"
+					}
+				}
+			}
+		}
+	}
+}

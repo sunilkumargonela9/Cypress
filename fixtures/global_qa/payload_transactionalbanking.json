@@ -1,0 +1,27 @@
+{
+  "dealCode": 1681096941,
+  "name": "DealCheck_TermDeposit1681096941",
+  "bookingLocationCode": "AUS",
+  "customerName": "Auto Nation Imported",
+  "customerCode": "RCANZ16",
+  "scenarios": [
+    {
+      "name": "Scenario 1",
+      "isPrimary": true,
+      "products": [
+        {
+          "name": "Transaction Banking",
+          "variantCode": "txn-baking",
+          "riCategoryCode": "service",
+          "term": 36,
+          "startDate": "2024-04-07",
+          "averageBalance": 1000000,
+          "currencyCode": "AUD",
+          "roe": 0.1214,
+          "creditRWA": 500000,
+          "marginAmount": 15000
+        }
+      ]
+    }
+  ]
+}

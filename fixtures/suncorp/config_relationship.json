@@ -1,0 +1,24 @@
+{
+    "fieldsData": {
+        "relationshipname": {
+            "fieldName": " Relationship Name ",
+            "defaultValue":"",
+            "isDisabled": "N",
+            "isRequired": "Y",
+            "isVisible": "Y"
+        },
+        "relationshipownedBy": {
+            "fieldName": " Relationship Owner ",
+            "defaultValue": "Adam Scott",
+            "isRequired": "Y",
+            "isVisible":"Y"
+        },
+        "relationshipouterCustomerId": {
+            "fieldName": " External Relationship Id ",
+            "defaultValue":"",
+            "isDisabled": "N",
+            "isRequired": "N",
+            "isVisible": "Y"
+        }
+    }
+}

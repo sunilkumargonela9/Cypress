@@ -1,0 +1,156 @@
+{
+  "body": {
+    "entity": {
+      "levels": [
+        {
+          "order": 1,
+          "name": "",
+          "statusCode": "approved",
+          "statusName": "Approved",
+          "roles": [
+            {
+              "id": "1d35f0fb-10f6-40f6-b23f-c002ec41db01",
+              "name": "Business Admin - Checker",
+              "statusCode": "approved",
+              "statusName": "Approved",
+              "users": [
+                {
+                  "id": "73a69d5a-1044-47b2-b56b-565f60312435",
+                  "userName": "zhipeng",
+                  "fullName": "zhipeng"
+                },
+                {
+                  "id": "9063a9c5-fdd2-4885-80d6-3990feb2fae1",
+                  "userName": "adm-rae",
+                  "fullName": "adm-rae"
+                },
+                {
+                  "id": "fc3e7a69-59f6-414a-bce9-461e184a9b29",
+                  "userName": "Rae",
+                  "fullName": "Rae-Checker"
+                }
+              ]
+            },
+            {
+              "id": "3436ddef-1591-43d5-bd23-770716fc3edc",
+              "name": "Business Admin - Maker",
+              "statusCode": "approved",
+              "statusName": "Approved",
+              "users": [
+                {
+                  "id": "2cd24cd0-1b25-4cd5-b30e-1c373a88ed35",
+                  "userName": "adm-sushmaa",
+                  "fullName": "SushmaA Admin QA"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "responseCode": 0
+  },
+  "headers": {
+    "date": "Thu, 16 Mar 2023 03:00:02 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "strict-transport-security": "max-age=2592000",
+    "cf-cache-status": "DYNAMIC",
+    "server": "cloudflare",
+    "cf-ray": "7a89be573b5f6a72-SYD",
+    "content-encoding": "gzip"
+  },
+  "status": 200,
+  "statusText": "OK",
+  "isOkStatusCode": true,
+  "requestHeaders": {
+    "Connection": "keep-alive",
+    "Content-Type": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6IkpXVCJ9.eyJqdGkiOiIzZjliMmQxMi01N2VhLTQyYjYtOWNkZC04NzdmOWFjMzkwNDIiLCJzdWIiOiJzY290dCIsImQudWlkIjoiODA0OGFlNWUtYTU0Yi00NjBlLWI0ZTgtMGNjMzA5N2IxNGY5IiwiZC51ZGlzcCI6IkFkYW0gU2NvdHQiLCJkLnVyaWQiOiIzZmE3ZGVhOC1mNWQxLTQ2MDUtYWQ4MC1iNWZmNjc2NjM4NWUiLCJkLnVsb2NhbGUiOiJlbiIsImQudXJkaXNwIjoiQnVzaW5lc3MgVXNlciIsImQudWN1bHR1cmUiOiJlbi1VUyIsImQudWN1cnJlbmN5IjoiQVVEIiwiZC5zc28iOiJGYWxzZSIsImQudW1vZGUiOiJmbGFzaCIsImQudHoiOiJBdXN0cmFsaWEvU3lkbmV5IiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiM2ZhN2RlYTgtZjVkMS00NjA1LWFkODAtYjVmZjY3NjYzODVlIiwiZC5wZXJtIjpbImFwcC5hd2YuYXVkaXQiLCJhcHAuZGVhbC5yZWxhdGlvbnNoaXBpbmNvbWUiLCJhcHAuY3VzdG9tZXIucmVsYXRpb25zaGlwaW5jb21lIiwiYXBwLmN1c3RvbWVyLnNhdmUiLCJhcHAuZGVhbC5wcm9taXNlLnNhdmUiLCJhcHAuY3VzdG9tZXIuZGVsZXRlIiwiYXBwLmRlYWwucmVwb3J0cyIsImFwcC5kZWFsLmRlbGV0ZSIsImFwcC5hZG1pbi5jYWxjIiwiYXBwLmVudGl0eS5jYWxjIiwiYXBwLmRlYWwuYWNjZXNzIiwiYXBwLmVzZy5hY2Nlc3MiLCJhcHAuYmFzaWMiLCJhcHAuYXdmLnN1Ym1pdCIsImFwcC5kZWFsLnNhdmUiLCJhcHAuYXdmLmFzc2lnbm1lbnRzIiwiYXBwLmN1c3RvbWVycy5tZ3Jub25kZWFsc2hhcmUiXSwiZXhwIjoxNjc4OTM5MTk3LCJpc3MiOiJodHRwczovL3d3dy5kcHhwcmljaW5nLmNvbSIsImF1ZCI6Imh0dHBzOi8vd3d3LmRweHByaWNpbmcuY29tIn0.4VrxtuUOjz5ADJRIWHCIVwTQLqgOeWqxWZ1BgMu04ro",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/111.0.5563.65 Safari/537.36",
+    "accept": "application/json",
+    "accept-encoding": "gzip, deflate",
+    "content-length": 2261
+  },
+  "requestBody": "{\"entityId\":\"35c4f699-1ae0-4c35-24d8-08db1b8b27b9\",\"actionCode\":\"S\",\"statusReasonCode\":null,\"approvalLevelInfos\":[{\"levelId\":1,\"levelName\":\"Level 1\",\"approvalStatusEntry\":{\"code\":\"draft\",\"statusName\":\"Draft\",\"labelKeyName\":null,\"isEntityLocked\":false},\"approvalRoleUsersInfos\":[{\"approvalStatusEntry\":{\"code\":\"draft\",\"statusName\":\"Draft\",\"labelKeyName\":null,\"isEntityLocked\":false},\"roleSetEntry\":{\"id\":\"3436ddef-1591-43d5-bd23-770716fc3edc\",\"name\":\"Business Admin - Maker\",\"approvalPolicy\":1},\"userIds\":[\"2cd24cd0-1b25-4cd5-b30e-1c373a88ed35\"],\"availableUserEntries\":[{\"id\":\"2cd24cd0-1b25-4cd5-b30e-1c373a88ed35\",\"userName\":\"adm-sushmaa\",\"fullName\":\"SushmaA Admin QA\",\"email\":\"Sushma_a@bxfin.com\",\"inActive\":false,\"name\":\"adm-sushmaa (Sushma_a@bxfin.com)\",\"props\":null,\"outerProps\":null,\"outerUserId\":null,\"disabled\":false,\"roles\":null}],\"selctionOption\":2,\"preSelectUsers\":null,\"retainedUsers\":[],\"isPreviousApprovalRetained\":null},{\"approvalStatusEntry\":{\"code\":\"draft\",\"statusName\":\"Draft\",\"labelKeyName\":null,\"isEntityLocked\":false},\"roleSetEntry\":{\"id\":\"1d35f0fb-10f6-40f6-b23f-c002ec41db01\",\"name\":\"Business Admin - Checker\",\"approvalPolicy\":1},\"userIds\":[\"73a69d5a-1044-47b2-b56b-565f60312435\",\"9063a9c5-fdd2-4885-80d6-3990feb2fae1\",\"fc3e7a69-59f6-414a-bce9-461e184a9b29\"],\"availableUserEntries\":[{\"id\":\"73a69d5a-1044-47b2-b56b-565f60312435\",\"userName\":\"zhipeng\",\"fullName\":\"zhipeng\",\"email\":\"zhipeng-test@bxfin.com\",\"inActive\":false,\"name\":\"zhipeng (zhipeng-test@bxfin.com)\",\"props\":null,\"outerProps\":null,\"outerUserId\":null,\"disabled\":false,\"roles\":null},{\"id\":\"9063a9c5-fdd2-4885-80d6-3990feb2fae1\",\"userName\":\"adm-rae\",\"fullName\":\"adm-rae\",\"email\":\"Raeesha@bxfin.com\",\"inActive\":false,\"name\":\"adm-rae (Raeesha@bxfin.com)\",\"props\":null,\"outerProps\":null,\"outerUserId\":null,\"disabled\":false,\"roles\":null},{\"id\":\"fc3e7a69-59f6-414a-bce9-461e184a9b29\",\"userName\":\"Rae\",\"fullName\":\"Rae-Checker\",\"email\":\"raeesha.khan@hotmail.com\",\"inActive\":false,\"name\":\"Rae (raeesha.khan@hotmail.com)\",\"props\":null,\"outerProps\":null,\"outerUserId\":null,\"disabled\":false,\"roles\":null}],\"selctionOption\":2,\"preSelectUsers\":null,\"retainedUsers\":[],\"isPreviousApprovalRetained\":null}],\"isSelfApproval\":true,\"isWorkflowAdmin\":false,\"extendedProperty\":null,\"hasError\":false}]}",
+  "duration": 662,
+  "allRequestResponses": [
+    {
+      "Request Body": "{\"entityId\":\"35c4f699-1ae0-4c35-24d8-08db1b8b27b9\",\"actionCode\":\"S\",\"statusReasonCode\":null,\"approvalLevelInfos\":[{\"levelId\":1,\"levelName\":\"Level 1\",\"approvalStatusEntry\":{\"code\":\"draft\",\"statusName\":\"Draft\",\"labelKeyName\":null,\"isEntityLocked\":false},\"approvalRoleUsersInfos\":[{\"approvalStatusEntry\":{\"code\":\"draft\",\"statusName\":\"Draft\",\"labelKeyName\":null,\"isEntityLocked\":false},\"roleSetEntry\":{\"id\":\"3436ddef-1591-43d5-bd23-770716fc3edc\",\"name\":\"Business Admin - Maker\",\"approvalPolicy\":1},\"userIds\":[\"2cd24cd0-1b25-4cd5-b30e-1c373a88ed35\"],\"availableUserEntries\":[{\"id\":\"2cd24cd0-1b25-4cd5-b30e-1c373a88ed35\",\"userName\":\"adm-sushmaa\",\"fullName\":\"SushmaA Admin QA\",\"email\":\"Sushma_a@bxfin.com\",\"inActive\":false,\"name\":\"adm-sushmaa (Sushma_a@bxfin.com)\",\"props\":null,\"outerProps\":null,\"outerUserId\":null,\"disabled\":false,\"roles\":null}],\"selctionOption\":2,\"preSelectUsers\":null,\"retainedUsers\":[],\"isPreviousApprovalRetained\":null},{\"approvalStatusEntry\":{\"code\":\"draft\",\"statusName\":\"Draft\",\"labelKeyName\":null,\"isEntityLocked\":false},\"roleSetEntry\":{\"id\":\"1d35f0fb-10f6-40f6-b23f-c002ec41db01\",\"name\":\"Business Admin - Checker\",\"approvalPolicy\":1},\"userIds\":[\"73a69d5a-1044-47b2-b56b-565f60312435\",\"9063a9c5-fdd2-4885-80d6-3990feb2fae1\",\"fc3e7a69-59f6-414a-bce9-461e184a9b29\"],\"availableUserEntries\":[{\"id\":\"73a69d5a-1044-47b2-b56b-565f60312435\",\"userName\":\"zhipeng\",\"fullName\":\"zhipeng\",\"email\":\"zhipeng-test@bxfin.com\",\"inActive\":false,\"name\":\"zhipeng (zhipeng-test@bxfin.com)\",\"props\":null,\"outerProps\":null,\"outerUserId\":null,\"disabled\":false,\"roles\":null},{\"id\":\"9063a9c5-fdd2-4885-80d6-3990feb2fae1\",\"userName\":\"adm-rae\",\"fullName\":\"adm-rae\",\"email\":\"Raeesha@bxfin.com\",\"inActive\":false,\"name\":\"adm-rae (Raeesha@bxfin.com)\",\"props\":null,\"outerProps\":null,\"outerUserId\":null,\"disabled\":false,\"roles\":null},{\"id\":\"fc3e7a69-59f6-414a-bce9-461e184a9b29\",\"userName\":\"Rae\",\"fullName\":\"Rae-Checker\",\"email\":\"raeesha.khan@hotmail.com\",\"inActive\":false,\"name\":\"Rae (raeesha.khan@hotmail.com)\",\"props\":null,\"outerProps\":null,\"outerUserId\":null,\"disabled\":false,\"roles\":null}],\"selctionOption\":2,\"preSelectUsers\":null,\"retainedUsers\":[],\"isPreviousApprovalRetained\":null}],\"isSelfApproval\":true,\"isWorkflowAdmin\":false,\"extendedProperty\":null,\"hasError\":false}]}",
+      "Request Headers": {
+        "Connection": "keep-alive",
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6IkpXVCJ9.eyJqdGkiOiIzZjliMmQxMi01N2VhLTQyYjYtOWNkZC04NzdmOWFjMzkwNDIiLCJzdWIiOiJzY290dCIsImQudWlkIjoiODA0OGFlNWUtYTU0Yi00NjBlLWI0ZTgtMGNjMzA5N2IxNGY5IiwiZC51ZGlzcCI6IkFkYW0gU2NvdHQiLCJkLnVyaWQiOiIzZmE3ZGVhOC1mNWQxLTQ2MDUtYWQ4MC1iNWZmNjc2NjM4NWUiLCJkLnVsb2NhbGUiOiJlbiIsImQudXJkaXNwIjoiQnVzaW5lc3MgVXNlciIsImQudWN1bHR1cmUiOiJlbi1VUyIsImQudWN1cnJlbmN5IjoiQVVEIiwiZC5zc28iOiJGYWxzZSIsImQudW1vZGUiOiJmbGFzaCIsImQudHoiOiJBdXN0cmFsaWEvU3lkbmV5IiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiM2ZhN2RlYTgtZjVkMS00NjA1LWFkODAtYjVmZjY3NjYzODVlIiwiZC5wZXJtIjpbImFwcC5hd2YuYXVkaXQiLCJhcHAuZGVhbC5yZWxhdGlvbnNoaXBpbmNvbWUiLCJhcHAuY3VzdG9tZXIucmVsYXRpb25zaGlwaW5jb21lIiwiYXBwLmN1c3RvbWVyLnNhdmUiLCJhcHAuZGVhbC5wcm9taXNlLnNhdmUiLCJhcHAuY3VzdG9tZXIuZGVsZXRlIiwiYXBwLmRlYWwucmVwb3J0cyIsImFwcC5kZWFsLmRlbGV0ZSIsImFwcC5hZG1pbi5jYWxjIiwiYXBwLmVudGl0eS5jYWxjIiwiYXBwLmRlYWwuYWNjZXNzIiwiYXBwLmVzZy5hY2Nlc3MiLCJhcHAuYmFzaWMiLCJhcHAuYXdmLnN1Ym1pdCIsImFwcC5kZWFsLnNhdmUiLCJhcHAuYXdmLmFzc2lnbm1lbnRzIiwiYXBwLmN1c3RvbWVycy5tZ3Jub25kZWFsc2hhcmUiXSwiZXhwIjoxNjc4OTM5MTk3LCJpc3MiOiJodHRwczovL3d3dy5kcHhwcmljaW5nLmNvbSIsImF1ZCI6Imh0dHBzOi8vd3d3LmRweHByaWNpbmcuY29tIn0.4VrxtuUOjz5ADJRIWHCIVwTQLqgOeWqxWZ1BgMu04ro",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/111.0.5563.65 Safari/537.36",
+        "accept": "application/json",
+        "accept-encoding": "gzip, deflate",
+        "content-length": 2261
+      },
+      "Request URL": "https://cba-qa.dpxpricing.com/connect/v5/ESG/submit/35c4f699-1ae0-4c35-24d8-08db1b8b27b9/register",
+      "Response Body": {
+        "entity": {
+          "levels": [
+            {
+              "order": 1,
+              "name": "",
+              "statusCode": "approved",
+              "statusName": "Approved",
+              "roles": [
+                {
+                  "id": "1d35f0fb-10f6-40f6-b23f-c002ec41db01",
+                  "name": "Business Admin - Checker",
+                  "statusCode": "approved",
+                  "statusName": "Approved",
+                  "users": [
+                    {
+                      "id": "73a69d5a-1044-47b2-b56b-565f60312435",
+                      "userName": "zhipeng",
+                      "fullName": "zhipeng"
+                    },
+                    {
+                      "id": "9063a9c5-fdd2-4885-80d6-3990feb2fae1",
+                      "userName": "adm-rae",
+                      "fullName": "adm-rae"
+                    },
+                    {
+                      "id": "fc3e7a69-59f6-414a-bce9-461e184a9b29",
+                      "userName": "Rae",
+                      "fullName": "Rae-Checker"
+                    }
+                  ]
+                },
+                {
+                  "id": "3436ddef-1591-43d5-bd23-770716fc3edc",
+                  "name": "Business Admin - Maker",
+                  "statusCode": "approved",
+                  "statusName": "Approved",
+                  "users": [
+                    {
+                      "id": "2cd24cd0-1b25-4cd5-b30e-1c373a88ed35",
+                      "userName": "adm-sushmaa",
+                      "fullName": "SushmaA Admin QA"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "responseCode": 0
+      },
+      "Response Headers": {
+        "date": "Thu, 16 Mar 2023 03:00:02 GMT",
+        "content-type": "application/json; charset=utf-8",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "strict-transport-security": "max-age=2592000",
+        "cf-cache-status": "DYNAMIC",
+        "server": "cloudflare",
+        "cf-ray": "7a89be573b5f6a72-SYD",
+        "content-encoding": "gzip"
+      },
+      "Response Status": 200
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+	"baseUrl": "https://fitb-dev.dpxpricing.com/",
+	"env": {
+		"username": "scott",
+		"password": "brilliance",
+		"fullName": "Adam Scott",
+		"homePage":"/home/portfolio",
+		"testEnv" : "fitbqa",
+
+		"relationshipname": "Test Automation Relationship",
+		"addClientRel":"Test Automation Relationship",
+		"search_relationship":"Lakeview Stays",
+		"search_deal": "Lakeview Stays Deal - 1",
+		"search_client": "Lakeview Stays Client - 1",
+		"relationshipouterCustomerId": "RCANZ18",
+		"relationshiploB": "1: 1",
+		
+		"scenario_one": "Scenario 1",
+		"prdName": "Term Loan",
+		"productindustryEntity": "Other",
+		"productmoodysRating": "Caa1",
+		"productloB": "- Select -",
+		"productspRating": "CC",
+		"productregion": "- Select -",
+		"productpdRating": "2",
+		"productlimit": "1000000",
+		"productlgdRate": "1",
+		"productamortizationTerm": "12",
+		"productmarginOverReferenceRate": "1",
+		"productresetFrequency":"Daily/FF/Prime",	
+        "modifycrediRatingCode":"8: C1",
+        "creditRatingCode":"12: D1",
+        "modifyrefRate": "LIBOR",
+		"modifyproductlimit":"2000000",
+		"modifyproductlgdRate":"2",
+		"modifyproductamortizationTerm":"10",
+		"clientouterCustomerId": "FITB",
+
+		"deleteDeal": "Client Deal1669107368",
+		"modifyDeal": "Client Deal1669107427",
+		"awfTestDataDraft":"Lakeview Stays Deal - 1",
+		"selfApproveDeal": "Lakeview Stays Deal - 1",
+		"emailapprovaldeal": "FITB Co Deal - 4",
+
+		"approverL1": "Donna",
+		"approverL2": "Hannah",
+		"Term Loan": [
+			{"fieldType": 1,"fieldName": "productlimit","fieldValue": "1m"},
+			{"fieldType": 1,"fieldName": "productlgdRate","fieldValue": "12"},
+			{"fieldType": 1,"fieldName": "productamortizationTerm","fieldValue": "12"},
+			{"fieldType": 0,"fieldName": "productresetFrequency","fieldValue": "Daily/FF/Prime"}
+		],
+		"Commercial Card": [
+			{"fieldType": 1,"fieldName": "productlimit","fieldValue": "1m"},
+			{"fieldType": 1,"fieldName": "productutilisationRate","fieldValue": "12"}
+		],
+		"Construction": [
+			{"fieldType": 1,"fieldName": "productlimit","fieldValue": "1m"},
+			{"fieldType": 1,"fieldName": "productlgdRate","fieldValue": "12"},
+			{"fieldType": 0,"fieldName": "productrefRate","fieldValue": "LIBOR"},
+			{"fieldType": 0,"fieldName": "productresetFrequency","fieldValue": "Daily/FF/Prime"}
+		],
+		"Construction to Permanent": [
+			{"fieldType": 1,"fieldName": "productlgdRate","fieldValue": "12"},
+			{"fieldType": 1,"fieldName": "productconstructionCommitment","fieldValue": "1m"}
+		],
+		"Non Revolving Facility": [
+			{"fieldType": 1,"fieldName": "productlgdRate","fieldValue": "12"},
+			{"fieldType": 1,"fieldName": "productlimit","fieldValue": "1m"}
+		],
+		"Non Revolving Facility Takedown": [
+			{"productlimit": "1m","productrefRate": "LIBOR","productresetFrequency": "Daily/FF/Prime"}
+		],
+		"Revolving Line of Credit": [
+			{"fieldType": 1,"fieldName": "productlgdRate","fieldValue": "12"},
+			{"fieldType": 1,"fieldName": "productlimit","fieldValue": "1m"}
+		],
+		"Operating Lease FMV": [
+			{"fieldType": 1,"fieldName": "productlgdRate","fieldValue": "12"},
+			{"fieldType": 1,"fieldName": "productoriginalBalance","fieldValue": "1m"}
+		],
+		"Operating Lease Split TRAC": [
+			{"fieldType": 1,"fieldName": "productlgdRate","fieldValue": "12"},
+			{"fieldType": 1,"fieldName": "productoriginalBalance","fieldValue": "1m"}
+		],
+		"True Lease First Amendment Leases": [
+			{"fieldType": 1,"fieldName": "productlgdRate","fieldValue": "12"},
+			{"fieldType": 1,"fieldName": "productoriginalBalance","fieldValue": "1m"}
+		],
+		"True Lease FMV": [
+			{"fieldType": 1,"fieldName": "productlgdRate","fieldValue": "12"},
+			{"fieldType": 1,"fieldName": "productoriginalBalance","fieldValue": "1m"}
+		],
+		"True Lease Split TRAC": [
+			{"fieldType": 1,"fieldName": "productlgdRate","fieldValue": "12"},
+			{"fieldType": 1,"fieldName": "productoriginalBalance","fieldValue": "1m"}
+		],
+		"True Lease TRAC": [
+			{"fieldType": 1,"fieldName": "productlgdRate","fieldValue": "12"},
+			{"fieldType": 1,"fieldName": "productoriginalBalance","fieldValue": "1m"}
+		],
+		"True Lease Unspecified": [
+			{"fieldType": 1,"fieldName": "productlgdRate","fieldValue": "12"},
+			{"fieldType": 1,"fieldName": "productoriginalBalance","fieldValue": "1m"}
+		],
+		"Commercial LC Export": [
+			{"fieldType": 1,"fieldName": "productlgdRate","fieldValue": "12"},
+			{"fieldType": 1,"fieldName": "productlimit","fieldValue": "1m"}
+		],
+		"Commercial LC Import": [
+			{"fieldType": 1,"fieldName": "productlgdRate","fieldValue": "12"},
+			{"fieldType": 1,"fieldName": "productlimit","fieldValue": "1m"}
+		],
+		"Insured AR Finance": [
+			{"fieldType": 1,"fieldName": "productlgdRate","fieldValue": "12"},
+			{"fieldType": 1,"fieldName": "productlimit","fieldValue": "1m"}
+		],
+		"LC Sublimit": [
+			{"fieldType": 1,"fieldName": "productlgdRate","fieldValue": "12"},
+			{"fieldType": 1,"fieldName": "productlimit","fieldValue": "1m"}
+		],
+		"Standby LC - Financial": [
+			{"fieldType": 1,"fieldName": "productlgdRate","fieldValue": "12"},
+			{"fieldType": 1,"fieldName": "productlimit","fieldValue": "1m"}
+		],
+		"Standby LC - Performance": [
+			{"fieldType": 1,"fieldName": "productlgdRate","fieldValue": "12"},
+			{"fieldType": 1,"fieldName": "productlimit","fieldValue": "1m"}
+		],
+		"Supply Chain Finance": [
+			{"fieldType": 1,"fieldName": "productlgdRate","fieldValue": "12"},
+			{"fieldType": 1,"fieldName": "productlimit","fieldValue": "1m"},
+			{"fieldType": 1,"fieldName": "productutilisationRate","fieldValue": "12"}
+		],
+		"FX Trading": [
+			{"fieldType": 1,"fieldName": "productannualizedRevenue","fieldValue": "1m"},
+			{"fieldType": 1,"fieldName": "productferl","fieldValue": "1"},
+			{"fieldType": 1,"fieldName": "productutilisationRate","fieldValue": "12"},
+			{"fieldType": 1,"fieldName": "productavgPortfolioTenor","fieldValue": "20"},
+			{"fieldType": 0,"fieldName": "productcollateralized","fieldValue": "Yes"}
+		],
+		"Interest Rate Derivatives": [
+			{"fieldType": 1,"fieldName": "productlimit","fieldValue": "1m"}
+		],
+		"Certificates of Deposit": [
+			{"fieldType": 1,"fieldName": "productdepositAnticipatedBalance","fieldValue": "1m"},
+			{"fieldType": 1,"fieldName": "productcDOriginalTerm","fieldValue": "12"}
+		],
+		"Analyzed": [
+			{"fieldType": 1,"fieldName": "productdepositAnticipatedBalance","fieldValue": "1m"}
+		],
+		"Custom DDA": [
+			{"fieldType": 1,"fieldName": "productdepositAnticipatedBalance","fieldValue": "1m"}
+		],
+		"Hybrid DDA": [
+			{"fieldType": 1,"fieldName": "productdepositAnticipatedBalance","fieldValue": "1m"}
+		],
+		"Interest Bearing Transaction": [
+			{"fieldType": 1,"fieldName": "productdepositAnticipatedBalance","fieldValue": "1m"}
+		],
+		"IOLTA": [
+			{"fieldType": 1,"fieldName": "productdepositAnticipatedBalance","fieldValue": "1m"}
+		],
+		"Packaged": [
+			{"fieldType": 1,"fieldName": "productdepositAnticipatedBalance","fieldValue": "1m"}
+		],
+		"Commercial Savings": [
+			{"fieldType": 1,"fieldName": "productdepositAnticipatedBalance","fieldValue": "1m"}
+		],
+		"Custom Savings": [
+			{"fieldType": 1,"fieldName": "productdepositAnticipatedBalance","fieldValue": "1m"}
+		],
+		"Pub Funds Savings": [
+			{"fieldType": 1,"fieldName": "productdepositAnticipatedBalance","fieldValue": "1m"}
+		],
+		"Account Based Services": [
+			{"fieldType": 0,"fieldName": "productcreditRatingCode","fieldValue": "A1"},
+			{"fieldType": 1,"fieldName": "productmarginAmount","fieldValue": "1m"}
+		],
+		"Balance Management Services": [
+			{"fieldType": 0,"fieldName": "productcreditRatingCode","fieldValue": "A1"},
+			{"fieldType": 1,"fieldName": "productmarginAmount","fieldValue": "1m"}
+		],
+		"Payables": [
+			{"fieldType": 0,"fieldName": "productcreditRatingCode","fieldValue": "A1"},
+			{"fieldType": 1,"fieldName": "productmarginAmount","fieldValue": "1m"}
+		],
+		"Receivables": [
+			{"fieldType": 0,"fieldName": "productcreditRatingCode","fieldValue": "A1"},
+			{"fieldType": 1,"fieldName": "productmarginAmount","fieldValue": "1m"}
+		],
+		"Treasury Management Referrals": [
+			{"fieldType": 0,"fieldName": "productcreditRatingCode","fieldValue": "A1"},
+			{"fieldType": 1,"fieldName": "productmarginAmount","fieldValue": "1m"}
+		],
+		"401k": [
+			{"fieldType": 0,"fieldName": "productcreditRatingCode","fieldValue": "A1"},
+			{"fieldType": 1,"fieldName": "productmarginAmount","fieldValue": "1m"}
+		],
+		"CAC (ClearArc)": [
+			{"fieldType": 0,"fieldName": "productcreditRatingCode","fieldValue": "A1"},
+			{"fieldType": 1,"fieldName": "productmarginAmount","fieldValue": "1m"}
+		],
+		"IA Custody": [
+			{"fieldType": 0,"fieldName": "productcreditRatingCode","fieldValue": "A1"},
+			{"fieldType": 1,"fieldName": "productmarginAmount","fieldValue": "1m"}
+		],
+		"IA Investment Management": [
+			{"fieldType": 0,"fieldName": "productcreditRatingCode","fieldValue": "A1"},
+			{"fieldType": 1,"fieldName": "productmarginAmount","fieldValue": "1m"}
+		],
+		"IRAs": [
+			{"fieldType": 0,"fieldName": "productcreditRatingCode","fieldValue": "A1"},
+			{"fieldType": 1,"fieldName": "productmarginAmount","fieldValue": "1m"}
+		],
+		"Other": [
+			{"fieldType": 0,"fieldName": "productcreditRatingCode","fieldValue": "A1"},
+			{"fieldType": 1,"fieldName": "productmarginAmount","fieldValue": "1m"}
+		],
+		"Equity Underwriting": [
+			{"fieldType": 0,"fieldName": "productcreditRatingCode","fieldValue": "A1"},
+			{"fieldType": 1,"fieldName": "productmarginAmount","fieldValue": "1m"}
+		],
+		"High Grade Bonds": [
+			{"fieldType": 0,"fieldName": "productcreditRatingCode","fieldValue": "A1"},
+			{"fieldType": 1,"fieldName": "productmarginAmount","fieldValue": "1m"}
+		],
+		"High Yield Bonds": [
+			{"fieldType": 0,"fieldName": "productcreditRatingCode","fieldValue": "A1"},
+			{"fieldType": 1,"fieldName": "productmarginAmount","fieldValue": "1m"}
+		],
+		"Institutional Brokerage": [
+			{"fieldType": 0,"fieldName": "productcreditRatingCode","fieldValue": "A1"},
+			{"fieldType": 1,"fieldName": "productmarginAmount","fieldValue": "1m"}
+		],
+		"Mergers and Acquisitions": [
+			{"fieldType": 0,"fieldName": "productcreditRatingCode","fieldValue": "A1"},
+			{"fieldType": 1,"fieldName": "productmarginAmount","fieldValue": "1m"}
+		],
+		"Private Placement": [
+			{"fieldType": 0,"fieldName": "productcreditRatingCode","fieldValue": "A1"},
+			{"fieldType": 1,"fieldName": "productmarginAmount","fieldValue": "1m"}
+		],
+		"Strategic Capital Advisory": [
+			{"fieldType": 0,"fieldName": "productcreditRatingCode","fieldValue": "A1"},
+			{"fieldType": 1,"fieldName": "productmarginAmount","fieldValue": "1m"}
+		],
+		"Commodities": [
+			{"fieldType": 0,"fieldName": "productcreditRatingCode","fieldValue": "A1"},
+			{"fieldType": 1,"fieldName": "productmarginAmount","fieldValue": "1m"}
+		]
+
+
+	}
+}

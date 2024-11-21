@@ -1,0 +1,74 @@
+{
+    "fieldsData": {
+        "headings": {
+            "selectClient": "Select Client",
+            "relationshipdetails": "Relationship Details",
+            "dealDetails": "Deal Details",
+            "relationship": "Relationship",
+            "client": "Client"
+        },
+        "relationshipname": {
+            "fieldName": " Relationship Name ",
+            "defaultValue": "Alpha Consulting"
+        },
+        "relationshipouterCustomerId": {
+            "fieldName": " External Relationship Id ",
+            "defaultValue": "RCANZ11"
+        },
+        "relationshipownedBy": {
+            "fieldName": " Relationship Owner ",
+            "defaultValue": "Adam Scott"
+        },
+        "dealname": {
+            "fieldName": " Deal Name ",
+            "defaultValue": "Alpha Consulting Deal -",
+            "isRequired": "Y"
+        },
+        "dealownedBy": {
+            "fieldName": " Deal Owner ",
+            "defaultValue": "Adam Scott",
+            "isRequired": "Y"
+        },
+        "dealouterDealId": {
+            "fieldName": " External Deal ID ",
+            "defaultValue": "",
+            "isRequired": "N"
+        },
+        "dealdealUid": {
+            "fieldName": " Deal Id ",
+            "defaultValue": ""
+        },
+        "dealcapitalClassCode": {
+            "fieldName": " Client Category ",
+            "defaultValue": "Corporate",
+            "options": [
+                " Sub $1m ",
+                " $1-3m Broker ",
+                " $1-3m Direct ",
+                " $3-5m ",
+                " $5-10m ",
+                " $10-20m ",
+                " $20m + ",
+                " Corporate "
+            ],
+            "isRequired": "Y",
+            "lenght": 8
+        },
+        "dealsegment":{
+            "fieldName":" Pricing Model ",
+            "defaultValue": " - Select - ",
+            "options": [
+                " Agribusiness ",
+                " Commercial ",
+                " PI ",
+                " Development Finance "
+            ],
+            "isRequired": "Y",
+            "lenght": 5
+        },
+        "dealisSecure":{
+            "fieldName":" Is Confidential ",
+            "isRequired":"Y"
+        }
+    }
+}

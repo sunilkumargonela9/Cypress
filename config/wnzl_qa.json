@@ -1,0 +1,30 @@
+{
+    "baseUrl": "https://wnzl-qa.dpxpricing.com/",
+	"env": {
+		"username": "scott",
+		"password": "brilliance",
+		"fullName": "Adam Scott",
+		"homePage":"/home/portfolio",
+		"testEnv" : "wnzlqa",
+		
+		"relationshipname": "WNZL Relationship",
+		"addClientRel":"WNZL Relationship",
+		"relationshipcurrentChannel": "1: Agribusiness",
+		"relationshipcurrentBusinessUnit": "2: IBB",
+		"relationshipmainBankInd": "6: WPAC",
+		"search_relationship":"WNZL Relationship",
+		"search_client": "WNZL Relationship Client - 1",
+		"prdName": "Merchant Facility",
+		"productmainBankId": "6: WPAC",
+		"productmCC": "9: 3009",
+		"productannualTurnover": "500000",
+		"productmerchantChannel": "3: Terminal",
+		"productmerchantSwitch": "1: Verifone",
+		"productblockCode": "2: C",
+		"clientcurrentBusinessUnit": "1: CBW",
+		"clientcurrentChannel": "1: Agribusiness",
+		"clientmainBankInd": "6: WPAC"
+		
+
+	}
+}

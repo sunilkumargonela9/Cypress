@@ -1,0 +1,431 @@
+{
+  "fieldsData": {
+    "headings": {
+      "General": "General",
+      "Product Attributes": "Product Attributes",
+      "Rates": "Rates",
+      "Fees & Costs": "Fees & Costs"
+    },
+    "productparentEntityId": {
+      "fieldName": " Client ",
+      "defaultValue": "suncorp_client1682570930",
+      "isVisible": "Y",
+      "isDisabled": "Y",
+      "isRequired": "N"
+    },
+    "productcreditRatingCode": {
+      "fieldName": " Customer Default Rating ",
+      "defaultValue": " 1 ",
+      "options": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        "N"
+      ],
+      "isRequired": "Y",
+      "lenght": 25,
+      "isDisabled": "N",
+      "isVisible": "Y"
+    },
+    "productlgd": {
+      "fieldName": " Collateral Rating ",
+      "defaultValue": " A ",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "N"
+      ],
+      "lenght": 10,
+      "isDisabled": "N",
+      "isRequired": "Y",
+      "isVisible": "Y"
+    },
+    "productcapitalClassCode": {
+      "fieldName": " TBRE ",
+      "defaultValue": " - Select - ",
+      "options": [
+        " - Select - ",
+        "Sub $1m",
+        "$1-3m",
+        "$3-5m",
+        "$5-10m",
+        "$10-15m",
+        "$15-20m",
+        "$20-30m",
+        "$30-40m",
+        "$40-60m",
+        "$60-80m",
+        "$80m+"
+      ],
+      "lenght": "12",
+      "isRequired": "Y",
+      "isDisabled": "N",
+      "isVisible": "Y"
+    },
+    "productindustryCategory": {
+      "fieldName": " Entity Type ",
+      "defaultValue": " SME Corporate ",
+      "options": [
+        "SME Retail",
+        "SME Corporate",
+        "Corporate"
+      ],
+      "isRequired": "Y",
+      "lenght": 3,
+      "isDisabled": "N",
+      "isVisible": "Y"
+    },
+    "productbusinessSegment": {
+      "fieldName": " Pricing Model ",
+      "defaultValue": "",
+      "options": [
+        " - Select - ",
+        "Agribusiness",
+        "Commercial",
+        "PI",
+        "Development Finance"
+      ],
+      "lenght": 5,
+      "isDisabled": "N",
+      "isRequired": "Y",
+      "isVisible": "Y"
+    },
+    "producteligibleForResidentialRW": {
+      "fieldName": " Eligible for 100% Res RW ",
+      "isVisible": "rule",
+      "isDisabled": "N",
+      "isRequired": "N"
+    },
+    "productproductStatus": {
+      "fieldName": " Product Status ",
+      "defaultValue": "New",
+      "options": [
+        " - Select - ",
+        "New",
+        "Refinanced",
+        "Existing"
+      ],
+      "lenght": 4,
+      "isRequired": "N",
+      "isDisabled": "N",
+      "isVisible": "Y"
+    },
+    "productname": {
+      "fieldName": " Product Name ",
+      "defaultValue": "Commercial Term Loan",
+      "isRequired": "N",
+      "isDisabled": "Y",
+      "isVisible": "Y"
+    },
+    "productpackage": {
+      "fieldName": " Business Ready Package ",
+      "isRequired": "N",
+      "isDisabled": "N",
+      "isVisible": "Y"
+    },
+    "productredraw": {
+      "fieldName": " Redraw ",
+      "isRequired": "N",
+      "isDisabled": "N",
+      "isVisible": "Y"
+    },
+    "productouterProductId": {
+      "fieldName": " Outer Product Id ",
+      "defaultValue": "",
+      "isDisabled": "N",
+      "isRequired": "N",
+      "isVisible": "Y"
+    },
+    "productlimit": {
+      "fieldName": " Limit ",
+      "defaultValue": "$0",
+      "isRequired": "Y",
+      "isDisabled": "N",
+      "isVisible": "Y"
+    },
+    "productterm": {
+      "fieldName": " Term (Months) ",
+      "defaultValue": "36",
+      "isRequired": "Y",
+      "isDisabled": "N",
+      "isVisible": "Y"
+    },
+    "productdrawnAmount": {
+      "fieldName": " Balance ",
+      "defaultValue": "",
+      "isRequired": "Y",
+      "isDisabled": "N",
+      "isVisible": "Y"
+    },
+    "productstartDate": {
+      "fieldName": " Start Date ",
+      "defaultValue": "",
+      "isRequired": "Y",
+      "isDisabled": "Y",
+      "isVisible": "Y"
+    },
+    "productmaturityDate": {
+      "fieldName": " Maturity Date ",
+      "defaultValue": "",
+      "isRequired": "N",
+      "isDisabled": "Y",
+      "isVisible": "Y"
+    },
+    "productutilisationRate": {
+      "fieldName": " Utilisation Rate ",
+      "defaultValue": "",
+      "isRequired": "Y",
+      "isDisabled": "N",
+      "isVisible": "Y"
+    },
+    "productinterestRateType": {
+      "fieldName": " Interest Rate Type ",
+      "defaultValue": "Variable",
+      "options": [
+        "Fixed",
+        "Variable"
+      ],
+      "lenght": 2,
+      "isRequired": "Y",
+      "isDisabled": "N",
+      "isVisible": "Y"
+    },
+    "producttiming": {
+      "fieldName": " Charging Type ",
+      "defaultValue": "Arrears",
+      "options": [
+        " - ",
+        "Advance",
+        "Arrears"
+      ],
+      "lenght": 3,
+      "isRequired": "N",
+      "isDisabled": "Y",
+      "isVisible": "Y"
+    },
+    "productrepaymentFrequency": {
+      "fieldName": " Repayment Frequency ",
+      "defaultValue": "Monthly",
+      "options": [
+        "Monthly",
+        "Quarterly",
+        "Half Yearly"
+      ],
+      "lenght": 3,
+      "isRequired": "Y",
+      "isDisabled": "N",
+      "isVisible": "Y"
+    },
+    "productrepaymentType": {
+      "fieldName": " Repayment Type ",
+      "defaultValue": "Interest Only",
+      "options": [
+        " Principal & Interest ",
+        "Interest Only",
+        " Combo IO and P&I "
+      ],
+      "lenght": 3,
+      "isRequired": "Y",
+      "isDisabled": "N",
+      "isVisible": "Y"
+    },
+    "productrefRate": {
+      "fieldName": " Reference Rate ",
+      "defaultValue": " - Select - ",
+      "options": [
+        " - Select - ",
+        " BBSY ",
+        " BVR "
+      ],
+      "lenght": 3,
+      "isRequired": "Y",
+      "isDisabled": "N",
+      "isVisible": "Y"
+    },
+    "MarketPublishedRate": {
+      "fieldName": "",
+      "isRequired": "N",
+      "isDisabled": "Y",
+      "isVisible": "Y"
+    },
+    "productderivedCOF": {
+      "fieldName": " Total Cost of Funds ",
+      "defaultValue": "4.86%",
+      "isRequired": "N",
+      "isDisabled": "Y",
+      "isVisible": "Y"
+    },
+    "productmarginOverReferenceRate": {
+      "fieldName": " Facility Margin ",
+      "defaultValue": "0.00%",
+      "isRequired": "Y",
+      "isDisabled": "N",
+      "isVisible": "Y"
+    },
+    "productderivedInterest": {
+      "fieldName": " All Up Customer Rate ",
+      "defaultValue": "0.00%",
+      "isRequired": "N",
+      "isDisabled": "Y",
+      "isVisible": "Y"
+    },
+    "productisBrokerageDollarAmount": {
+      "fieldName": " Is Brokerage Dollar Amount ",
+      "defaultValue": "",
+      "isRequired": "N",
+      "isDisabled": "N",
+      "isVisible": "Y"
+    },
+    "productbrokeragePercentAmount": {
+      "fieldName": " Brokerage Percent Amount ",
+      "defaultValue": "50 bps",
+      "isRequired": "N",
+      "isDisabled": "N",
+      "isVisible": "Y"
+    },
+    "BrokerageDollarAmount": {
+      "fieldName": "Brokerage Dollar Amount",
+      "isDisabled": "rule",
+      "isVisible": "rule",
+      "isRequired": "N"
+    },
+    "productbrokerage": {
+      "fieldName": " Brokerage ",
+      "defaultValue": "50 bps",
+      "isRequired": "Y",
+      "isDisabled": "Y",
+      "isVisible": "Y"
+    },
+    "producttrail": {
+      "fieldName": " Trail ",
+      "defaultValue": "25 bps",
+      "isRequired": "Y",
+      "isDisabled": "N",
+      "isVisible": "Y"
+    },
+    "PanelSolicitorsCosts": {
+      "fieldName": "Bank Funded Pannel Solctrs Cost",
+      "defaultValue": "$0",
+      "isDisabled": "N",
+      "isRequired": "N",
+      "isVisible": "Y"
+    },
+    "PanelSolicitorsCostsPercent": {
+      "fieldName": "Panel Solicitors Costs Percent",
+      "defaultValue": "",
+      "isDisabled": "Y",
+      "isRequired": "N",
+      "isVisible": "Y"
+    },
+    "ValuationCosts": {
+      "fieldName": "Bank Funded Valuations Cost",
+      "defaultValue": "$0",
+      "isDisabled": "N",
+      "isRequired": "N",
+      "isVisible": "Y"
+    },
+    "ValuationCostsPercent": {
+      "fieldName": "Valuation Costs Percent",
+      "defaultValue": "",
+      "isDisabled": "Y",
+      "isRequired": "N",
+      "isVisible": "Y"
+    },
+    "tableheadings": {
+      "Fee Name": "Fee Name",
+      "Frequency": "Frequency",
+      "Standard": "Standard",
+      "Proposed": "Proposed",
+      "Waive": "Waive",
+      "Amortise": "Amortise"
+    },
+    "feeNames": {
+      "Establishment Fee": {
+        "row": 1,
+        "title": "Establishment Fee",
+        "freqDefaultValue": "Upfront",
+        "freqOptions": [
+          "Upfront"
+        ],
+        "stdDefaultValue": "0.50%",
+        "proposedDefaultValue": "0.50%",
+        "isWaived": "N",
+        "isAmortised": "N"
+      },
+      "Line Fee": {
+        "row": 2,
+        "title": "Line Fee",
+        "freqDefaultValue": "Quarterly",
+        "freqOptions": [
+          "Monthly",
+          "Quarterly",
+          "Semi Annual",
+          "Annual"
+        ],
+        "stdDefaultValue": "1.00%",
+        "proposedDefaultValue": "1.00%",
+        "isWaived": "N",
+        "isAmortised": "N"
+      },
+      "Account Maintenance Fee": {
+        "row": 3,
+        "title": "Account Maintenance Fee",
+        "freqDefaultValue": "Semi Annual",
+        "freqOptions": [
+          "Monthly",
+          "Quarterly",
+          "Semi Annual",
+          "Annual"
+        ],
+        "stdDefaultValue": "$300",
+        "proposedDefaultValue": "$300",
+        "isWaived": "N",
+        "isAmortised": "N"
+      },
+      "Unused Limit Fee": {
+        "row": 4,
+        "title": "Unused Limit Fee",
+        "freqDefaultValue": "Quarterly",
+        "freqOptions": [
+          "Monthly",
+          "Quarterly",
+          "Semi Annual",
+          "Annual"
+        ],
+        "stdDefaultValue": "1.00%",
+        "proposedDefaultValue": "1.00%",
+        "isWaived": "N",
+        "isAmortised": "N"
+      }
+    }
+  },
+  "defaultValue": "suncorp_client1678278620"
+}

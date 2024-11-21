@@ -1,0 +1,116 @@
+[
+  {
+    "levelId": 1,
+    "levelName": "Level 1",
+    "approvalStatusEntry": {
+      "code": "draft",
+      "statusName": "Draft",
+      "labelKeyName": null,
+      "isEntityLocked": false
+    },
+    "approvalRoleUsersInfos": [
+      {
+        "approvalStatusEntry": {
+          "code": "draft",
+          "statusName": "Draft",
+          "labelKeyName": null,
+          "isEntityLocked": false
+        },
+        "roleSetEntry": {
+          "id": "3436ddef-1591-43d5-bd23-770716fc3edc",
+          "name": "Business Admin - Maker",
+          "approvalPolicy": 1
+        },
+        "userIds": [
+          "2cd24cd0-1b25-4cd5-b30e-1c373a88ed35"
+        ],
+        "availableUserEntries": [
+          {
+            "id": "2cd24cd0-1b25-4cd5-b30e-1c373a88ed35",
+            "userName": "adm-sushmaa",
+            "fullName": "SushmaA Admin QA",
+            "email": "Sushma_a@bxfin.com",
+            "inActive": false,
+            "name": "adm-sushmaa (Sushma_a@bxfin.com)",
+            "props": null,
+            "outerProps": null,
+            "outerUserId": null,
+            "disabled": false,
+            "roles": null
+          }
+        ],
+        "selctionOption": 2,
+        "preSelectUsers": null,
+        "retainedUsers": [],
+        "isPreviousApprovalRetained": null
+      },
+      {
+        "approvalStatusEntry": {
+          "code": "draft",
+          "statusName": "Draft",
+          "labelKeyName": null,
+          "isEntityLocked": false
+        },
+        "roleSetEntry": {
+          "id": "1d35f0fb-10f6-40f6-b23f-c002ec41db01",
+          "name": "Business Admin - Checker",
+          "approvalPolicy": 1
+        },
+        "userIds": [
+          "73a69d5a-1044-47b2-b56b-565f60312435",
+          "9063a9c5-fdd2-4885-80d6-3990feb2fae1",
+          "fc3e7a69-59f6-414a-bce9-461e184a9b29"
+        ],
+        "availableUserEntries": [
+          {
+            "id": "73a69d5a-1044-47b2-b56b-565f60312435",
+            "userName": "zhipeng",
+            "fullName": "zhipeng",
+            "email": "zhipeng-test@bxfin.com",
+            "inActive": false,
+            "name": "zhipeng (zhipeng-test@bxfin.com)",
+            "props": null,
+            "outerProps": null,
+            "outerUserId": null,
+            "disabled": false,
+            "roles": null
+          },
+          {
+            "id": "9063a9c5-fdd2-4885-80d6-3990feb2fae1",
+            "userName": "adm-rae",
+            "fullName": "adm-rae",
+            "email": "Raeesha@bxfin.com",
+            "inActive": false,
+            "name": "adm-rae (Raeesha@bxfin.com)",
+            "props": null,
+            "outerProps": null,
+            "outerUserId": null,
+            "disabled": false,
+            "roles": null
+          },
+          {
+            "id": "fc3e7a69-59f6-414a-bce9-461e184a9b29",
+            "userName": "Rae",
+            "fullName": "Rae-Checker",
+            "email": "raeesha.khan@hotmail.com",
+            "inActive": false,
+            "name": "Rae (raeesha.khan@hotmail.com)",
+            "props": null,
+            "outerProps": null,
+            "outerUserId": null,
+            "disabled": false,
+            "roles": null
+          }
+        ],
+        "selctionOption": 2,
+        "preSelectUsers": null,
+        "retainedUsers": [],
+        "isPreviousApprovalRetained": null
+      }
+    ],
+    "isSelfApproval": true,
+    "isWorkflowAdmin": false,
+    "extendedProperty": null,
+    "hasError": false
+  }
+]

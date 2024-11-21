@@ -1,0 +1,35 @@
+{
+  "dealCode": 1681096899,
+  "name": "DealCheck_Overdraft1681096899",
+  "bookingLocationCode": "AUS",
+  "customerName": "Auto Nation Imported",
+  "customerCode": "RCANZ16",
+  "scenarios": [
+    {
+      "name": "Scenario 1",
+      "isPrimary": true,
+      "products": [
+        {
+          "name": "Overdraft",
+          "variantCode": "loan-over",
+          "riCategoryCode": "loan",
+          "startDate": "2024-04-07",
+          "currencyCode": "AUD",
+          "term": 36,
+          "limit": 1000000,
+          "utilisationRate": 0.8,
+          "interestRateType": 2,
+          "marginOverReferenceRate": 0.02,
+          "repaymentType": 1,
+          "repaymentFrequency": 1,
+          "channelName": "DIR",
+          "bookingLocationCode": "AUS",
+          "calcModelType": 1,
+          "interestRateFrequency": 1,
+          "refRate": "odr1",
+          "lgd": "D"
+        }
+      ]
+    }
+  ]
+}

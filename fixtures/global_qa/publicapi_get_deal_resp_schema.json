@@ -1,0 +1,270 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "uid": {
+      "type": "string"
+    },
+    "scenarios": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "uid": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "isPrimary": {
+              "type": "boolean"
+            },
+            "products": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "uid": {
+                      "type": "string"
+                    },
+                    "productCode": {
+                      "type": "null"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "isCrossSell": {
+                      "type": "null"
+                    },
+                    "isFutureCrossSell": {
+                      "type": "null"
+                    },
+                    "variantCode": {
+                      "type": "string"
+                    },
+                    "variantName": {
+                      "type": "string"
+                    },
+                    "feeLines": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "uid": {
+                              "type": "null"
+                            },
+                            "code": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "standard": {
+                              "type": "number"
+                            },
+                            "proposed": {
+                              "type": "number"
+                            },
+                            "frequency": {
+                              "type": "integer"
+                            },
+                            "isWaived": {
+                              "type": "boolean"
+                            },
+                            "isAmortised": {
+                              "type": "boolean"
+                            },
+                            "isOngoing": {
+                              "type": "boolean"
+                            },
+                            "metaClassId": {
+                              "type": "null"
+                            },
+                            "id": {
+                              "type": "null"
+                            }
+                          },
+                          "required": [
+                            "uid",
+                            "code",
+                            "name",
+                            "standard",
+                            "proposed",
+                            "frequency",
+                            "isWaived",
+                            "isAmortised",
+                            "isOngoing",
+                            "metaClassId",
+                            "id"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "uid": {
+                              "type": "null"
+                            },
+                            "code": {
+                              "type": "string"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "standard": {
+                              "type": "number"
+                            },
+                            "proposed": {
+                              "type": "number"
+                            },
+                            "frequency": {
+                              "type": "integer"
+                            },
+                            "isWaived": {
+                              "type": "boolean"
+                            },
+                            "isAmortised": {
+                              "type": "boolean"
+                            },
+                            "isOngoing": {
+                              "type": "boolean"
+                            },
+                            "metaClassId": {
+                              "type": "null"
+                            },
+                            "id": {
+                              "type": "null"
+                            }
+                          },
+                          "required": [
+                            "uid",
+                            "code",
+                            "name",
+                            "standard",
+                            "proposed",
+                            "frequency",
+                            "isWaived",
+                            "isAmortised",
+                            "isOngoing",
+                            "metaClassId",
+                            "id"
+                          ]
+                        }
+                      ]
+                    },
+                    "parentEntityId": {
+                      "type": "null"
+                    },
+                    "parentEntityName": {
+                      "type": "null"
+                    },
+                    "parentEntityType": {
+                      "type": "null"
+                    },
+                    "metaClassId": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "uid",
+                    "productCode",
+                    "name",
+                    "isCrossSell",
+                    "isFutureCrossSell",
+                    "variantCode",
+                    "variantName",
+                    "feeLines",
+                    "parentEntityId",
+                    "parentEntityName",
+                    "parentEntityType",
+                    "metaClassId",
+                    "id"
+                  ]
+                }
+              ]
+            },
+            "metaClassId": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "uid",
+            "name",
+            "isPrimary",
+            "products",
+            "metaClassId",
+            "id"
+          ]
+        }
+      ]
+    },
+    "statusCode": {
+      "type": "string"
+    },
+    "statusName": {
+      "type": "null"
+    },
+    "createdDate": {
+      "type": "string"
+    },
+    "createdBy": {
+      "type": "string"
+    },
+    "updatedDate": {
+      "type": "string"
+    },
+    "updatedBy": {
+      "type": "string"
+    },
+    "approvalActionInfo": {
+      "type": "null"
+    },
+    "dealCode": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "customerName": {
+      "type": "string"
+    },
+    "customerCode": {
+      "type": "string"
+    },
+    "userCode": {
+      "type": "null"
+    },
+    "metaClassId": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "uid",
+    "scenarios",
+    "statusCode",
+    "statusName",
+    "createdDate",
+    "createdBy",
+    "updatedDate",
+    "updatedBy",
+    "approvalActionInfo",
+    "dealCode",
+    "name",
+    "customerName",
+    "customerCode",
+    "userCode",
+    "metaClassId",
+    "id"
+  ]
+}

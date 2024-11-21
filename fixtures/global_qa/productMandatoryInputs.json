@@ -1,0 +1,15 @@
+{
+    "Relationship": "Austar Imported",
+    "Product": "Term Loan",
+    "Client": "Austar Client - 1",
+    "path": "cypress/fixtures/productpagevalues.json",
+    "data": {
+            "limit": "1000000",
+            "utilizationRate": "85%",
+            "referenceRate": "Residential Equity Rate",
+            "term":36,
+            "channel": "Aussie",
+            "brokerage": 10,
+            "trail": 10
+        }
+}

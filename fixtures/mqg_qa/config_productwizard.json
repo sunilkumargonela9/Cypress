@@ -1,0 +1,45 @@
+{
+	"products": {
+		"lending": {
+			"name": "Lending",
+			"categories": {
+				"commercialLending": {
+					"name": "Commercial Lending",
+					"row1": {
+						"name": "Bank Guarantee",
+						"description": "Bank Guarantee"
+					},
+					"row2": {
+						"name": "CommOne",
+						"description": "CommOne"
+					},
+					"row3": {
+						"name": "Fully Drawn Advance",
+						"description": "Fully Drawn Advance"
+					},
+					"row4": {
+						"name": "HomeONE",
+						"description": "HomeONE"
+					},
+					"row5": {
+						"name": "MPE - Essential",
+						"description": "MPE - Essential"
+					},
+					"row6": {
+						"name": "MPE - Plus",
+						"description": "MPE - Plus"
+					},
+					"row7": {
+						"name": "MPE - Versatile",
+						"description": "MPE - Versatile"
+					},
+					"row8": {
+						"name": "Overdraft",
+						"description": "Overdraft Product"
+					}
+				}
+			
+					}
+				}
+			}
+		}
